@@ -1,0 +1,1319 @@
+{
+  "query_id": "Q6",
+  "title": "Cross-Document Food-Employee Scenario",
+  "expected": "answer",
+  "question": "A food employee with no diagnosis and no known noninfectious condition vomited while preparing ready-to-eat salads in a nursing home. Using the FDA Food Code 2026 and the *Bad Bug Book*, explain the required employee disposition, the earliest conditions for return, and why possible norovirus transmission is a concern. Treat vomiting as a symptom; the scenario supplies no norovirus diagnosis.",
+  "terminal_reason": "answer",
+  "steps_used": 8,
+  "max_steps": 10,
+  "final_result": "- A nursing home is a facility serving a \"highly susceptible population\" (HSP) under the Food Code definition, because it provides custodial care/health care/assisted living to persons more likely than the general population to experience foodborne disease, such as older adults or immunocompromised persons. [food-code-2026:p38:c0; food-code-2026:p667:c1]\n- Vomiting is a reportable symptom: a food employee who has vomiting must report the information to the person in charge in a manner that allows the person in charge to reduce the risk of foodborne disease transmission, including the date of onset of symptoms (FDA Food Code 2026 § 2-201.11(A)(1)(a)). [food-code-2026:p56:c1]\n- Required disposition: because the symptom is not attributed to a noninfectious condition, the person in charge must EXCLUDE the food employee under § 2-201.12(A)(1) (\"Except when the symptom is from a noninfectious condition, EXCLUDE a FOOD EMPLOYEE if the FOOD EMPLOYEE is: (1) Symptomatic with vomiting or diarrhea\"). [food-code-2026:p59:c0; food-code-2026:p58:c1]\n- The exclusion is required in both HSP and non-HSP facilities: Annex 3 Table 1a lists vomiting as \"EXCLUDE 2-201.12(A)(1)\" for facilities serving an HSP and the same for facilities not serving an HSP; the Annex 3 decision tree likewise directs EXCLUDE per Table 1a for a symptomatic employee in an HSP setting. [food-code-2026:p388:c0; food-code-2026:p385:c0]\n- Because the employee has no diagnosis, regulatory authority (RA) approval is not required for return: Table 1a states for vomiting \"No if not diagnosed\" under \"RA Approval Needed to Return to Work?\" [food-code-2026:p388:c0]\n- Earliest conditions for return (symptomatic, not diagnosed): under § 2-201.13(A)(1) the person in charge may reinstate an employee excluded under 2-201.12(A)(1) only if the employee (a) is asymptomatic for at least 24 hours, or (b) provides written medical documentation from a health practitioner stating the symptom is from a noninfectious condition. Since the scenario supplies no noninfectious diagnosis, the 24-hour asymptomatic pathway is the operative one. [food-code-2026:p61:c0; food-code-2026:p388:c0]\n- If norovirus were subsequently diagnosed, the disposition becomes stricter: exclusion under § 2-201.12(A)(2) (vomiting/diarrhea plus norovirus diagnosis), and in a facility serving an HSP the employee \"remains excluded\" until RA approval under 2-201.13(D) is obtained AND the employee is medically cleared as free of norovirus infection (2-201.13(D)(1)) or more than 48 hours have passed since becoming asymptomatic (2-201.13(D)(2)) — the 24-hour rule alone would not suffice in this nursing home. [food-code-2026:p391:c1; food-code-2026:p63:c1; food-code-2026:p59:c0]\n- The establishment must also respond to the event itself: § 2-502.11 requires written procedures for employees responding to vomiting or diarrheal events involving discharge of vomitus onto surfaces, addressing actions to minimize spread of contamination and exposure of employees, consumers, food and surfaces; the Code's rationale notes a real potential for spread of harmful pathogens when an employee vomits in the establishment. [food-code-2026:p72:c0; food-code-2026:p419:c1; food-code-2026:p684:c2]\n- Why norovirus transmission is a concern (Bad Bug Book, 2012 reference information, not a regulation): foodborne norovirus illnesses are epidemiologically linked to ready-to-eat foods contaminated by food workers, transmission occurs through the fecal-oral route (or vomit, on occasion) and is often associated with improper sanitation controls; salad ingredients and fruit are among the foods most often implicated, and \"any ready-to-eat food that is handled by ill food workers may be contaminated.\" [bad-bug-book:p170:c0; bad-bug-book:p170:c1; bad-bug-book:p168:c2]\n- Norovirus is highly efficient at spreading: the infective dose is estimated as low as 1 to 10 viral particles, particles are excreted at levels as high as 1 x 10^12 per gram of feces by both symptomatic and asymptomatic people, onset is usually 24 to 48 hours after exposure (as early as 12 hours), explosive/projectile vomiting is often the first sign, and about 30% of infected people are asymptomatic \"silent shedders\" still excreting high virus levels. [bad-bug-book:p169:c0; bad-bug-book:p169:c2]\n- The nursing home setting amplifies the risk: the Bad Bug Book states norovirus spreads easily from person to person in crowded living situations including nursing homes, rapid spread of secondary infection is particularly evident in institutions such as nursing homes and hospitals, severity is higher in elderly and immunocompromised persons, alcohol-based hand gels do not protect against norovirus, and the virus may continue to pass in bowel movements even after symptoms resolve. [bad-bug-book:p168:c3; bad-bug-book:p170:c2; bad-bug-book:p169:c2]\n- The Food Code's own Annex 3 rationale is consistent: noroviruses are highly contagious with an inoculum of as few as 18 viral particles possibly sufficient to infect, shedding usually begins with onset of symptoms, peaks four days after exposure, and may persist for three weeks after recovery, with peak contagiousness during the acute stage — which is why symptom-based exclusion, not diagnosis, is the trigger, and why restrictions are especially stringent for employees serving highly susceptible populations. [food-code-2026:p374:c0; food-code-2026:p374:c1; food-code-2026:p403:c0]\n- Authority caveat: the FDA Food Code 2026 is a model code whose provisions (e.g., 2-201.11, 2-201.12, 2-201.13, 2-502.11) are legally binding only where adopted by a jurisdiction; the Bad Bug Book (2012) is pathogen reference information, not a regulation. [food-code-2026:p59:c0; bad-bug-book:p170:c0]",
+  "claims": [
+    {
+      "text": "A nursing home is a facility serving a \"highly susceptible population\" (HSP) under the Food Code definition, because it provides custodial care/health care/assisted living to persons more likely than the general population to experience foodborne disease, such as older adults or immunocompromised persons.",
+      "citations": [
+        "food-code-2026:p38:c0",
+        "food-code-2026:p667:c1"
+      ]
+    },
+    {
+      "text": "Vomiting is a reportable symptom: a food employee who has vomiting must report the information to the person in charge in a manner that allows the person in charge to reduce the risk of foodborne disease transmission, including the date of onset of symptoms (FDA Food Code 2026 § 2-201.11(A)(1)(a)).",
+      "citations": [
+        "food-code-2026:p56:c1"
+      ]
+    },
+    {
+      "text": "Required disposition: because the symptom is not attributed to a noninfectious condition, the person in charge must EXCLUDE the food employee under § 2-201.12(A)(1) (\"Except when the symptom is from a noninfectious condition, EXCLUDE a FOOD EMPLOYEE if the FOOD EMPLOYEE is: (1) Symptomatic with vomiting or diarrhea\").",
+      "citations": [
+        "food-code-2026:p59:c0",
+        "food-code-2026:p58:c1"
+      ]
+    },
+    {
+      "text": "The exclusion is required in both HSP and non-HSP facilities: Annex 3 Table 1a lists vomiting as \"EXCLUDE 2-201.12(A)(1)\" for facilities serving an HSP and the same for facilities not serving an HSP; the Annex 3 decision tree likewise directs EXCLUDE per Table 1a for a symptomatic employee in an HSP setting.",
+      "citations": [
+        "food-code-2026:p388:c0",
+        "food-code-2026:p385:c0"
+      ]
+    },
+    {
+      "text": "Because the employee has no diagnosis, regulatory authority (RA) approval is not required for return: Table 1a states for vomiting \"No if not diagnosed\" under \"RA Approval Needed to Return to Work?\"",
+      "citations": [
+        "food-code-2026:p388:c0"
+      ]
+    },
+    {
+      "text": "Earliest conditions for return (symptomatic, not diagnosed): under § 2-201.13(A)(1) the person in charge may reinstate an employee excluded under 2-201.12(A)(1) only if the employee (a) is asymptomatic for at least 24 hours, or (b) provides written medical documentation from a health practitioner stating the symptom is from a noninfectious condition. Since the scenario supplies no noninfectious diagnosis, the 24-hour asymptomatic pathway is the operative one.",
+      "citations": [
+        "food-code-2026:p61:c0",
+        "food-code-2026:p388:c0"
+      ]
+    },
+    {
+      "text": "If norovirus were subsequently diagnosed, the disposition becomes stricter: exclusion under § 2-201.12(A)(2) (vomiting/diarrhea plus norovirus diagnosis), and in a facility serving an HSP the employee \"remains excluded\" until RA approval under 2-201.13(D) is obtained AND the employee is medically cleared as free of norovirus infection (2-201.13(D)(1)) or more than 48 hours have passed since becoming asymptomatic (2-201.13(D)(2)) — the 24-hour rule alone would not suffice in this nursing home.",
+      "citations": [
+        "food-code-2026:p391:c1",
+        "food-code-2026:p63:c1",
+        "food-code-2026:p59:c0"
+      ]
+    },
+    {
+      "text": "The establishment must also respond to the event itself: § 2-502.11 requires written procedures for employees responding to vomiting or diarrheal events involving discharge of vomitus onto surfaces, addressing actions to minimize spread of contamination and exposure of employees, consumers, food and surfaces; the Code's rationale notes a real potential for spread of harmful pathogens when an employee vomits in the establishment.",
+      "citations": [
+        "food-code-2026:p72:c0",
+        "food-code-2026:p419:c1",
+        "food-code-2026:p684:c2"
+      ]
+    },
+    {
+      "text": "Why norovirus transmission is a concern (Bad Bug Book, 2012 reference information, not a regulation): foodborne norovirus illnesses are epidemiologically linked to ready-to-eat foods contaminated by food workers, transmission occurs through the fecal-oral route (or vomit, on occasion) and is often associated with improper sanitation controls; salad ingredients and fruit are among the foods most often implicated, and \"any ready-to-eat food that is handled by ill food workers may be contaminated.\"",
+      "citations": [
+        "bad-bug-book:p170:c0",
+        "bad-bug-book:p170:c1",
+        "bad-bug-book:p168:c2"
+      ]
+    },
+    {
+      "text": "Norovirus is highly efficient at spreading: the infective dose is estimated as low as 1 to 10 viral particles, particles are excreted at levels as high as 1 x 10^12 per gram of feces by both symptomatic and asymptomatic people, onset is usually 24 to 48 hours after exposure (as early as 12 hours), explosive/projectile vomiting is often the first sign, and about 30% of infected people are asymptomatic \"silent shedders\" still excreting high virus levels.",
+      "citations": [
+        "bad-bug-book:p169:c0",
+        "bad-bug-book:p169:c2"
+      ]
+    },
+    {
+      "text": "The nursing home setting amplifies the risk: the Bad Bug Book states norovirus spreads easily from person to person in crowded living situations including nursing homes, rapid spread of secondary infection is particularly evident in institutions such as nursing homes and hospitals, severity is higher in elderly and immunocompromised persons, alcohol-based hand gels do not protect against norovirus, and the virus may continue to pass in bowel movements even after symptoms resolve.",
+      "citations": [
+        "bad-bug-book:p168:c3",
+        "bad-bug-book:p170:c2",
+        "bad-bug-book:p169:c2"
+      ]
+    },
+    {
+      "text": "The Food Code's own Annex 3 rationale is consistent: noroviruses are highly contagious with an inoculum of as few as 18 viral particles possibly sufficient to infect, shedding usually begins with onset of symptoms, peaks four days after exposure, and may persist for three weeks after recovery, with peak contagiousness during the acute stage — which is why symptom-based exclusion, not diagnosis, is the trigger, and why restrictions are especially stringent for employees serving highly susceptible populations.",
+      "citations": [
+        "food-code-2026:p374:c0",
+        "food-code-2026:p374:c1",
+        "food-code-2026:p403:c0"
+      ]
+    },
+    {
+      "text": "Authority caveat: the FDA Food Code 2026 is a model code whose provisions (e.g., 2-201.11, 2-201.12, 2-201.13, 2-502.11) are legally binding only where adopted by a jurisdiction; the Bad Bug Book (2012) is pathogen reference information, not a regulation.",
+      "citations": [
+        "food-code-2026:p59:c0",
+        "bad-bug-book:p170:c0"
+      ]
+    }
+  ],
+  "insufficient_reason": null,
+  "error": null,
+  "citations": [
+    {
+      "chunk_id": "food-code-2026:p38:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 38
+    },
+    {
+      "chunk_id": "food-code-2026:p667:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 667
+    },
+    {
+      "chunk_id": "food-code-2026:p56:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 56
+    },
+    {
+      "chunk_id": "food-code-2026:p59:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 59
+    },
+    {
+      "chunk_id": "food-code-2026:p58:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 58
+    },
+    {
+      "chunk_id": "food-code-2026:p388:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 388
+    },
+    {
+      "chunk_id": "food-code-2026:p385:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 385
+    },
+    {
+      "chunk_id": "food-code-2026:p61:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 61
+    },
+    {
+      "chunk_id": "food-code-2026:p391:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 391
+    },
+    {
+      "chunk_id": "food-code-2026:p63:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 63
+    },
+    {
+      "chunk_id": "food-code-2026:p72:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 72
+    },
+    {
+      "chunk_id": "food-code-2026:p419:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 419
+    },
+    {
+      "chunk_id": "food-code-2026:p684:c2",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 684
+    },
+    {
+      "chunk_id": "bad-bug-book:p170:c0",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 170
+    },
+    {
+      "chunk_id": "bad-bug-book:p170:c1",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 170
+    },
+    {
+      "chunk_id": "bad-bug-book:p168:c2",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 168
+    },
+    {
+      "chunk_id": "bad-bug-book:p169:c0",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 169
+    },
+    {
+      "chunk_id": "bad-bug-book:p169:c2",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 169
+    },
+    {
+      "chunk_id": "bad-bug-book:p168:c3",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 168
+    },
+    {
+      "chunk_id": "bad-bug-book:p170:c2",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 170
+    },
+    {
+      "chunk_id": "food-code-2026:p374:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 374
+    },
+    {
+      "chunk_id": "food-code-2026:p374:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 374
+    },
+    {
+      "chunk_id": "food-code-2026:p403:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 403
+    }
+  ],
+  "warnings": [
+    "claim 'Vomiting is a reportable symptom: a food employee who has vo' has numbers not found in its cited passages: 2026, 2, 201.11",
+    "claim 'Why norovirus transmission is a concern (Bad Bug Book, 2012 ' has numbers not found in its cited passages: 2012",
+    "claim 'Authority caveat: the FDA Food Code 2026 is a model code who' has numbers not found in its cited passages: 201.11, 502.11, 2012"
+  ],
+  "retrieved_chunk_ids": [
+    "food-code-2026:p388:c0",
+    "food-code-2026:p385:c0",
+    "food-code-2026:p416:c1",
+    "food-code-2026:p58:c1",
+    "food-code-2026:p684:c2",
+    "food-code-2026:p59:c0",
+    "food-code-2026:p56:c1",
+    "food-code-2026:p72:c0",
+    "food-code-2026:p368:c0",
+    "food-code-2026:p387:c0",
+    "bad-bug-book:p170:c0",
+    "bad-bug-book:p185:c2",
+    "bad-bug-book:p168:c2",
+    "bad-bug-book:p169:c0",
+    "bad-bug-book:p170:c1",
+    "bad-bug-book:p170:c2",
+    "bad-bug-book:p182:c2",
+    "bad-bug-book:p168:c1",
+    "bad-bug-book:p168:c3",
+    "bad-bug-book:p169:c2",
+    "food-code-2026:p61:c0",
+    "food-code-2026:p390:c0",
+    "food-code-2026:p63:c1",
+    "food-code-2026:p63:c2",
+    "food-code-2026:p64:c2",
+    "food-code-2026:p391:c0",
+    "food-code-2026:p62:c1",
+    "food-code-2026:p63:c0",
+    "food-code-2026:p390:c1",
+    "food-code-2026:p384:c3",
+    "food-code-2026:p667:c1",
+    "food-code-2026:p38:c0",
+    "food-code-2026:p667:c2",
+    "food-code-2026:p403:c0",
+    "food-code-2026:p503:c0",
+    "food-code-2026:p601:c2",
+    "food-code-2026:p189:c2",
+    "food-code-2026:p391:c1",
+    "food-code-2026:p66:c0",
+    "food-code-2026:p395:c1",
+    "food-code-2026:p668:c0",
+    "food-code-2026:p374:c0",
+    "food-code-2026:p618:c2",
+    "food-code-2026:p419:c1",
+    "food-code-2026:p374:c1"
+  ],
+  "model": "Qwen3.8-Flash-Next",
+  "config": {
+    "embedding_model": "Qwen3-Embedding-8B",
+    "llm_model": "Qwen3.8-Flash-Next",
+    "collection": "food_safety_corpus",
+    "chunk_size_chars": 1200,
+    "chunk_overlap_chars": 200,
+    "retrieval_top_k": 5,
+    "max_steps": 10,
+    "temperature": 0.0,
+    "tool_choice": "auto",
+    "query_instruction": "Given a question about food safety, retrieve passages from food-safety documents that answer it",
+    "index_chunk_count": 3030,
+    "index_built_at": "2026-10-27T00:42:25+00:00"
+  },
+  "started_at": "2026-10-27T00:49:16+00:00",
+  "duration_s": 254.85,
+  "trace": [
+    {
+      "step": 1,
+      "model": {
+        "content": null,
+        "reasoning": "We need to search the FDA Food Code 2026 for exclusion/restriction requirements for vomiting, reportable symptoms (2-201.12, 2-201.13, 2-202.107?), and Bad Bug Book norovirus information.\n\nLet me run searches.",
+        "tool_calls": [
+          {
+            "id": "call_5d789e0d",
+            "name": "search_documents",
+            "arguments": {
+              "query": "food employee vomiting symptom exclude reportable symptom 2-201.12",
+              "sources": [
+                "food-code-2026"
+              ],
+              "k": 10
+            }
+          },
+          {
+            "id": "call_6b542562",
+            "name": "search_documents",
+            "arguments": {
+              "query": "norovirus transmission vomiting fecal-oral food employee ready-to-eat food incubation period",
+              "sources": [
+                "bad-bug-book"
+              ],
+              "k": 10
+            }
+          }
+        ]
+      },
+      "extra_tool_calls_rejected": 1,
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "food employee vomiting symptom exclude reportable symptom 2-201.12",
+          "sources": [
+            "food-code-2026"
+          ],
+          "k": 10
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 10,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p388:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 388,
+            "distance": 0.2028,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative Guidelines\n308\nTable 1a. Summary of Requirements for Symptomatic Food Employees\nSymptom\nExclusion or\nRestriction\n(Facilities\nServing an HSP)\nExclusion or\nRestriction\n(Facilities Not\nServing an HSP)\nRemoving Symptomatic Food Employees from Exclusion\nor Restriction\nRA Approval\nNeeded to\nReturn to\nWork?\nVomiting EXCLUDE\n2-201.12(A)(1)\nEXCLUDE\n2-201.12(A)(1)\nWhen the excluded food employee has been asymptomatic for\nat least 24 hours or provides medical documentation 2-\n201.13(A)(1).\nExceptions: If diagnosed with norovirus, Shigella spp., STEC,\nHAV, or typhoid fever (S. Typhi) (see Tables 1b & 2).\nNo if not\ndiagnosed\nDiarrhea EXCLUDE\n2-201.12(A)(1)\nEXCLUDE\n2-201.12(A)(1)\nWhen the excluded food employee has been asymptomatic for\nat least 24 hours or provides medical documentation 2-\n201.13(A).\nExceptions: If Diagnosed with norovirus, STEC, HAV, or S.\nTyphi (see Tables 1b & 2).\nNo if not\ndiagnosed\nJaundice EXCLUDE\n2-201.12(B)(1) if\nthe onset occurred\nwithin the last 7\ndays\nEXCLUDE\n2-201.12(B)(1) if\nthe onset occurred\nwithin the last 7\ndays\nWhen approval is obtained from the RA 2-201.13 (B), and:"
+          },
+          {
+            "chunk_id": "food-code-2026:p385:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 385,
+            "distance": 0.2121,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n305\n2-201.11/2-201.12 Decision Tree #1. When to Exclude or Restrict a Food\nEmployee Who Reports a Symptom and When to Exclude a Food\nEmployee Who Reports a Diagnosis with Symptoms Under the\nFood Code.\nIs the FOOD EMPLOYEE reported listed Symptoms?\nYes\nSymptoms of Sore\nThroat and Fever\nSymptoms of:\n• Vomiting\n• Diarrhea; or\n• Jaundice\nSymptoms of Infected\nwound or cut\nEXCLUDE per\nTable 1a.\nHSP Gen. Pop.(Non-HSP)\nRESTRICT per\nTable 1a.\nIf the FOOD EMPLOYEE is reporting:\n• Diagnosis with Shigellosis,Norovirus,or STEC; and\n• Symptoms of vomiting or diarrhea\nEXCL UDE per\nTable 1b.\nIs the FOOD EMPLOYEE is reporting a diagnosis with Hepattis A virus, NTS, or typhoid fever:\nEXCL UDE per\nTable 1b.\n\nKey: HSP = highly susceptible population, NTS = non-typhoidal Salmonella, STEC = Shiga toxin-\nproducing Escherichia coli."
+          },
+          {
+            "chunk_id": "food-code-2026:p416:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 416,
+            "distance": 0.2162,
+            "text": "and should include the following requirements:\n• Employee Reporting Requirements (See Annex 2, 2-501.11 and Annex 7,\nForms 1-A & 1-B). The policy explains what employees must report to their\nmanager (Person in Charge), including:\no Any symptoms of diarrhea, vomiting, jaundice, sore throat with fever, or\ninfected skin lesions on hands/wrists/exposed body parts; and may have\nadditional requirements based on local jurisdiction health requirements.\no Any diagnosis by a health care provider of norovirus, hepatitis A virus, typhoid\nfever, Shigella spp., Shiga toxin-producing E. coli (STEC), or non-typhoidal\nSalmonella; and may have additional requirements based on local jurisdiction\nhealth requirements.\no Exposure to a listed illness (for example, someone in their household being\nsick with a listed illness).\no Exposure to a confirmed foodborne illness outbreak through work or outside\nof work, or through a household contact.\n• Employee Compliance: Employees must comply with all reporting and\nexclusion or restriction requirements imposed by the PIC or health authority\n2. Exclusion and Restriction Procedures (Forms 2, 3, 4 & 5) (See Annex 3, 2-"
+          },
+          {
+            "chunk_id": "food-code-2026:p58:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 58,
+            "distance": 0.2215,
+            "text": "history of exposure as\nspecified under Subparagraphs (A)(4) – (5), is prohibited from becoming a\n*FOOD EMPLOYEE until the *CONDITIONAL EMPLOYEE meets the criteria as\nspecified under ¶ 2-201.13(J). P\nResponsibility of the person in charge to exclude or restrict\n(D) The *PERSON IN CHARGE shall ensure that a *FOOD EMPLOYEE who exhibits or\nreports a symptom, or who reports a diagnosed illness or a history of\nexposure as specified under Subparagraphs (A)(1) - (5) of this section is:\n(1) *EXCLUDED as specified under ¶¶ 2-201.12 (A)-(C), and Subparagraphs\n(D)(1), (E)(1), (F)(1), or (H)(1) and in compliance with the provisions\nspecified under ¶¶ 2-201.13(A) - (H); P or\n(2) *RESTRICTED as specified under Subparagraphs 2-201.12 (D)(2), (E)(2),\n(F)(2), (G), (H)(2), or ¶¶ 2-201.12(I) or (J) and in compliance with the\nprovisions specified under ¶¶ 2-201.13(D) - (J). P\nResponsibility of food employees and conditional employees to report\n(E) A *FOOD EMPLOYEE or *CONDITIONAL EMPLOYEE shall report to the *PERSON IN\nCHARGE the information as specified under ¶ (A) of this section. Pf\nResponsibility of food employees to comply\n(F) A *FOOD EMPLOYEE shall:"
+          },
+          {
+            "chunk_id": "food-code-2026:p684:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 684,
+            "distance": 0.2285,
+            "text": "2- 201.11(D) and (F) Responsibility of Permit Holder, Person in Charge, and Conditional\nEmployees Responsibility of the PIC to Exclude or Restrict (P)\n• 2- 201.12 Exclusions & Restrictions (P)\n• 2- 201.13 Removal, Adjustment, or Retention of Exclusions & Restrictions (P)\n\n5. Illness Documentation.\nIN/OUT This item should be marked IN or OUT of compliance. This item is marked IN compliance\nwhen it is demonstrated that the food establishment has available for employees a written\nemployee health policy addressing symptoms and illness reporting, exclusion/restriction,\nreinstatement, and regulatory reporting requirements in accordance with §§ 2- 201.11, 2-\n201.12, and 2-201.13; and written procedures for responding to vomiting or diarrheal\nevents that involve the discharge of vomitus or fecal matter onto surfaces in the food\nestablishment in accordance with § 2-502.11."
+          },
+          {
+            "chunk_id": "food-code-2026:p59:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 59,
+            "distance": 0.2291,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n31\n(2) Comply with a *RESTRICTION as specified under Subparagraphs 2-\n201.12(D)(2), (E)(2), (F)(2), (G), (H)(2), or ¶¶ 2-201.12 (H), (I), or (J) and\ncomply with the provisions specified under ¶¶ 2-201.13(D)-(J). P\nConditions of exclusion and restriction\n2-201.12 Exclusions and Restrictions.\nThe *PERSON IN CHARGE shall *EXCLUDE or *RESTRICT a *FOOD EMPLOYEE from a\n*FOOD ESTABLISHMENT in accordance with the following:\nSymptomatic with vomiting or diarrhea\n(A) Except when the symptom is from a noninfectious condition, *EXCLUDE a\n*FOOD EMPLOYEE if the *FOOD EMPLOYEE is:\n(1) Symptomatic with vomiting or diarrhea; P or\n(2) Symptomatic with vomiting or diarrhea and diagnosed with an infection\nfrom norovirus, Shigella spp., Salmonella (non-typhoidal) , or *SHIGA TOXIN-\nPRODUCING *ESCHERICHIA COLI. P\nJaundiced or diagnosed with hepatitis A infection\n(B) *EXCLUDE a *FOOD EMPLOYEE who is:\n(1) Jaundiced and the onset of jaundice occurred within the last seven\ncalendar days, unless the *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER"
+          },
+          {
+            "chunk_id": "food-code-2026:p56:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 56,
+            "distance": 0.2319,
+            "text": "diseases that are transmissible through *FOOD.\nA *FOOD EMPLOYEE or *CONDITIONAL EMPLOYEE shall report the information in a\nmanner that allows the *PERSON IN CHARGE to reduce the *RISK of *FOODBORNE\nDISEASE transmission, including providing necessary additional information,\nsuch as the date of onset of symptoms and an illness, or of a diagnosis\nwithout symptoms, if the *FOOD EMPLOYEE or *CONDITIONAL EMPLOYEE:\nReportable symptoms\n(1) Has any of the following symptoms:\n(a) Vomiting, P\n(b) Diarrhea, P\n(c) Jaundice, P\n(d) Sore throat with fever, P or\n(e) A lesion containing pus such as a boil or infected wound that is open or\ndraining and is:\n(i) On the hands or wrists, unless an impermeable cover such as a\nfinger cot or stall protects the lesion and a *SINGLE-USE glove is\nworn over the impermeable cover, P\n(ii) On exposed portions of the arms, unless the lesion is protected by\nan impermeable cover, P or\n(iii) On other parts of the body, unless the lesion is covered by a dry,\ndurable, tight-fitting bandage; P"
+          },
+          {
+            "chunk_id": "food-code-2026:p72:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 72,
+            "distance": 0.2382,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n44\n*CONDITIONAL EMPLOYEES, the *PERSON-IN-CHARGE, and required reporting to\nthe *REGULATORY AUTHORITY:\n(1) Illness symptoms of diarrhea, vomiting, sore throat with fever, jaundice or\ninfected wounds or cuts; Pf\n(2) Illness disease diagnosis due to norovirus, hepatitis A virus, Shigella spp.,\nTyphoid fever, non-typhoidal Salmonella, or *SHIGA TOXIN-PRODUCING\nESCHERICHIA COLI; Pf and\n(3) Illness *EXCLUSION and/or *RESTRICTION and reinstatement after illness\nsymptom or disease resolution. Pf\n2-502 Contamination Event Response Procedures\n2-502.11 Clean-up of Vomiting and Diarrheal Events\nA *FOOD ESTABLISHMENT shall have written procedures for *EMPLOYEES to follow\nwhen responding to vomiting or diarrheal events that involve the discharge of\nvomitus or fecal matter onto surfaces in the *FOOD ESTABLISHMENT. The\nprocedures shall address the specific actions *EMPLOYEES must take to minimize\nthe spread of contamination and the exposure of *EMPLOYEES, *CONSUMERS,\n*FOOD and surfaces to vomitus or fecal matter. Pf"
+          },
+          {
+            "chunk_id": "food-code-2026:p368:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 368,
+            "distance": 0.2457,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n288\n12. What history of exposure is a conditional employee or food employee required to\nreport?\n13. If a food employee reports a gastrointestinal symptom, what criteria are used to\nallow the employee to return to work?\nResponsibilities and Reporting Symptoms and Diagnosis\n2-201.11 Responsibility of the Person in Charge, Food Employees, and\nConditional Employees\nProper management of a food establishment operation begins with employing healthy\npeople and instituting a system of identifying employees who present a risk of\ntransmitting foodborne pathogens to food or to other employees. The person in charge\nis responsible for ensuring all food employees and conditional employees are\nknowledgeable and understand their responsibility to report listed symptoms, diagnosis\nwith an illness from a listed pathogen, or exposure to a listed pathogen to the person in\ncharge. The person in charge is also responsible for reporting to the regulatory official if\na food employee reports a diagnosis with a listed pathogen.\nThis reporting requirement is an important component of any food safety program. A"
+          },
+          {
+            "chunk_id": "food-code-2026:p387:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 387,
+            "distance": 0.2481,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n307\n2-201.11/2-201.12 Decision Tree 2b. When to Restrict a Food Employee Who\nReports a Listed Exposure Under the Food Code.\nIs the FOOD EMPLOYEE reported listed Symptoms?\nNo\nIs the FOOD EMPLOYEE reporting a diagnosis with infection?\nIs the FOOD EMPLOYEE reporting exposure to Norovirus, STEC, HAV, Shigella, or Typhoid Fever ( S. Typhi)?\nYes\nHSP Gen. Pop\n(Non-HSP)\nNo\nNo\nEducate on symptoms; reinforce requirement to\nreport listed symptoms; ensure compliance with good\nhygienic practices, handwashing, and no bare hand\ncontact with ready -to-eat food.\nRESTRICT for\nTable 4.\n\nKey: HAV = hepatitis A virus, HSP = highly susceptible population, STEC = Shiga toxin-producing\nEscherichia coli.\n\n2-201.12 Table 1a: Summary of Requirements for Symptomatic Food\nEmployees.\nFood employees and conditional employees shall report symptoms immediately to the\nperson in charge.\nThe person in charge shall prohibit a conditional employee who reports a listed\nsymptom from becoming a food employee until meeting the criteria listed in Section 2-\n201.13 of the Food Code, for reinstatement of a symptomatic food employee."
+          }
+        ],
+        "steps_remaining": 9
+      }
+    },
+    {
+      "step": 2,
+      "model": {
+        "content": null,
+        "reasoning": "I need to search Bad Bug Book for norovirus. Also need Food Code 2-201.13(A)(1) text and HSP definition (nursing home = highly susceptible population). Also possibly restriction on bare hand contact / reporting to regulatory authority.\n\nLet me search Bad Bug Book for norovirus.",
+        "tool_calls": [
+          {
+            "id": "call_aa5234ee",
+            "name": "search_documents",
+            "arguments": {
+              "k": 10,
+              "query": "norovirus transmission vomiting fecal-oral food employee ready-to-eat food incubation period contagious",
+              "sources": [
+                "bad-bug-book"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "norovirus transmission vomiting fecal-oral food employee ready-to-eat food incubation period contagious",
+          "sources": [
+            "bad-bug-book"
+          ],
+          "k": 10
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 10,
+        "results": [
+          {
+            "chunk_id": "bad-bug-book:p170:c0",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 170,
+            "distance": 0.3035,
+            "text": " Route of entry: Foodborne norovirus illnesses have been epidemiologically linked into\nthree distinct classes: with cases associated with consumption of ready-to-eat (RTE)\nfoods contaminated by food workers; with environmental contamination of produce; or\nwith consumption of molluscan shellfish harvested from contaminated water. In each of\nthese classes, transmission occurs through the fecal-oral route (or vomit, on occasion),\nand is often associated with improper sanitation controls or their application. Secondary\ntransmission following foodborne illness is common, due to the high levels of virus that\nare excreted.\n Pathway: Norovirus infection causes gastroente ritis, an inflammation of the stomach\nand the small and large intestines. However, the precise pathogenic pathway of infection\nis unknown, which has hampered progress in propagating the virus in the laboratory.\n3. Frequency\nThe Centers for Disease Control and Prevention (CDC) estimates that noroviruses cause\n5.5 million illness annually in the U.S. (estimated range: 3.2 million to 8.3 million cases of\nfoodborne illness), which accounts for 58% of all foodborne illnesses. Of these illnesses,"
+          },
+          {
+            "chunk_id": "bad-bug-book:p185:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 185,
+            "distance": 0.331,
+            "text": "A Snapshot\nOf the viruses that can ca use illness through\ncontaminated food, norovirus, hepatitis, and\nrotavirus cause the largest number of known\ncases. They’re covered in separate chapters of\nthis book. This chapter is about other viruses\nthat also cause foodborne illness, but not nearly\nas often. In general, the illnesses they cause\nstart within 10 to 70 hours after a person eats or\ndrinks contaminated food or fluid, are mild, last\nanywhere from 2 to 9 days, and go away by\nthemselves. Some common symptoms are\nnausea; vomiting; diarrhea; a sick,\nuncomfortable feeling; abdominal pain;\nheadache; and fever. Following basic food‐safety\ntips can help protect you from getting these\nviruses. Since they can also be spread from\nperson to person (for example, when infected\npeople have a bowel movement and don’t wash\ntheir hands well, so that anything they touch\nspreads the virus to other people and objects),\ngood handwashing is especially important."
+          },
+          {
+            "chunk_id": "bad-bug-book:p168:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.3592,
+            "text": "meats, and salads prepared or handled\nby an infected person. Oysters grown in contaminated\nwater are another example. Symptoms usually start\nwithin 1 or 2 days of eating the contaminated food, but\nmay start in as few as 12 hours. Vomiting that’s explosive\nand projectile – that shoots out – often is the first\nsymptom, along with watery diarrhea that isn’t bloody,\nand cramps. Headache, mild fever, and muscle aches also\nmay occur. Most people get better in a day or two,\nalthough it takes others a little longer. Occasionally,\nsome people lose so much body fluid that it throws off\nthe body’s balance of some important minerals (called\nelectrolytes) and fluid, which can cause serious health\nproblems. These people need to be treated by a health\nprofessional, and sometimes need to be hospitalized.\nAntibiotics don’t work against this or other viruses (they\nonly work against bacteria), but health professionals can\ngive the right fluids and minerals to put the body back in\nbalance. You can help protect yourself and others against\nnorovirus by following basic food‐safety tips. Because\nnorovirus also is spread from person to person, especially\nin crowded living situations – dormitories, nursing"
+          },
+          {
+            "chunk_id": "bad-bug-book:p169:c0",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 169,
+            "distance": 0.3618,
+            "text": "single copy of a minor structural Protein (VP2). The 27-32 nm viral particles have a buoyant\ndensity of 1.39 to 1.40 g/ml in CsCl.\n2. Disease\nCommon names of the illness, which is the leading cause of foodborne illness in the United\nStates, are viral gastroenteritis, acute nonbacterial gastroenteritis, food poisoning, and winter\nvomiting disease.\n Mortality: Overall, these illne sses account for 26% of hospitalizations and 11% of\ndeaths associated with food consumption.\n Infective dose: The infective dose is very low; it is estimated to be as low as 1 to 10\nviral particles, and the particles are excreted at high levels by both symptomatic and\nasymptomatic people (as high as 1 x 1012 million viral particles/g feces).\n Onset: A mild, brief illness usually develops between 24 and 48 hours after contaminated\nfood or water is consumed (median in outbreaks: 33 to 36 hours), but onset times within\n12 hours of exposure have been reported.\n Illness / complications: Norovirus illness is self-limiting, but can be very debilitating as\na result of the high rate of vomiting. Recovery is usually complete and without evidence"
+          },
+          {
+            "chunk_id": "bad-bug-book:p170:c1",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 170,
+            "distance": 0.3766,
+            "text": "cause\n5.5 million illness annually in the U.S. (estimated range: 3.2 million to 8.3 million cases of\nfoodborne illness), which accounts for 58% of all foodborne illnesses. Of these illnesses,\napproximately 0.03% (mean, 14,663; range, 8,097 to 23,323) require hospitalization, and less\nthan 0.1% of these illnesses results in death (mean,149; range, 84 to 237).\n4. Sources\nNoV outbreaks have been associated with consumption of contaminated water, including\nmunicipal water, well water, stream water, commercial ice, lake water, and swimming pool or\nrecreational surface-water exposure, as well as floodwater.\nSalad ingredients, fruit, and oysters are the foods most often implicated in norovirus outbreaks.\nHowever, any ready-to-eat food that is that is handled by ill food workers may be contaminated.\nNearly 29% of all NoV foodborne outbreaks from 1997-2004 could be attributed to food\npurchased or served at a restaurant or delicatessen. Molluscan shellfish, particularly oysters,\nhave been commonly identified in NoV-related gastroenteritis outbreaks, worldwide. However,\nthis represents a different etiology that does not necessarily involve a contaminated food\nworker."
+          },
+          {
+            "chunk_id": "bad-bug-book:p170:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 170,
+            "distance": 0.3872,
+            "text": "been commonly identified in NoV-related gastroenteritis outbreaks, worldwide. However,\nthis represents a different etiology that does not necessarily involve a contaminated food\nworker.\nThe rapid spread of secondary infections is particularly evident in areas where a large\npopulation is enclosed within a static environment, such as in institutions, college campuses,\nschools, military operations, hotels, restaurants, recreational camps, hospitals, nursing homes,\nday-care facilities, and cruise ships, and after natural disasters, such as hurricanes and\nearthquakes.\n5. Diagnosis\nClinical diagnosis, without the results of diagnostic tests used to identify NoV-associated illness,\nincludes the following four criteria (Kaplan et al., 1982):\n vomiting in more than 50% of affected persons in an outbreak;\n a mean (or median) incubation period of 24 to 48 hours;\n a mean (or median) duration of illness of 12 to 60 hours;\n lack of identification of a bacterial pathogen in stool culture."
+          },
+          {
+            "chunk_id": "bad-bug-book:p182:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 182,
+            "distance": 0.4005,
+            "text": "worldwide, each year. Since 2006, a rotavirus\nvaccine has been given to children in the U.S., and\nrotavirus illness in this country has gone down.\nAlthough contaminated food can pass this virus to\npeople, the main way it gets into people is from\nthe hands into the mouth. For example, when an\ninfected person goes to the bathroom and doesn’t\nuse good handwashing afterwards, anything he or\nshe touches – such as a doorknob – can become\ncontaminated with the virus, and another person\ncan pick it up on his or her hands; then it can get\ninto the mouth through food or touching. When\nfood causes this illness, it’s likely to be food that\nwas handled by an infected person and then\nwasn’t cooked, such as salads and raw fruits and\nvegetables. Watery diarrhea starts in about 2 days,\nand other symptoms may include vomiting and\nfever higher than 101º F. Most people get better in\n3 days to a week. But the illness may be much\nmore serious in some people, especially very\nyoung children, premature babies, elderly people,\nand people with weak immune systems or who are\non certain medicines, such as some drugs used for\nrheumatoid arthritis. It’s especially important for"
+          },
+          {
+            "chunk_id": "bad-bug-book:p168:c1",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.4221,
+            "text": "have been shown to infect\nother animals (primarily cattle, swine,\nand mice).\nNorovirus in genogroups GI and GII\nalone can be divided into at least 15\ngenetic clusters. A genetic cluster of NoV\nis defined as strains that have at least\n80% homology to a reference strain’s\namino acid sequence.\nNoroviruses constitute a genus of genetically diverse, single-s tranded RNA viruses belonging to\nthe family Caliciviridae. The NoV genome contains approximately 7.7 kilobases of genetic\nmaterial protected from the environment by a naked protein capsid (i.e., no lipid-containing\nenvelope). The icosahedral shaped capsid is composed of a major capsid protein (VP1) and a\nFor Consumers: A Snapshot\nIn the U.S., norovirus is the leading cause of illness from\ncontaminated food or water – but food isn’t the only way\npeople get this illness. It also spreads easily from person\nto person and spreads quickly in groups of people.\nExamples of foods that have caused norovirus illness are\nfruits, vegetables, meats, and salads prepared or handled\nby an infected person. Oysters grown in contaminated\nwater are another example. Symptoms usually start\nwithin 1 or 2 days of eating the contaminated food, but"
+          },
+          {
+            "chunk_id": "bad-bug-book:p168:c3",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.4237,
+            "text": "yourself and others against\nnorovirus by following basic food‐safety tips. Because\nnorovirus also is spread from person to person, especially\nin crowded living situations – dormitories, nursing\nhomes, day‐care centers, prisons, and cruise ships are a\nfew examples – handwashing is especially important.\nNorovirus spreads easily to things people touch, and\nother people can pick up the virus that way. It takes very\nlittle norovirus to cause illness. Although alcohol‐based\nantibacterial hand gels work against many harmful\nbacteria, they don’t protect against norovirus. And the\nvirus may continue to pass in bowel movements even\nafter symptoms have gone away – another reason to\nmake handwashing a healthy habit."
+          },
+          {
+            "chunk_id": "bad-bug-book:p169:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 169,
+            "distance": 0.433,
+            "text": "Explosive, projectile\nvomiting usually is the first sign of illness and is often used to characterize the illness.\nHeadache, low-grade fever, chills, and muscle aches may also occur. The severity of\nsymptoms appears to be higher in hospitalized patients, immunocompromised people,\nand elderly people, compared with younger adults and other groups.\nStudies suggest that 30% of people infected with NoV display no gastrointestinal illness\nor associated symptoms, but still excrete high levels of virus in their stool. These distinct\ngroups of people are considered to be silent shedders of NoV.\n Duration: Symptoms generally persist for 12 to 60 hours, with a mean period of 24 to 48\nhours. Most people report feeling better within 1 to 2 days. However, for hospitalized\npatients, immunocompromised people, and the elderly, vomiting and diarrhea generally\nresolve within 72 to 96 hours, while the non-specific symptoms, such as headache, thirst,\nand vertigo, could persist up to 19 days."
+          }
+        ],
+        "steps_remaining": 8
+      }
+    },
+    {
+      "step": 3,
+      "model": {
+        "content": null,
+        "reasoning": "Now I need the return-to-work criteria: 2-201.13(A)(1) — asymptomatic for at least 24 hours or medical documentation. Also HSP considerations: nursing home is a highly susceptible population. Also possibly the requirement that in HSP facilities, restriction/exclusion differences. Also 2-201.13(A) text. Let me search for 2-201.13 text in food code.\n\nAlso relevant: bare hand contact with RTE food prohibition (3-301.11) and reporting to regulatory authority. Also the \"nursing home\" = HSP. Also possibly the requirement to report vomiting to PIC (2-201.11(A)(1)(a)).\n\nAlso consider whether the Food Code requires reporting symptomatic employees to RA — the 2026 code may have changes. Let's search 2-201.13.",
+        "tool_calls": [
+          {
+            "id": "call_63fb9ed3",
+            "name": "search_documents",
+            "arguments": {
+              "k": 10,
+              "query": "2-201.13 removing exclusion symptomatic food employee asymptomatic 24 hours medical documentation return to work",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "2-201.13 removing exclusion symptomatic food employee asymptomatic 24 hours medical documentation return to work",
+          "sources": [
+            "food-code-2026"
+          ],
+          "k": 10
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 10,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p61:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 61,
+            "distance": 0.1607,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n33\nManaging exclusions and restrictions\n2-201.13 Removal, Adjustment, or Retention of Exclusions and Restrictions\nThe *PERSON IN CHARGE shall adhere to the following conditions when removing,\nadjusting, or retaining the *EXCLUSION or *RESTRICTION of a *FOOD EMPLOYEE:\n(A) Except when a *FOOD EMPLOYEE is diagnosed with typhoid fever or an\ninfection from hepatitis A virus:\nRemoving exclusion for food employee who was symptomatic and not diagnosed\n(1) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraph 2-201.12(A)(1) if the *FOOD EMPLOYEE:\n(a) Is *ASYMPTOMATIC for at least 24 hours; P or\n(b) Provides to the *PERSON IN CHARGE written medical documentation from\na *HEALTH PRACTITIONER that states the symptom is from a\nnoninfectious condition. P\nNorovirus diagnosis\n(2) If a *FOOD EMPLOYEE was diagnosed with an infection from norovirus and\n*EXCLUDED as specified under Subparagraph 2-201.12(A)(2):\nAdjusting exclusion for food employee who was symptomatic and is now\nasymptomatic\n(a) **RESTRICT the *FOOD EMPLOYEE, who is *ASYMPTOMATIC for at least 24\nhours and *WORKS in a *FOOD ESTABLISHMENT not serving a *HIGHLY"
+          },
+          {
+            "chunk_id": "food-code-2026:p388:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 388,
+            "distance": 0.169,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative Guidelines\n308\nTable 1a. Summary of Requirements for Symptomatic Food Employees\nSymptom\nExclusion or\nRestriction\n(Facilities\nServing an HSP)\nExclusion or\nRestriction\n(Facilities Not\nServing an HSP)\nRemoving Symptomatic Food Employees from Exclusion\nor Restriction\nRA Approval\nNeeded to\nReturn to\nWork?\nVomiting EXCLUDE\n2-201.12(A)(1)\nEXCLUDE\n2-201.12(A)(1)\nWhen the excluded food employee has been asymptomatic for\nat least 24 hours or provides medical documentation 2-\n201.13(A)(1).\nExceptions: If diagnosed with norovirus, Shigella spp., STEC,\nHAV, or typhoid fever (S. Typhi) (see Tables 1b & 2).\nNo if not\ndiagnosed\nDiarrhea EXCLUDE\n2-201.12(A)(1)\nEXCLUDE\n2-201.12(A)(1)\nWhen the excluded food employee has been asymptomatic for\nat least 24 hours or provides medical documentation 2-\n201.13(A).\nExceptions: If Diagnosed with norovirus, STEC, HAV, or S.\nTyphi (see Tables 1b & 2).\nNo if not\ndiagnosed\nJaundice EXCLUDE\n2-201.12(B)(1) if\nthe onset occurred\nwithin the last 7\ndays\nEXCLUDE\n2-201.12(B)(1) if\nthe onset occurred\nwithin the last 7\ndays\nWhen approval is obtained from the RA 2-201.13 (B), and:"
+          },
+          {
+            "chunk_id": "food-code-2026:p390:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 390,
+            "distance": 0.1814,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative Guidelines\n310\nTable 1b: Summary of Requirements for Diagnosed, Symptomatic Food Employees\nDiagnosis\nEXCLUSION\n(Facilities Serving an\nHSP or Not Serving an\nHSP)\nRemoving Diagnosed, Symptomatic Food Employees from\nExclusion\nRA Approval\nNeeded to\nReturn to Work?\nHepatitis A virus EXCLUDE if within\n14 days of any symptom,\nor within seven days of\njaundice\n2-201.12(B)(2)\nWhen approval is obtained from the RA 2-201.13(B), and:\n• The food employee has been jaundiced for more than Seven\ncalendar days 2-201.13(B)(1), or\n• The anicteric food employee has had symptoms for more than\n14 days 2-201.13(B)(2), or\n• The food employee provides medical documentation 2-\n201.13(B)(3) (also see Table 2).\nYes\nTyphoid fever\n(S. Typhi)\nEXCLUDE\n2-201.12(C)\nWhen approval is obtained from the RA 2-201.13(C)(1), and:\n• Food employee provides medical documentation, that states the\nfood employee is free of a S. Typhi infection 2-201.13(C)(2) (also\nsee Table 2).\nYes\nNon-typhoidal\nSalmonella\nEXCLUDE\nBased on vomiting or\ndiarrhea symptoms, under\n2-201.12(A)(2)\nWhen approval is obtained from the RA 2-201.13(G), and:"
+          },
+          {
+            "chunk_id": "food-code-2026:p63:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 63,
+            "distance": 0.1824,
+            "text": "the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER that states the *FOOD\nEMPLOYEE is free from typhoid fever. P\nNorovirus diagnosis - removing exclusion or restriction\n(D) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraphs 2-201.12(A)(2) or (D)(1) who was *RESTRICTED under\nSubparagraph 2-201.12(D)(2) if the *PERSON IN CHARGE obtains *APPROVAL\nfrom the *REGULATORY AUTHORITY and one of the following conditions is met:\n(1) The *EXCLUDED or *RESTRICTED *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER\nstating that the *FOOD EMPLOYEE is free of a norovirus infection; P\n(2) The *FOOD EMPLOYEE was *EXCLUDED or *RESTRICTED after symptoms of\nvomiting or diarrhea resolved, and more than 48 hours have passed since\nthe *FOOD EMPLOYEE became *ASYMPTOMATIC; P or\n(3) The *FOOD EMPLOYEE was *EXCLUDED or *RESTRICTED and did not develop\nsymptoms and more than 48 hours have passed since the *FOOD\nEMPLOYEE was diagnosed. P\nShigella spp. Diagnosis - Removing Exclusion or Restriction\n(E) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under"
+          },
+          {
+            "chunk_id": "food-code-2026:p63:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 63,
+            "distance": 0.1947,
+            "text": "than 48 hours have passed since the *FOOD\nEMPLOYEE was diagnosed. P\nShigella spp. Diagnosis - Removing Exclusion or Restriction\n(E) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraphs 2-201.12(A)(2) or (E)(1) or who was *RESTRICTED under\nSubparagraph 2-201.12(E)(2) if the *PERSON IN CHARGE obtains *APPROVAL\nfrom the *REGULATORY AUTHORITY and one of the following conditions is met:\n(1) The *EXCLUDED or *RESTRICTED *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER"
+          },
+          {
+            "chunk_id": "food-code-2026:p64:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 64,
+            "distance": 0.1968,
+            "text": "was *EXCLUDED or *RESTRICTED and did not develop\nsymptoms and more than seven days have passed since the *FOOD\nEMPLOYEE was diagnosed. P\nNon-typhoidal Salmonella - removing exclusion or restriction\n(G) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraph 2-201.12(A)(2) or who was *RESTRICTED as specified under ¶\n2-201.12(G) if the *PERSON IN CHARGE obtains *APPROVAL from the\n*REGULATORY AUTHORITY P and one of the following conditions is met:\n(1) The *EXCLUDED or *RESTRICTED *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER\nstating that the *FOOD EMPLOYEE is free of a Salmonella (non-typhoidal)"
+          },
+          {
+            "chunk_id": "food-code-2026:p391:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 391,
+            "distance": 0.198,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative Guidelines\n311\nDiagnosis\nEXCLUSION\n(Facilities Serving an\nHSP or Not Serving an\nHSP)\nRemoving Diagnosed, Symptomatic Food Employees from\nExclusion\nRA Approval\nNeeded to\nReturn to Work?\nSTEC EXCLUDE\nBased on vomiting or\ndiarrhea symptoms, under\n2-201.12(A)(2)\n1. Serving a non-HSP facility: 2-201.13(A)(4)(a): Shall only work on a\nrestricted basis 24 hours after symptoms resolve and remains\nrestricted until meeting the requirements listed in No. 3.\n2. Serving an HSP facility: 2-201.13(A)(4)(b): Remains excluded until\nmeeting the requirements listed in No. 3.\n3. Restriction or Exclusion remains until:\n• Approval is obtained from RA 2-201.13(F), and\n• Medically cleared 2-201.13(F)(1), or\n• More than 7 calendar days have passed since the food employee\nbecame asymptomatic 2-201.13(F)(2) (also see Table 2).\nYes, to return to\nan HSP or to\nreturn\nunrestricted; not\nrequired to work\non a restricted\nbasis in a non-\nHSP facility\nNorovirus EXCLUDE\nBased on vomiting or\ndiarrhea symptoms, under\n2-201.12(A)(2)\n1. Serving a non-HSP facility: 2-201.13 (A)(2)(a): Shall only work on a"
+          },
+          {
+            "chunk_id": "food-code-2026:p62:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 62,
+            "distance": 0.2029,
+            "text": "under Subparagraphs (F)(1) or (2) of this section are\nmet; P or\nRetaining exclusion for food employee who was symptomatic and is now\nasymptomatic and works in food establishment serving HSP\n(b) Retain the *EXCLUSION for the *FOOD EMPLOYEE, who is *ASYMPTOMATIC\nfor at least 24 hours and works in a *FOOD ESTABLISHMENT that serves a\n*HIGHLY SUSCEPTIBLE POPULATION, until the conditions for reinstatement\nas specified under Subparagraphs (F)(1) or (2) are met. P\nNon-typhoidal Salmonella Diagnosis\n(5) If a *FOOD EMPLOYEE was diagnosed with an infection from Salmonella\n(non-typhoidal) and *EXCLUDED as specified under Subparagraph 2-\n201.12(A)(2):\nAdjusting exclusion for food employee who was symptomatic and is now\nasymptomatic\n(a) **RESTRICT the *FOOD EMPLOYEE, who is *ASYMPTOMATIC for at least 30\ndays until conditions for reinstatement as specified under\nSubparagraphs (G)(1) or (2) of this section are met; P or\nRetaining exclusion for food employee that remains symptomatic\n(b) Retain the *EXCLUSION for the *FOOD EMPLOYEE who is *SYMPTOMATIC,\nuntil conditions for reinstatement as *SPECIFIED under ¶¶ (G)(1) or\n(G)(2) of this section are met. P"
+          },
+          {
+            "chunk_id": "food-code-2026:p63:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 63,
+            "distance": 0.2124,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n35\nHepatitis A virus or jaundice diagnosis - removing exclusions\n(B) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under ¶ 2-\n201.12(B) if the *PERSON IN CHARGE obtains *APPROVAL from the *REGULATORY\nAUTHORITY and one of the following conditions is met;\n(1) The *FOOD EMPLOYEE has been jaundiced for more than seven calendar\ndays; P\n(2) The anicteric *FOOD EMPLOYEE has been symptomatic with symptoms other\nthan jaundice for more than 14 calendar days; P or\n(3) The *FOOD EMPLOYEE provides to the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER stating that the *FOOD\nEMPLOYEE is free of a hepatitis A virus infection. P\nTyphoid fever diagnosis - removing exclusions\n(C) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under ¶ 2-\n201.12(C) if:\n(1) The *PERSON IN CHARGE obtains *APPROVAL from the *REGULATORY\nAUTHORITY; P and\n(2) The *FOOD EMPLOYEE provides to the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER that states the *FOOD\nEMPLOYEE is free from typhoid fever. P\nNorovirus diagnosis - removing exclusion or restriction"
+          },
+          {
+            "chunk_id": "food-code-2026:p390:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 390,
+            "distance": 0.2131,
+            "text": "infection 2-201.13(C)(2) (also\nsee Table 2).\nYes\nNon-typhoidal\nSalmonella\nEXCLUDE\nBased on vomiting or\ndiarrhea symptoms, under\n2-201.12(A)(2)\nWhen approval is obtained from the RA 2-201.13(G), and:\n• Food employee provides medical documentation, that states the\nfood employee is free of a non-typhoidal Salmonella infection 2-\n201.13)(G)(1) or\n• Food employee symptoms of vomiting or diarrhea resolved and\n>30 days have passed since the food employee became\nasymptomatic (2-201.13(G)(2)).\nYes"
+          }
+        ],
+        "steps_remaining": 7
+      }
+    },
+    {
+      "step": 4,
+      "model": {
+        "content": null,
+        "reasoning": "Now I need details on: HSP facility (nursing home = highly susceptible population). Also the requirement to report to regulatory authority? Also 2-502.11 clean-up procedures for vomiting events. Also possibly the requirement that the excluded employee not be allowed to work; and possibly the \"report to regulatory authority\" 2-201.11(C)? Also the Food Code may require considering the salads for destruction? Let's check whether there's guidance about discarding food contaminated by vomiting — 2-501.16? Or Annex 3 guidance about vomiting events and norovirus.\n\nAlso relevant: bare hand contact with RTE food prohibition (3-301.11) and handwashing.\n\nLet me search for HSP definition including nursing home, and for the vomiting event response / norovirus guidance in Annex.",
+        "tool_calls": [
+          {
+            "id": "call_2b471ca2",
+            "name": "search_documents",
+            "arguments": {
+              "k": 8,
+              "query": "highly susceptible population definition nursing home older adults age",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "highly susceptible population definition nursing home older adults age",
+          "sources": [
+            "food-code-2026"
+          ],
+          "k": 8
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 8,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p384:c3",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 384,
+            "distance": 0.3125,
+            "text": "that serve either\nhighly susceptible populations or the non-highly susceptible populations to control\ntransmission on NTS. Further, events where an infected food handler is involved in non-\ntyphoidal salmonellosis outbreaks in establishments serving highly susceptible\npopulations are much less frequent than those in establishments not serving highly\nsusceptible populations. For example, from 1998-2011, only 41 non-typhoidal\nsalmonellosis outbreaks were reported to CDC that occurred in nursing home facilities\nand 16 outbreaks in hospitals, compared with 731 outbreaks in restaurants or delis.\nThere are many highly susceptible persons in the general population who eat in regular,\nnon-institutionalized settings. A more restrictive exclusion criteria for establishments\nserving highly susceptible populations is not warranted at this time."
+          },
+          {
+            "chunk_id": "food-code-2026:p667:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 667,
+            "distance": 0.3375,
+            "text": "coli O157:H7 infection (or other STEC), non-typhoidal Salmonella or\nhepatitis A virus (hepatitis A), or\n3. Reports past illness involving typhoid fever (S. Typhi) within the past three months (while\nsalmonellosis is fairly common in U.S., typhoid fever, caused by infection with S. Typhi, is\nrare).\nName of Conditional Employee being referred: (please print)________________________________\nName of Food Employee being referred: (please print) _____________________________________\nIs the employee assigned to a food establishment that serves a population that meets the\nFood Code definition of a highly susceptible population such as a day care center with\npreschool-age children, a hospital kitchen with immunocompromised persons, or an\nassisted living facility or nursing home with older adults?\nYES NO"
+          },
+          {
+            "chunk_id": "food-code-2026:p38:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 38,
+            "distance": 0.3404,
+            "text": "FDA Food Code 2026 Chapter 1 Purpose and Definitions\n10\n\"Health practitioner\" means a physician licensed to practice medicine, or if\nallowed by *LAW, a nurse practitioner, physician assistant, or similar medical\nprofessional.\n\"Hermetically sealed container\" means a container that is designed and\nintended to be secure against the entry of microorganisms and, in the case of\nlow acid canned *FOODS, to maintain the commercial sterility of its contents after\nprocessing.\n\"Highly susceptible population\" means *PERSONS who are more likely than\nother people in the general population to experience foodborne disease\nbecause they are:\n(1) Immunocompromised; preschool age children, or older adults; and\n(2) Obtaining *FOOD at a facility that provides services such as custodial\ncare, health care, or assisted living, such as a child or adult day care\ncenter, kidney dialysis center, hospital or nursing home, or nutritional or\nsocialization services such as a senior center.\n\"Imminent health hazard\" means a significant threat or danger to health that is\nconsidered to exist when there is evidence sufficient to show that a product,"
+          },
+          {
+            "chunk_id": "food-code-2026:p667:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 667,
+            "distance": 0.3679,
+            "text": "population such as a day care center with\npreschool-age children, a hospital kitchen with immunocompromised persons, or an\nassisted living facility or nursing home with older adults?\nYES NO\n\nReason for Medical Referral. The reason for this referral is checked below:\nIs chronically suffering from vomiting or diarrhea; or (specify) ________________________________\nDiagnosed or suspected norovirus, typhoid fever, shigellosis, E. coli O157:H7 (or other STEC)\ninfection, non-typhoidal Salmonella or hepatitis A.\n(specify)___________________________________\nReported past illness from typhoid fever within the past 3 months. Date of illness : ________________\nOther medical condition of concern per the following description: ______________________________\n____________________________________________________________________________________"
+          },
+          {
+            "chunk_id": "food-code-2026:p403:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 403,
+            "distance": 0.3745,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n323\n2-201.12 Exclusion and Restrictions (continued)4\nRestrictions and exclusions vary according to the population served because highly\nsusceptible populations have increased vulnerability to foodborne illness. For example,\nfoodborne illness in a healthy individual may be manifested by mild flu-like symptoms.\nThe same foodborne illness may have serious medical consequences in\nimmunocompromised individuals. This point is reinforced by statistics pertaining to\ndeaths associated with foodborne illness caused by Salmonella Enteritidis. Over 70% of\nthe deaths in outbreaks attributed to this organism occurred among individuals who for\none reason or another were immunocompromised. This is why the restrictions and\nexclusions listed in the Code are especially stringent for food employees serving highly\nsusceptible populations.\nPeriodic testing of food employees for the presence of diseases transmissible through\nfood is not cost effective or reliable. Therefore, restriction and exclusion provisions are\ntriggered by the active gastrointestinal symptoms, followed by diagnosis and history of\nexposure."
+          },
+          {
+            "chunk_id": "food-code-2026:p503:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 503,
+            "distance": 0.3812,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n423\nthese products. Further information is available at the FDA website by entering “sprouts”\nin the search window.\nAlthough the Code’s allowance for the Regulatory Authority to grant a variance (refer to\n§§ 8-103.10 - .12, 8-201.14, and 8-304.11) is applicable to all Code provisions, variance\nrequests related to the preparation of food for highly susceptible populations must be\nconsidered with particular caution and scrutiny. With all variances, the hazard(s) must\nbe clearly identified and controlled by a HACCP plan that is instituted in conjunction with\na standard operating plan that implements good retail practices. Variances that will\nimpact a highly susceptible population must be considered in light of the fact that such a\npopulation is at a significantly higher risk of contracting foodborne illnesses and\nsuffering serious consequences including death from those illnesses, than is the general\npopulation.\nSubparagraph 3-801.11(F)(3) requires a HACCP plan for the use of raw shell eggs\nwhen eggs are combined in food establishments serving highly susceptible populations."
+          },
+          {
+            "chunk_id": "food-code-2026:p601:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 601,
+            "distance": 0.3897,
+            "text": "managerial control of foodborne illness risk factors.\n• Newly permitted establishments that would otherwise be grouped\nin Category 2 until history of active managerial control of foodborne\nillness risk factors is achieved and documented.\n3\n4\nExamples include:\n• Preschools, hospitals, nursing homes, and establishments\nconducting processing at retail.\n• Establishments serving a highly susceptible population or that\nconduct specialized processes, e.g., smoking and curing; reduced\noxygen packaging for extended shelf-life.\n4"
+          },
+          {
+            "chunk_id": "food-code-2026:p189:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 189,
+            "distance": 0.3914,
+            "text": "and service;\n(F) The number of people served; and\n(G) Whether the population served is a *HIGHLY SUSCEPTIBLE POPULATION.\n8-402 Competency and Access\n8-402.10 Competency of Inspectors.\n(A) An authorized representative of the *REGULATORY AUTHORITY who inspects a\n*FOOD ESTABLISHMENT or conducts plan review for compliance with this Code\nshall have knowledge, skills and ability to adequately perform the required\nduties."
+          }
+        ],
+        "steps_remaining": 6
+      }
+    },
+    {
+      "step": 5,
+      "model": {
+        "content": null,
+        "reasoning": "Now I need: reporting requirement (2-201.11(A)(1)(a) vomiting reportable), PIC exclusion duty (2-201.11(D)), written procedures for vomiting events (2-502.11), possibly the requirement that the excluded employee not be in the food establishment, and possibly the \"no bare hand contact with RTE food\" and 3-301.11? Also whether the RA must be notified — Table 1a says \"No if not diagnosed\" for RA approval. Also the Food Code may require reporting to RA only for diagnoses.\n\nAlso relevant: Bad Bug Book norovirus — low infective dose 1-10 particles, high shedding, salads, nursing homes, alcohol gels ineffective, virus continues to pass after symptoms resolve, onset 24-48 hours, secondary transmission.\n\nAlso consider: the Food Code Annex guidance on why vomiting is a symptom of norovirus and 24 hours asymptomatic. Let me search for Annex 3 discussion of 2-201.13(A)(1) rationale — 24 hours asymptomatic and norovirus shedding.\n\nAlso should check whether the Food Code addresses the employee's exclusion from the food establishment (definition of exclude: prohibited from working in the food establishment or present). Let me search for \"exclude means\" definition and also the guidance about vomiting events and cleaning, plus possibly 2-201.12(A) \"except when the symptom is from a noninfectious condition\" — already have.\n\nLet me do one search on Annex 3 rationale for 2-201.13(A)(1) 24 hours norovirus shedding.",
+        "tool_calls": [
+          {
+            "id": "call_13b543d3",
+            "name": "search_documents",
+            "arguments": {
+              "k": 8,
+              "query": "Annex 3 rationale 2-201.13(A)(1) 24 hours asymptomatic norovirus shedding after symptoms resolve exclude vomiting",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Annex 3 rationale 2-201.13(A)(1) 24 hours asymptomatic norovirus shedding after symptoms resolve exclude vomiting",
+          "sources": [
+            "food-code-2026"
+          ],
+          "k": 8
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 8,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p391:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 391,
+            "distance": 0.2567,
+            "text": "a restricted\nbasis in a non-\nHSP facility\nNorovirus EXCLUDE\nBased on vomiting or\ndiarrhea symptoms, under\n2-201.12(A)(2)\n1. Serving a non-HSP facility: 2-201.13 (A)(2)(a): Shall only work on a\nrestricted basis 24 hours after symptoms resolve and remains\nrestricted until meeting the requirements listed in No. 3.\n2. Serving an HSP facility: 2-201.13(A)(2)(b): Remains excluded until\nmeeting the requirements listed in No. 3.\n3. Restriction or Exclusion remains until:\n• Approval is obtained from the RA 2-201.13(D), and\n• Medically cleared 2-201.13(D)(1), or\n• More than 48 hours have passed since the food employee became\nasymptomatic 2-201.13(D)(2) (also see Table 2).\nYes, to return to\nan HSP or to\nreturn\nunrestricted; not\nrequired to work\non a restricted\nbasis in a non-\nHSP facility"
+          },
+          {
+            "chunk_id": "food-code-2026:p66:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 66,
+            "distance": 0.261,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n38\nNorovirus\n(1) Norovirus and one of the following conditions are met:\n(a) More than 48 hours have passed since the last day the *FOOD\nEMPLOYEE was potentially exposed; P or\n(b) More than 48 hours have passed since the *FOOD EMPLOYEE’S\nhousehold contact became *ASYMPTOMATIC. P\nShigella spp. or STEC\n(2) Shigella spp. or *SHIGA TOXIN-PRODUCING ESCHERICHIA COLI and one of the\nfollowing conditions is met:\n(a) More than three calendar days have passed since the last day the\n*FOOD EMPLOYEE was potentially exposed; P or\n(b) More than three calendar days have passed since the *FOOD\nEMPLOYEE’s household contact became *ASYMPTOMATIC. P\nTyphoid fever (S. Typhi)\n(3) Typhoid fever (caused by Salmonella Typhi) and one of the following\nconditions is met:\n(a) More than 14 calendar days have passed since the last day the *FOOD\nEMPLOYEE was potentially exposed; P or\n(b) More than 14 calendar days have passed since the *FOOD EMPLOYEE’S\nhousehold contact became *ASYMPTOMATIC. P\nHepatitis A\n(4) Hepatitis A virus and one of the following conditions is met:\n(a) The *FOOD EMPLOYEE is immune to hepatitis A virus infection because"
+          },
+          {
+            "chunk_id": "food-code-2026:p395:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 395,
+            "distance": 0.2697,
+            "text": "(also see Table 1b).\nYes, to return to\nan HSP or to\nreturn\nunrestricted; not\nrequired to work\non a restricted\nbasis in a non-\nHSP facility\nNorovirus EXCLUDE\n2-201.12(D)(1)\nRESTRICT\n2-201.12(D)(2) 1. Serving a non-HSP facility: 2-201.13(A)(2)(a): Shall only work on a\nrestricted basis 24 hours after symptoms\nresolve and remains restricted until\nmeeting the requirements listed in No. 3.\n2. Serving an HSP facility: 2-201.13(A)(2)(b):\nRemains excluded until meeting the\nrequirements listed in No. 3.\n3. Restriction or Exclusion remains until:\n• Approval is obtained from the RA 2-\n201.13(D), and\n• Medically cleared 2-201.13(D)(1), or\nMore than 48 hours have passed since the\nfood employee became asymptomatic 2-\n201.13(D)(2) (also see Table 1b).\nYes, to return to\nan HSP or to\nreturn\nunrestricted; not\nrequired to work\non a restricted\nbasis in a non-\nHSP facility"
+          },
+          {
+            "chunk_id": "food-code-2026:p61:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 61,
+            "distance": 0.2813,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n33\nManaging exclusions and restrictions\n2-201.13 Removal, Adjustment, or Retention of Exclusions and Restrictions\nThe *PERSON IN CHARGE shall adhere to the following conditions when removing,\nadjusting, or retaining the *EXCLUSION or *RESTRICTION of a *FOOD EMPLOYEE:\n(A) Except when a *FOOD EMPLOYEE is diagnosed with typhoid fever or an\ninfection from hepatitis A virus:\nRemoving exclusion for food employee who was symptomatic and not diagnosed\n(1) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraph 2-201.12(A)(1) if the *FOOD EMPLOYEE:\n(a) Is *ASYMPTOMATIC for at least 24 hours; P or\n(b) Provides to the *PERSON IN CHARGE written medical documentation from\na *HEALTH PRACTITIONER that states the symptom is from a\nnoninfectious condition. P\nNorovirus diagnosis\n(2) If a *FOOD EMPLOYEE was diagnosed with an infection from norovirus and\n*EXCLUDED as specified under Subparagraph 2-201.12(A)(2):\nAdjusting exclusion for food employee who was symptomatic and is now\nasymptomatic\n(a) **RESTRICT the *FOOD EMPLOYEE, who is *ASYMPTOMATIC for at least 24\nhours and *WORKS in a *FOOD ESTABLISHMENT not serving a *HIGHLY"
+          },
+          {
+            "chunk_id": "food-code-2026:p668:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 668,
+            "distance": 0.284,
+            "text": "FDA Food Code 2026 Annex 7. Model Forms, Guides, and Other Aids\n588\npopulations such as those who are preschool-age, immunocompromised, or older adults and in a\nfacility that provides preschool custodial care, health care, or assisted living.\nFood employee is an asymptomatic shedder of hepatitis A virus and should be excluded from working\nin a food establishment until medically cleared.\nFood employee is an asymptomatic shedder of norovirus and should be excluded from working in a\nfood establishment until medically cleared, or for at least 24 hours from the date of the diagnosis.\nFood employee is suffering from norovirus, typhoid fever, shigellosis, E. coli O157:H7 (or other STEC\ninfection), or hepatitis A and should be excluded from working in a food establishment.\nFood employee is diagnosed with an infection from non-typhoidal Salmonella and is asymptomatic and\nshould be restricted from working in food establishments serving a highly susceptible population and\nfood establishments not serving a highly susceptible population."
+          },
+          {
+            "chunk_id": "food-code-2026:p63:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 63,
+            "distance": 0.2851,
+            "text": "the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER that states the *FOOD\nEMPLOYEE is free from typhoid fever. P\nNorovirus diagnosis - removing exclusion or restriction\n(D) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraphs 2-201.12(A)(2) or (D)(1) who was *RESTRICTED under\nSubparagraph 2-201.12(D)(2) if the *PERSON IN CHARGE obtains *APPROVAL\nfrom the *REGULATORY AUTHORITY and one of the following conditions is met:\n(1) The *EXCLUDED or *RESTRICTED *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER\nstating that the *FOOD EMPLOYEE is free of a norovirus infection; P\n(2) The *FOOD EMPLOYEE was *EXCLUDED or *RESTRICTED after symptoms of\nvomiting or diarrhea resolved, and more than 48 hours have passed since\nthe *FOOD EMPLOYEE became *ASYMPTOMATIC; P or\n(3) The *FOOD EMPLOYEE was *EXCLUDED or *RESTRICTED and did not develop\nsymptoms and more than 48 hours have passed since the *FOOD\nEMPLOYEE was diagnosed. P\nShigella spp. Diagnosis - Removing Exclusion or Restriction\n(E) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under"
+          },
+          {
+            "chunk_id": "food-code-2026:p388:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 388,
+            "distance": 0.293,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative Guidelines\n308\nTable 1a. Summary of Requirements for Symptomatic Food Employees\nSymptom\nExclusion or\nRestriction\n(Facilities\nServing an HSP)\nExclusion or\nRestriction\n(Facilities Not\nServing an HSP)\nRemoving Symptomatic Food Employees from Exclusion\nor Restriction\nRA Approval\nNeeded to\nReturn to\nWork?\nVomiting EXCLUDE\n2-201.12(A)(1)\nEXCLUDE\n2-201.12(A)(1)\nWhen the excluded food employee has been asymptomatic for\nat least 24 hours or provides medical documentation 2-\n201.13(A)(1).\nExceptions: If diagnosed with norovirus, Shigella spp., STEC,\nHAV, or typhoid fever (S. Typhi) (see Tables 1b & 2).\nNo if not\ndiagnosed\nDiarrhea EXCLUDE\n2-201.12(A)(1)\nEXCLUDE\n2-201.12(A)(1)\nWhen the excluded food employee has been asymptomatic for\nat least 24 hours or provides medical documentation 2-\n201.13(A).\nExceptions: If Diagnosed with norovirus, STEC, HAV, or S.\nTyphi (see Tables 1b & 2).\nNo if not\ndiagnosed\nJaundice EXCLUDE\n2-201.12(B)(1) if\nthe onset occurred\nwithin the last 7\ndays\nEXCLUDE\n2-201.12(B)(1) if\nthe onset occurred\nwithin the last 7\ndays\nWhen approval is obtained from the RA 2-201.13 (B), and:"
+          },
+          {
+            "chunk_id": "food-code-2026:p374:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 374,
+            "distance": 0.2932,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n294\nAcute-onset of vomiting, watery non-bloody diarrhea, abdominal cramps,\nand nausea, or a combination of these symptoms. Low grade fever and\nbody aches may also be associated. Symptoms typically last 24 to 72\nhours. Norovirus disease is usually self-limited without any serious long-\nterm sequelae. Among the young and the elderly, dehydration is a\ncommon complication. Volunteer studies have found that as many as 30%\nof individuals infected with norovirus are asymptomatic. There is no\nspecific treatment for norovirus disease. Supportive therapy consists of\noral or intravenous rehydration solutions to replace fluid loss and\nelectrolytes. Previous exposure does not provide long-term immunity;\nthus, individuals may be repeatedly infected throughout their lifetimes.\nInfectivity:\nNoroviruses are highly contagious, and it is thought that an inoculum of as\nfew as 18 viral particles may be sufficient to infect an individual. Although\npre-symptomatic shedding may occur, shedding usually begins with onset\nof symptoms, peaks four days after exposure, and may persist for three"
+          }
+        ],
+        "steps_remaining": 5
+      }
+    },
+    {
+      "step": 6,
+      "model": {
+        "content": null,
+        "reasoning": "Let me get more of that p374 chunk about norovirus infectivity/shedding and the Food Code's rationale for the 24-hour rule. Also need the requirement about not working with RTE food / handwashing, and the vomiting event cleanup procedure 2-502.11 (already have p72:c0). Also possibly 3-301.14 (conditional requirements for employees with symptoms — excluding from working with RTE food). Let me search for that.\n\nAlso, the question asks about \"earliest conditions for return\" — 2-201.13(A)(1): asymptomatic ≥24 hours or medical documentation of noninfectious condition; RA approval not needed if not diagnosed. Also note that if the employee later is diagnosed with norovirus while working in an HSP facility, exclusion retained until RA approval + >48h asymptomatic.\n\nLet me search for 3-301.14 and the norovirus Annex 3 rationale.",
+        "tool_calls": [
+          {
+            "id": "call_be7abcd1",
+            "name": "search_documents",
+            "arguments": {
+              "k": 8,
+              "query": "3-301.14 conditional employee symptomatic vomiting exclude from working with ready-to-eat food handwashing",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "3-301.14 conditional employee symptomatic vomiting exclude from working with ready-to-eat food handwashing",
+          "sources": [
+            "food-code-2026"
+          ],
+          "k": 8
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 8,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p388:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 388,
+            "distance": 0.2259,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative Guidelines\n308\nTable 1a. Summary of Requirements for Symptomatic Food Employees\nSymptom\nExclusion or\nRestriction\n(Facilities\nServing an HSP)\nExclusion or\nRestriction\n(Facilities Not\nServing an HSP)\nRemoving Symptomatic Food Employees from Exclusion\nor Restriction\nRA Approval\nNeeded to\nReturn to\nWork?\nVomiting EXCLUDE\n2-201.12(A)(1)\nEXCLUDE\n2-201.12(A)(1)\nWhen the excluded food employee has been asymptomatic for\nat least 24 hours or provides medical documentation 2-\n201.13(A)(1).\nExceptions: If diagnosed with norovirus, Shigella spp., STEC,\nHAV, or typhoid fever (S. Typhi) (see Tables 1b & 2).\nNo if not\ndiagnosed\nDiarrhea EXCLUDE\n2-201.12(A)(1)\nEXCLUDE\n2-201.12(A)(1)\nWhen the excluded food employee has been asymptomatic for\nat least 24 hours or provides medical documentation 2-\n201.13(A).\nExceptions: If Diagnosed with norovirus, STEC, HAV, or S.\nTyphi (see Tables 1b & 2).\nNo if not\ndiagnosed\nJaundice EXCLUDE\n2-201.12(B)(1) if\nthe onset occurred\nwithin the last 7\ndays\nEXCLUDE\n2-201.12(B)(1) if\nthe onset occurred\nwithin the last 7\ndays\nWhen approval is obtained from the RA 2-201.13 (B), and:"
+          },
+          {
+            "chunk_id": "food-code-2026:p618:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 618,
+            "distance": 0.2332,
+            "text": "record of this inquiry?\n• What are food employees instructed to do when they are sick?\n• What conditions or symptoms are reported?\n• What may some indicators be of someone who is working while ill?\n• When are employees restricted from working with exposed food or food-contact\nsurfaces? When are they excluded from working in the food establishment?\n• For employees that are sick and cannot come to work, what policy is in place for\nallowing them to return and for notifying the regulatory authority?\nSpecial attention should be given to the potential for hands as a vehicle of\ncontamination. Ensuring that hands are washed using the proper procedure and at the\nappropriate times must be a top priority during every inspection. Data show that viruses\ncan be tenacious even in the presence of good handwashing. Inspectors should"
+          },
+          {
+            "chunk_id": "food-code-2026:p72:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 72,
+            "distance": 0.2369,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n44\n*CONDITIONAL EMPLOYEES, the *PERSON-IN-CHARGE, and required reporting to\nthe *REGULATORY AUTHORITY:\n(1) Illness symptoms of diarrhea, vomiting, sore throat with fever, jaundice or\ninfected wounds or cuts; Pf\n(2) Illness disease diagnosis due to norovirus, hepatitis A virus, Shigella spp.,\nTyphoid fever, non-typhoidal Salmonella, or *SHIGA TOXIN-PRODUCING\nESCHERICHIA COLI; Pf and\n(3) Illness *EXCLUSION and/or *RESTRICTION and reinstatement after illness\nsymptom or disease resolution. Pf\n2-502 Contamination Event Response Procedures\n2-502.11 Clean-up of Vomiting and Diarrheal Events\nA *FOOD ESTABLISHMENT shall have written procedures for *EMPLOYEES to follow\nwhen responding to vomiting or diarrheal events that involve the discharge of\nvomitus or fecal matter onto surfaces in the *FOOD ESTABLISHMENT. The\nprocedures shall address the specific actions *EMPLOYEES must take to minimize\nthe spread of contamination and the exposure of *EMPLOYEES, *CONSUMERS,\n*FOOD and surfaces to vomitus or fecal matter. Pf"
+          },
+          {
+            "chunk_id": "food-code-2026:p59:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 59,
+            "distance": 0.2417,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n31\n(2) Comply with a *RESTRICTION as specified under Subparagraphs 2-\n201.12(D)(2), (E)(2), (F)(2), (G), (H)(2), or ¶¶ 2-201.12 (H), (I), or (J) and\ncomply with the provisions specified under ¶¶ 2-201.13(D)-(J). P\nConditions of exclusion and restriction\n2-201.12 Exclusions and Restrictions.\nThe *PERSON IN CHARGE shall *EXCLUDE or *RESTRICT a *FOOD EMPLOYEE from a\n*FOOD ESTABLISHMENT in accordance with the following:\nSymptomatic with vomiting or diarrhea\n(A) Except when the symptom is from a noninfectious condition, *EXCLUDE a\n*FOOD EMPLOYEE if the *FOOD EMPLOYEE is:\n(1) Symptomatic with vomiting or diarrhea; P or\n(2) Symptomatic with vomiting or diarrhea and diagnosed with an infection\nfrom norovirus, Shigella spp., Salmonella (non-typhoidal) , or *SHIGA TOXIN-\nPRODUCING *ESCHERICHIA COLI. P\nJaundiced or diagnosed with hepatitis A infection\n(B) *EXCLUDE a *FOOD EMPLOYEE who is:\n(1) Jaundiced and the onset of jaundice occurred within the last seven\ncalendar days, unless the *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER"
+          },
+          {
+            "chunk_id": "food-code-2026:p58:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 58,
+            "distance": 0.2572,
+            "text": "history of exposure as\nspecified under Subparagraphs (A)(4) – (5), is prohibited from becoming a\n*FOOD EMPLOYEE until the *CONDITIONAL EMPLOYEE meets the criteria as\nspecified under ¶ 2-201.13(J). P\nResponsibility of the person in charge to exclude or restrict\n(D) The *PERSON IN CHARGE shall ensure that a *FOOD EMPLOYEE who exhibits or\nreports a symptom, or who reports a diagnosed illness or a history of\nexposure as specified under Subparagraphs (A)(1) - (5) of this section is:\n(1) *EXCLUDED as specified under ¶¶ 2-201.12 (A)-(C), and Subparagraphs\n(D)(1), (E)(1), (F)(1), or (H)(1) and in compliance with the provisions\nspecified under ¶¶ 2-201.13(A) - (H); P or\n(2) *RESTRICTED as specified under Subparagraphs 2-201.12 (D)(2), (E)(2),\n(F)(2), (G), (H)(2), or ¶¶ 2-201.12(I) or (J) and in compliance with the\nprovisions specified under ¶¶ 2-201.13(D) - (J). P\nResponsibility of food employees and conditional employees to report\n(E) A *FOOD EMPLOYEE or *CONDITIONAL EMPLOYEE shall report to the *PERSON IN\nCHARGE the information as specified under ¶ (A) of this section. Pf\nResponsibility of food employees to comply\n(F) A *FOOD EMPLOYEE shall:"
+          },
+          {
+            "chunk_id": "food-code-2026:p385:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 385,
+            "distance": 0.264,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n305\n2-201.11/2-201.12 Decision Tree #1. When to Exclude or Restrict a Food\nEmployee Who Reports a Symptom and When to Exclude a Food\nEmployee Who Reports a Diagnosis with Symptoms Under the\nFood Code.\nIs the FOOD EMPLOYEE reported listed Symptoms?\nYes\nSymptoms of Sore\nThroat and Fever\nSymptoms of:\n• Vomiting\n• Diarrhea; or\n• Jaundice\nSymptoms of Infected\nwound or cut\nEXCLUDE per\nTable 1a.\nHSP Gen. Pop.(Non-HSP)\nRESTRICT per\nTable 1a.\nIf the FOOD EMPLOYEE is reporting:\n• Diagnosis with Shigellosis,Norovirus,or STEC; and\n• Symptoms of vomiting or diarrhea\nEXCL UDE per\nTable 1b.\nIs the FOOD EMPLOYEE is reporting a diagnosis with Hepattis A virus, NTS, or typhoid fever:\nEXCL UDE per\nTable 1b.\n\nKey: HSP = highly susceptible population, NTS = non-typhoidal Salmonella, STEC = Shiga toxin-\nproducing Escherichia coli."
+          },
+          {
+            "chunk_id": "food-code-2026:p61:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 61,
+            "distance": 0.2647,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n33\nManaging exclusions and restrictions\n2-201.13 Removal, Adjustment, or Retention of Exclusions and Restrictions\nThe *PERSON IN CHARGE shall adhere to the following conditions when removing,\nadjusting, or retaining the *EXCLUSION or *RESTRICTION of a *FOOD EMPLOYEE:\n(A) Except when a *FOOD EMPLOYEE is diagnosed with typhoid fever or an\ninfection from hepatitis A virus:\nRemoving exclusion for food employee who was symptomatic and not diagnosed\n(1) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraph 2-201.12(A)(1) if the *FOOD EMPLOYEE:\n(a) Is *ASYMPTOMATIC for at least 24 hours; P or\n(b) Provides to the *PERSON IN CHARGE written medical documentation from\na *HEALTH PRACTITIONER that states the symptom is from a\nnoninfectious condition. P\nNorovirus diagnosis\n(2) If a *FOOD EMPLOYEE was diagnosed with an infection from norovirus and\n*EXCLUDED as specified under Subparagraph 2-201.12(A)(2):\nAdjusting exclusion for food employee who was symptomatic and is now\nasymptomatic\n(a) **RESTRICT the *FOOD EMPLOYEE, who is *ASYMPTOMATIC for at least 24\nhours and *WORKS in a *FOOD ESTABLISHMENT not serving a *HIGHLY"
+          },
+          {
+            "chunk_id": "food-code-2026:p419:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 419,
+            "distance": 0.2653,
+            "text": "symptomatic employees in food\npreparation areas. As an HSP, stricter employee exclusion and restriction standards\napply to these facilities. A symptomatic employee who might be allowed to work in a\nrestricted capacity at a general food establishment must be excluded entirely from a\nHSP facility. Employee illness policies must reflect these heightened standards\nexplicitly. Employee illness policies in these food establishments also may need to\ninterface with infection control and occupational health programs.\n2-502 Contamination Event Response Procedures.\nThis new subpart is devoted to control procedures for containing and cleaning-up after a\ncontamination event in the food establishment.\n2-502.11 Clean-up of Vomiting and Diarrheal Events.\nWhen an employee, customer, or other individual vomits or has a diarrheal event in a\nfood establishment, there is a real potential for the spread of harmful pathogens in the\nestablishment. Putting the proper response into action in a timely manner can help\nreduce the likelihood that food may become contaminated and that others may become\nill as a result of the accident."
+          }
+        ],
+        "steps_remaining": 4
+      }
+    },
+    {
+      "step": 7,
+      "model": {
+        "content": null,
+        "reasoning": "I have enough. Let me also check the norovirus Annex 3 (p374) for shedding persistence — the passage was cut off: \"may persist for three...\" Let me search for that specific text to complete the claim about shedding duration. Also the requirement to report to RA — for symptom-only, no RA approval needed to return (Table 1a: \"No if not diagnosed\").\n\nLet me do one more search on norovirus shedding duration in Food Code Annex 3 to strengthen the \"why concern\" claim.",
+        "tool_calls": [
+          {
+            "id": "call_bbbe0d4d",
+            "name": "search_documents",
+            "arguments": {
+              "k": 5,
+              "contains": "peaks four days after exposure",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "peaks four days after exposure",
+          "sources": [
+            "food-code-2026"
+          ],
+          "contains": "peaks four days after exposure",
+          "k": 5
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 2,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p374:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 374,
+            "distance": 0.4156,
+            "text": "may be sufficient to infect an individual. Although\npre-symptomatic shedding may occur, shedding usually begins with onset\nof symptoms, peaks four days after exposure, and may persist for three\nweeks after recovery. However, the degree of infectivity of prolonged\nshedding has not been determined and peak contagiousness is during the\nacute stage of disease. Peak viral loads in both symptomatic and\nasymptomatic infections (may be as high as 100 billion viral particles/g\nfeces).\n2) Non-typhoidal Salmonella\nCaused by serotypes other than S. Typhi and S. Paratyphi A.\nUnlike previous editions of the FDA Food Code, the 2013 edition requires\nfood employees to report a diagnosis of non-typhoidal Salmonella (NTS),\nprompts the person in charge to exclude food employees with diagnosis of\nNTS, and provides conditions for reinstatement of a food employee who\nprovides to the person in charge written medical documentation from a\nhealth practitioner that states the food employee is free from NTS, and\nwhere appropriate, approval from the regulatory authority.\nNon-typhoidal Salmonella (NTS) enterica serotypes are among the most\ncommon bacterial cause of foodborne illness. NTS are estimated to cause"
+          },
+          {
+            "chunk_id": "food-code-2026:p374:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 374,
+            "distance": 0.5103,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n294\nAcute-onset of vomiting, watery non-bloody diarrhea, abdominal cramps,\nand nausea, or a combination of these symptoms. Low grade fever and\nbody aches may also be associated. Symptoms typically last 24 to 72\nhours. Norovirus disease is usually self-limited without any serious long-\nterm sequelae. Among the young and the elderly, dehydration is a\ncommon complication. Volunteer studies have found that as many as 30%\nof individuals infected with norovirus are asymptomatic. There is no\nspecific treatment for norovirus disease. Supportive therapy consists of\noral or intravenous rehydration solutions to replace fluid loss and\nelectrolytes. Previous exposure does not provide long-term immunity;\nthus, individuals may be repeatedly infected throughout their lifetimes.\nInfectivity:\nNoroviruses are highly contagious, and it is thought that an inoculum of as\nfew as 18 viral particles may be sufficient to infect an individual. Although\npre-symptomatic shedding may occur, shedding usually begins with onset\nof symptoms, peaks four days after exposure, and may persist for three"
+          }
+        ],
+        "steps_remaining": 3
+      }
+    },
+    {
+      "step": 8,
+      "model": {
+        "content": null,
+        "reasoning": "I have enough. Let me compose the final answer.\n\nKey claims:\n1. Nursing home = highly susceptible population (definition, Chapter 1).\n2. Vomiting is a reportable symptom under 2-201.11(A)(1)(a); employee must report to PIC.\n3. PIC must exclude under 2-201.12(A)(1) — symptomatic with vomiting, except when symptom is from a noninfectious condition; Table 1a: EXCLUDE in both HSP and non-HSP facilities.\n4. RA approval not needed to return if not diagnosed (Table 1a).\n5. Earliest return: 2-201.13(A)(1) — asymptomatic for at least 24 hours, or written medical documentation from a health practitioner that the symptom is from a noninfectious condition. Since scenario says no noninfectious condition known, the 24-hour asymptomatic route applies.\n6. If later diagnosed with norovirus, stricter rules apply: 2-201.12(A)(2) exclusion; in HSP facility remains excluded until RA approval plus medical clearance or >48 hours asymptomatic (2-201.13(D)(1)/(2)); Table 1b.\n7. Written procedures for cleaning up vomiting events 2-502.11.\n8. Bad Bug Book: norovirus — RTE foods contaminated by food workers, fecal-oral route (or vomit), low infective dose 1-10 particles, high shedding 10^12/g, salads most often implicated, person-to-person spread in nursing homes, silent shedders 30%, onset 24-48 h, alcohol gels ineffective, virus continues to pass after symptoms resolve.\n9. Food Code Annex 3: shedding begins with symptom onset, peaks 4 days after exposure, may persist 3 weeks after recovery; peak contagiousness during acute stage; as few as 18 viral particles.\n10. Note: Food Code is model code, binding only where adopted; Bad Bug Book is reference (2012).\n\nAlso note: exclusion is from the food establishment; the salads prepared while symptomatic are a concern — but I should be careful. Also 2-201.12(A) \"Except when the symptom is from a noninfectious condition\" — scenario says no known noninfectious condition, so exclusion applies.\n\nLet me write ~10 claims.",
+        "tool_calls": [
+          {
+            "id": "call_b5507471",
+            "name": "final_answer",
+            "arguments": {
+              "claims": [
+                {
+                  "text": "A nursing home is a facility serving a \"highly susceptible population\" (HSP) under the Food Code definition, because it provides custodial care/health care/assisted living to persons more likely than the general population to experience foodborne disease, such as older adults or immunocompromised persons.",
+                  "citations": [
+                    "food-code-2026:p38:c0",
+                    "food-code-2026:p667:c1"
+                  ]
+                },
+                {
+                  "text": "Vomiting is a reportable symptom: a food employee who has vomiting must report the information to the person in charge in a manner that allows the person in charge to reduce the risk of foodborne disease transmission, including the date of onset of symptoms (FDA Food Code 2026 § 2-201.11(A)(1)(a)).",
+                  "citations": [
+                    "food-code-2026:p56:c1"
+                  ]
+                },
+                {
+                  "text": "Required disposition: because the symptom is not attributed to a noninfectious condition, the person in charge must EXCLUDE the food employee under § 2-201.12(A)(1) (\"Except when the symptom is from a noninfectious condition, EXCLUDE a FOOD EMPLOYEE if the FOOD EMPLOYEE is: (1) Symptomatic with vomiting or diarrhea\").",
+                  "citations": [
+                    "food-code-2026:p59:c0",
+                    "food-code-2026:p58:c1"
+                  ]
+                },
+                {
+                  "text": "The exclusion is required in both HSP and non-HSP facilities: Annex 3 Table 1a lists vomiting as \"EXCLUDE 2-201.12(A)(1)\" for facilities serving an HSP and the same for facilities not serving an HSP; the Annex 3 decision tree likewise directs EXCLUDE per Table 1a for a symptomatic employee in an HSP setting.",
+                  "citations": [
+                    "food-code-2026:p388:c0",
+                    "food-code-2026:p385:c0"
+                  ]
+                },
+                {
+                  "text": "Because the employee has no diagnosis, regulatory authority (RA) approval is not required for return: Table 1a states for vomiting \"No if not diagnosed\" under \"RA Approval Needed to Return to Work?\"",
+                  "citations": [
+                    "food-code-2026:p388:c0"
+                  ]
+                },
+                {
+                  "text": "Earliest conditions for return (symptomatic, not diagnosed): under § 2-201.13(A)(1) the person in charge may reinstate an employee excluded under 2-201.12(A)(1) only if the employee (a) is asymptomatic for at least 24 hours, or (b) provides written medical documentation from a health practitioner stating the symptom is from a noninfectious condition. Since the scenario supplies no noninfectious diagnosis, the 24-hour asymptomatic pathway is the operative one.",
+                  "citations": [
+                    "food-code-2026:p61:c0",
+                    "food-code-2026:p388:c0"
+                  ]
+                },
+                {
+                  "text": "If norovirus were subsequently diagnosed, the disposition becomes stricter: exclusion under § 2-201.12(A)(2) (vomiting/diarrhea plus norovirus diagnosis), and in a facility serving an HSP the employee \"remains excluded\" until RA approval under 2-201.13(D) is obtained AND the employee is medically cleared as free of norovirus infection (2-201.13(D)(1)) or more than 48 hours have passed since becoming asymptomatic (2-201.13(D)(2)) — the 24-hour rule alone would not suffice in this nursing home.",
+                  "citations": [
+                    "food-code-2026:p391:c1",
+                    "food-code-2026:p63:c1",
+                    "food-code-2026:p59:c0"
+                  ]
+                },
+                {
+                  "text": "The establishment must also respond to the event itself: § 2-502.11 requires written procedures for employees responding to vomiting or diarrheal events involving discharge of vomitus onto surfaces, addressing actions to minimize spread of contamination and exposure of employees, consumers, food and surfaces; the Code's rationale notes a real potential for spread of harmful pathogens when an employee vomits in the establishment.",
+                  "citations": [
+                    "food-code-2026:p72:c0",
+                    "food-code-2026:p419:c1",
+                    "food-code-2026:p684:c2"
+                  ]
+                },
+                {
+                  "text": "Why norovirus transmission is a concern (Bad Bug Book, 2012 reference information, not a regulation): foodborne norovirus illnesses are epidemiologically linked to ready-to-eat foods contaminated by food workers, transmission occurs through the fecal-oral route (or vomit, on occasion) and is often associated with improper sanitation controls; salad ingredients and fruit are among the foods most often implicated, and \"any ready-to-eat food that is handled by ill food workers may be contaminated.\"",
+                  "citations": [
+                    "bad-bug-book:p170:c0",
+                    "bad-bug-book:p170:c1",
+                    "bad-bug-book:p168:c2"
+                  ]
+                },
+                {
+                  "text": "Norovirus is highly efficient at spreading: the infective dose is estimated as low as 1 to 10 viral particles, particles are excreted at levels as high as 1 x 10^12 per gram of feces by both symptomatic and asymptomatic people, onset is usually 24 to 48 hours after exposure (as early as 12 hours), explosive/projectile vomiting is often the first sign, and about 30% of infected people are asymptomatic \"silent shedders\" still excreting high virus levels.",
+                  "citations": [
+                    "bad-bug-book:p169:c0",
+                    "bad-bug-book:p169:c2"
+                  ]
+                },
+                {
+                  "text": "The nursing home setting amplifies the risk: the Bad Bug Book states norovirus spreads easily from person to person in crowded living situations including nursing homes, rapid spread of secondary infection is particularly evident in institutions such as nursing homes and hospitals, severity is higher in elderly and immunocompromised persons, alcohol-based hand gels do not protect against norovirus, and the virus may continue to pass in bowel movements even after symptoms resolve.",
+                  "citations": [
+                    "bad-bug-book:p168:c3",
+                    "bad-bug-book:p170:c2",
+                    "bad-bug-book:p169:c2"
+                  ]
+                },
+                {
+                  "text": "The Food Code's own Annex 3 rationale is consistent: noroviruses are highly contagious with an inoculum of as few as 18 viral particles possibly sufficient to infect, shedding usually begins with onset of symptoms, peaks four days after exposure, and may persist for three weeks after recovery, with peak contagiousness during the acute stage — which is why symptom-based exclusion, not diagnosis, is the trigger, and why restrictions are especially stringent for employees serving highly susceptible populations.",
+                  "citations": [
+                    "food-code-2026:p374:c0",
+                    "food-code-2026:p374:c1",
+                    "food-code-2026:p403:c0"
+                  ]
+                },
+                {
+                  "text": "Authority caveat: the FDA Food Code 2026 is a model code whose provisions (e.g., 2-201.11, 2-201.12, 2-201.13, 2-502.11) are legally binding only where adopted by a jurisdiction; the Bad Bug Book (2012) is pathogen reference information, not a regulation.",
+                  "citations": [
+                    "food-code-2026:p59:c0",
+                    "bad-bug-book:p170:c0"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "final_answer",
+        "arguments": {
+          "claims": [
+            {
+              "text": "A nursing home is a facility serving a \"highly susceptible population\" (HSP) under the Food Code definition, because it provides custodial care/health care/assisted living to persons more likely than the general population to experience foodborne disease, such as older adults or immunocompromised persons.",
+              "citations": [
+                "food-code-2026:p38:c0",
+                "food-code-2026:p667:c1"
+              ]
+            },
+            {
+              "text": "Vomiting is a reportable symptom: a food employee who has vomiting must report the information to the person in charge in a manner that allows the person in charge to reduce the risk of foodborne disease transmission, including the date of onset of symptoms (FDA Food Code 2026 § 2-201.11(A)(1)(a)).",
+              "citations": [
+                "food-code-2026:p56:c1"
+              ]
+            },
+            {
+              "text": "Required disposition: because the symptom is not attributed to a noninfectious condition, the person in charge must EXCLUDE the food employee under § 2-201.12(A)(1) (\"Except when the symptom is from a noninfectious condition, EXCLUDE a FOOD EMPLOYEE if the FOOD EMPLOYEE is: (1) Symptomatic with vomiting or diarrhea\").",
+              "citations": [
+                "food-code-2026:p59:c0",
+                "food-code-2026:p58:c1"
+              ]
+            },
+            {
+              "text": "The exclusion is required in both HSP and non-HSP facilities: Annex 3 Table 1a lists vomiting as \"EXCLUDE 2-201.12(A)(1)\" for facilities serving an HSP and the same for facilities not serving an HSP; the Annex 3 decision tree likewise directs EXCLUDE per Table 1a for a symptomatic employee in an HSP setting.",
+              "citations": [
+                "food-code-2026:p388:c0",
+                "food-code-2026:p385:c0"
+              ]
+            },
+            {
+              "text": "Because the employee has no diagnosis, regulatory authority (RA) approval is not required for return: Table 1a states for vomiting \"No if not diagnosed\" under \"RA Approval Needed to Return to Work?\"",
+              "citations": [
+                "food-code-2026:p388:c0"
+              ]
+            },
+            {
+              "text": "Earliest conditions for return (symptomatic, not diagnosed): under § 2-201.13(A)(1) the person in charge may reinstate an employee excluded under 2-201.12(A)(1) only if the employee (a) is asymptomatic for at least 24 hours, or (b) provides written medical documentation from a health practitioner stating the symptom is from a noninfectious condition. Since the scenario supplies no noninfectious diagnosis, the 24-hour asymptomatic pathway is the operative one.",
+              "citations": [
+                "food-code-2026:p61:c0",
+                "food-code-2026:p388:c0"
+              ]
+            },
+            {
+              "text": "If norovirus were subsequently diagnosed, the disposition becomes stricter: exclusion under § 2-201.12(A)(2) (vomiting/diarrhea plus norovirus diagnosis), and in a facility serving an HSP the employee \"remains excluded\" until RA approval under 2-201.13(D) is obtained AND the employee is medically cleared as free of norovirus infection (2-201.13(D)(1)) or more than 48 hours have passed since becoming asymptomatic (2-201.13(D)(2)) — the 24-hour rule alone would not suffice in this nursing home.",
+              "citations": [
+                "food-code-2026:p391:c1",
+                "food-code-2026:p63:c1",
+                "food-code-2026:p59:c0"
+              ]
+            },
+            {
+              "text": "The establishment must also respond to the event itself: § 2-502.11 requires written procedures for employees responding to vomiting or diarrheal events involving discharge of vomitus onto surfaces, addressing actions to minimize spread of contamination and exposure of employees, consumers, food and surfaces; the Code's rationale notes a real potential for spread of harmful pathogens when an employee vomits in the establishment.",
+              "citations": [
+                "food-code-2026:p72:c0",
+                "food-code-2026:p419:c1",
+                "food-code-2026:p684:c2"
+              ]
+            },
+            {
+              "text": "Why norovirus transmission is a concern (Bad Bug Book, 2012 reference information, not a regulation): foodborne norovirus illnesses are epidemiologically linked to ready-to-eat foods contaminated by food workers, transmission occurs through the fecal-oral route (or vomit, on occasion) and is often associated with improper sanitation controls; salad ingredients and fruit are among the foods most often implicated, and \"any ready-to-eat food that is handled by ill food workers may be contaminated.\"",
+              "citations": [
+                "bad-bug-book:p170:c0",
+                "bad-bug-book:p170:c1",
+                "bad-bug-book:p168:c2"
+              ]
+            },
+            {
+              "text": "Norovirus is highly efficient at spreading: the infective dose is estimated as low as 1 to 10 viral particles, particles are excreted at levels as high as 1 x 10^12 per gram of feces by both symptomatic and asymptomatic people, onset is usually 24 to 48 hours after exposure (as early as 12 hours), explosive/projectile vomiting is often the first sign, and about 30% of infected people are asymptomatic \"silent shedders\" still excreting high virus levels.",
+              "citations": [
+                "bad-bug-book:p169:c0",
+                "bad-bug-book:p169:c2"
+              ]
+            },
+            {
+              "text": "The nursing home setting amplifies the risk: the Bad Bug Book states norovirus spreads easily from person to person in crowded living situations including nursing homes, rapid spread of secondary infection is particularly evident in institutions such as nursing homes and hospitals, severity is higher in elderly and immunocompromised persons, alcohol-based hand gels do not protect against norovirus, and the virus may continue to pass in bowel movements even after symptoms resolve.",
+              "citations": [
+                "bad-bug-book:p168:c3",
+                "bad-bug-book:p170:c2",
+                "bad-bug-book:p169:c2"
+              ]
+            },
+            {
+              "text": "The Food Code's own Annex 3 rationale is consistent: noroviruses are highly contagious with an inoculum of as few as 18 viral particles possibly sufficient to infect, shedding usually begins with onset of symptoms, peaks four days after exposure, and may persist for three weeks after recovery, with peak contagiousness during the acute stage — which is why symptom-based exclusion, not diagnosis, is the trigger, and why restrictions are especially stringent for employees serving highly susceptible populations.",
+              "citations": [
+                "food-code-2026:p374:c0",
+                "food-code-2026:p374:c1",
+                "food-code-2026:p403:c0"
+              ]
+            },
+            {
+              "text": "Authority caveat: the FDA Food Code 2026 is a model code whose provisions (e.g., 2-201.11, 2-201.12, 2-201.13, 2-502.11) are legally binding only where adopted by a jurisdiction; the Bad Bug Book (2012) is pathogen reference information, not a regulation.",
+              "citations": [
+                "food-code-2026:p59:c0",
+                "bad-bug-book:p170:c0"
+              ]
+            }
+          ]
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "accepted",
+        "terminal_reason": "answer"
+      }
+    }
+  ]
+}

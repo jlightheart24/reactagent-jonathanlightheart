@@ -1,0 +1,798 @@
+{
+  "query_id": "Q3",
+  "title": "Norovirus Reference Information",
+  "expected": "answer",
+  "question": "According to the *Bad Bug Book*, what is the estimated infective dose of norovirus, when do symptoms usually begin, what are the characteristic symptoms, and how can food workers contaminate ready-to-eat food?",
+  "terminal_reason": "answer",
+  "steps_used": 6,
+  "max_steps": 10,
+  "final_result": "- Infective dose: the Bad Bug Book (2012 FDA pathogen reference, not a regulation) states the norovirus infective dose is very low, estimated to be as low as 1 to 10 viral particles, while viral particles are excreted at high levels by both symptomatic and asymptomatic people (as high as 1 x 10^12 viral particles per gram of feces). [bad-bug-book:p169:c0]\n- Onset: a mild, brief illness usually develops between 24 and 48 hours after consuming contaminated food or water (median in outbreaks 33 to 36 hours), with onset times within 12 hours of exposure reported; the consumer snapshot likewise says symptoms usually start within 1 or 2 days but may start in as few as 12 hours. [bad-bug-book:p169:c0; bad-bug-book:p168:c2]\n- Characteristic symptoms: acute-onset vomiting (often explosive), watery non-bloody diarrhea with abdominal cramps, and nausea; explosive, projectile vomiting is usually the first sign of illness and is often used to characterize the illness, and headache, low-grade fever, chills, and muscle aches may also occur. [bad-bug-book:p169:c1]\n- Course of illness: symptoms generally persist for 12 to 60 hours (mean 24 to 48 hours), with most people feeling better within 1 to 2 days; dehydration is the most common complication, especially among the very young, the elderly, and those with underlying medical conditions. [bad-bug-book:p169:c2]\n- Food-worker contamination of ready-to-eat food: foodborne norovirus illnesses are epidemiologically linked to consumption of ready-to-eat (RTE) foods contaminated by food workers (along with environmental contamination of produce and contaminated molluscan shellfish), with transmission occurring through the fecal-oral route (or vomit on occasion) and often associated with improper sanitation controls or their application. [bad-bug-book:p170:c0; bad-bug-book:p170:c1]\n- Any ready-to-eat food handled by ill food workers may be contaminated; salad ingredients, fruit, and oysters are the foods most often implicated, and nearly 29% of all norovirus foodborne outbreaks from 1997-2004 were attributed to food purchased or served at a restaurant or delicatessen. [bad-bug-book:p170:c1]\n- Contamination can occur without visible illness: about 30% of infected people show no gastrointestinal illness or symptoms yet still excrete high levels of virus in stool (\"silent shedders\"), and the virus may continue to pass in bowel movements even after symptoms resolve; alcohol-based antibacterial hand gels do not protect against norovirus, so handwashing is especially important. [bad-bug-book:p169:c2; bad-bug-book:p168:c3]",
+  "claims": [
+    {
+      "text": "Infective dose: the Bad Bug Book (2012 FDA pathogen reference, not a regulation) states the norovirus infective dose is very low, estimated to be as low as 1 to 10 viral particles, while viral particles are excreted at high levels by both symptomatic and asymptomatic people (as high as 1 x 10^12 viral particles per gram of feces).",
+      "citations": [
+        "bad-bug-book:p169:c0"
+      ]
+    },
+    {
+      "text": "Onset: a mild, brief illness usually develops between 24 and 48 hours after consuming contaminated food or water (median in outbreaks 33 to 36 hours), with onset times within 12 hours of exposure reported; the consumer snapshot likewise says symptoms usually start within 1 or 2 days but may start in as few as 12 hours.",
+      "citations": [
+        "bad-bug-book:p169:c0",
+        "bad-bug-book:p168:c2"
+      ]
+    },
+    {
+      "text": "Characteristic symptoms: acute-onset vomiting (often explosive), watery non-bloody diarrhea with abdominal cramps, and nausea; explosive, projectile vomiting is usually the first sign of illness and is often used to characterize the illness, and headache, low-grade fever, chills, and muscle aches may also occur.",
+      "citations": [
+        "bad-bug-book:p169:c1"
+      ]
+    },
+    {
+      "text": "Course of illness: symptoms generally persist for 12 to 60 hours (mean 24 to 48 hours), with most people feeling better within 1 to 2 days; dehydration is the most common complication, especially among the very young, the elderly, and those with underlying medical conditions.",
+      "citations": [
+        "bad-bug-book:p169:c2"
+      ]
+    },
+    {
+      "text": "Food-worker contamination of ready-to-eat food: foodborne norovirus illnesses are epidemiologically linked to consumption of ready-to-eat (RTE) foods contaminated by food workers (along with environmental contamination of produce and contaminated molluscan shellfish), with transmission occurring through the fecal-oral route (or vomit on occasion) and often associated with improper sanitation controls or their application.",
+      "citations": [
+        "bad-bug-book:p170:c0",
+        "bad-bug-book:p170:c1"
+      ]
+    },
+    {
+      "text": "Any ready-to-eat food handled by ill food workers may be contaminated; salad ingredients, fruit, and oysters are the foods most often implicated, and nearly 29% of all norovirus foodborne outbreaks from 1997-2004 were attributed to food purchased or served at a restaurant or delicatessen.",
+      "citations": [
+        "bad-bug-book:p170:c1"
+      ]
+    },
+    {
+      "text": "Contamination can occur without visible illness: about 30% of infected people show no gastrointestinal illness or symptoms yet still excrete high levels of virus in stool (\"silent shedders\"), and the virus may continue to pass in bowel movements even after symptoms resolve; alcohol-based antibacterial hand gels do not protect against norovirus, so handwashing is especially important.",
+      "citations": [
+        "bad-bug-book:p169:c2",
+        "bad-bug-book:p168:c3"
+      ]
+    }
+  ],
+  "insufficient_reason": null,
+  "error": null,
+  "citations": [
+    {
+      "chunk_id": "bad-bug-book:p169:c0",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 169
+    },
+    {
+      "chunk_id": "bad-bug-book:p168:c2",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 168
+    },
+    {
+      "chunk_id": "bad-bug-book:p169:c1",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 169
+    },
+    {
+      "chunk_id": "bad-bug-book:p169:c2",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 169
+    },
+    {
+      "chunk_id": "bad-bug-book:p170:c0",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 170
+    },
+    {
+      "chunk_id": "bad-bug-book:p170:c1",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 170
+    },
+    {
+      "chunk_id": "bad-bug-book:p168:c3",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 168
+    }
+  ],
+  "warnings": [
+    "claim 'Infective dose: the Bad Bug Book (2012 FDA pathogen referenc' has numbers not found in its cited passages: 2012"
+  ],
+  "retrieved_chunk_ids": [
+    "bad-bug-book:p169:c0",
+    "bad-bug-book:p170:c0",
+    "bad-bug-book:p185:c2",
+    "bad-bug-book:p170:c1",
+    "bad-bug-book:p168:c2",
+    "bad-bug-book:p170:c2",
+    "bad-bug-book:p168:c1",
+    "bad-bug-book:p182:c2",
+    "bad-bug-book:p168:c3",
+    "bad-bug-book:p169:c2",
+    "bad-bug-book:p3:c1",
+    "bad-bug-book:p38:c3",
+    "bad-bug-book:p113:c3",
+    "bad-bug-book:p72:c3",
+    "bad-bug-book:p289:c1",
+    "bad-bug-book:p172:c0",
+    "bad-bug-book:p169:c1"
+  ],
+  "model": "Qwen3.8-Flash-Next",
+  "config": {
+    "embedding_model": "Qwen3-Embedding-8B",
+    "llm_model": "Qwen3.8-Flash-Next",
+    "collection": "food_safety_corpus",
+    "chunk_size_chars": 1200,
+    "chunk_overlap_chars": 200,
+    "retrieval_top_k": 5,
+    "max_steps": 10,
+    "temperature": 0.0,
+    "tool_choice": "auto",
+    "query_instruction": "Given a question about food safety, retrieve passages from food-safety documents that answer it",
+    "index_chunk_count": 3030,
+    "index_built_at": "2026-10-27T00:42:25+00:00"
+  },
+  "started_at": "2026-10-27T00:47:14+00:00",
+  "duration_s": 39.48,
+  "trace": [
+    {
+      "step": 1,
+      "model": {
+        "content": null,
+        "reasoning": "The user is asking about norovirus in the Bad Bug Book: infective dose, symptom onset, characteristic symptoms, and food worker contamination of ready-to-eat food. Let me search.",
+        "tool_calls": [
+          {
+            "id": "call_010b2caf",
+            "name": "search_documents",
+            "arguments": {
+              "query": "norovirus infective dose incubation period symptoms food workers contaminate ready-to-eat food",
+              "sources": [
+                "bad-bug-book"
+              ],
+              "k": 10
+            }
+          },
+          {
+            "id": "call_ed88f707",
+            "name": "search_documents",
+            "arguments": {
+              "query": "Norwalk-like virus small round structured virus dose 10-100 particles fecal-oral transmission",
+              "sources": [
+                "bad-bug-book"
+              ],
+              "k": 10
+            }
+          }
+        ]
+      },
+      "extra_tool_calls_rejected": 1,
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "norovirus infective dose incubation period symptoms food workers contaminate ready-to-eat food",
+          "sources": [
+            "bad-bug-book"
+          ],
+          "k": 10
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 10,
+        "results": [
+          {
+            "chunk_id": "bad-bug-book:p169:c0",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 169,
+            "distance": 0.3153,
+            "text": "single copy of a minor structural Protein (VP2). The 27-32 nm viral particles have a buoyant\ndensity of 1.39 to 1.40 g/ml in CsCl.\n2. Disease\nCommon names of the illness, which is the leading cause of foodborne illness in the United\nStates, are viral gastroenteritis, acute nonbacterial gastroenteritis, food poisoning, and winter\nvomiting disease.\n Mortality: Overall, these illne sses account for 26% of hospitalizations and 11% of\ndeaths associated with food consumption.\n Infective dose: The infective dose is very low; it is estimated to be as low as 1 to 10\nviral particles, and the particles are excreted at high levels by both symptomatic and\nasymptomatic people (as high as 1 x 1012 million viral particles/g feces).\n Onset: A mild, brief illness usually develops between 24 and 48 hours after contaminated\nfood or water is consumed (median in outbreaks: 33 to 36 hours), but onset times within\n12 hours of exposure have been reported.\n Illness / complications: Norovirus illness is self-limiting, but can be very debilitating as\na result of the high rate of vomiting. Recovery is usually complete and without evidence"
+          },
+          {
+            "chunk_id": "bad-bug-book:p170:c0",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 170,
+            "distance": 0.3237,
+            "text": " Route of entry: Foodborne norovirus illnesses have been epidemiologically linked into\nthree distinct classes: with cases associated with consumption of ready-to-eat (RTE)\nfoods contaminated by food workers; with environmental contamination of produce; or\nwith consumption of molluscan shellfish harvested from contaminated water. In each of\nthese classes, transmission occurs through the fecal-oral route (or vomit, on occasion),\nand is often associated with improper sanitation controls or their application. Secondary\ntransmission following foodborne illness is common, due to the high levels of virus that\nare excreted.\n Pathway: Norovirus infection causes gastroente ritis, an inflammation of the stomach\nand the small and large intestines. However, the precise pathogenic pathway of infection\nis unknown, which has hampered progress in propagating the virus in the laboratory.\n3. Frequency\nThe Centers for Disease Control and Prevention (CDC) estimates that noroviruses cause\n5.5 million illness annually in the U.S. (estimated range: 3.2 million to 8.3 million cases of\nfoodborne illness), which accounts for 58% of all foodborne illnesses. Of these illnesses,"
+          },
+          {
+            "chunk_id": "bad-bug-book:p185:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 185,
+            "distance": 0.3417,
+            "text": "A Snapshot\nOf the viruses that can ca use illness through\ncontaminated food, norovirus, hepatitis, and\nrotavirus cause the largest number of known\ncases. They’re covered in separate chapters of\nthis book. This chapter is about other viruses\nthat also cause foodborne illness, but not nearly\nas often. In general, the illnesses they cause\nstart within 10 to 70 hours after a person eats or\ndrinks contaminated food or fluid, are mild, last\nanywhere from 2 to 9 days, and go away by\nthemselves. Some common symptoms are\nnausea; vomiting; diarrhea; a sick,\nuncomfortable feeling; abdominal pain;\nheadache; and fever. Following basic food‐safety\ntips can help protect you from getting these\nviruses. Since they can also be spread from\nperson to person (for example, when infected\npeople have a bowel movement and don’t wash\ntheir hands well, so that anything they touch\nspreads the virus to other people and objects),\ngood handwashing is especially important."
+          },
+          {
+            "chunk_id": "bad-bug-book:p170:c1",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 170,
+            "distance": 0.3464,
+            "text": "cause\n5.5 million illness annually in the U.S. (estimated range: 3.2 million to 8.3 million cases of\nfoodborne illness), which accounts for 58% of all foodborne illnesses. Of these illnesses,\napproximately 0.03% (mean, 14,663; range, 8,097 to 23,323) require hospitalization, and less\nthan 0.1% of these illnesses results in death (mean,149; range, 84 to 237).\n4. Sources\nNoV outbreaks have been associated with consumption of contaminated water, including\nmunicipal water, well water, stream water, commercial ice, lake water, and swimming pool or\nrecreational surface-water exposure, as well as floodwater.\nSalad ingredients, fruit, and oysters are the foods most often implicated in norovirus outbreaks.\nHowever, any ready-to-eat food that is that is handled by ill food workers may be contaminated.\nNearly 29% of all NoV foodborne outbreaks from 1997-2004 could be attributed to food\npurchased or served at a restaurant or delicatessen. Molluscan shellfish, particularly oysters,\nhave been commonly identified in NoV-related gastroenteritis outbreaks, worldwide. However,\nthis represents a different etiology that does not necessarily involve a contaminated food\nworker."
+          },
+          {
+            "chunk_id": "bad-bug-book:p168:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.3498,
+            "text": "meats, and salads prepared or handled\nby an infected person. Oysters grown in contaminated\nwater are another example. Symptoms usually start\nwithin 1 or 2 days of eating the contaminated food, but\nmay start in as few as 12 hours. Vomiting that’s explosive\nand projectile – that shoots out – often is the first\nsymptom, along with watery diarrhea that isn’t bloody,\nand cramps. Headache, mild fever, and muscle aches also\nmay occur. Most people get better in a day or two,\nalthough it takes others a little longer. Occasionally,\nsome people lose so much body fluid that it throws off\nthe body’s balance of some important minerals (called\nelectrolytes) and fluid, which can cause serious health\nproblems. These people need to be treated by a health\nprofessional, and sometimes need to be hospitalized.\nAntibiotics don’t work against this or other viruses (they\nonly work against bacteria), but health professionals can\ngive the right fluids and minerals to put the body back in\nbalance. You can help protect yourself and others against\nnorovirus by following basic food‐safety tips. Because\nnorovirus also is spread from person to person, especially\nin crowded living situations – dormitories, nursing"
+          },
+          {
+            "chunk_id": "bad-bug-book:p170:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 170,
+            "distance": 0.3953,
+            "text": "been commonly identified in NoV-related gastroenteritis outbreaks, worldwide. However,\nthis represents a different etiology that does not necessarily involve a contaminated food\nworker.\nThe rapid spread of secondary infections is particularly evident in areas where a large\npopulation is enclosed within a static environment, such as in institutions, college campuses,\nschools, military operations, hotels, restaurants, recreational camps, hospitals, nursing homes,\nday-care facilities, and cruise ships, and after natural disasters, such as hurricanes and\nearthquakes.\n5. Diagnosis\nClinical diagnosis, without the results of diagnostic tests used to identify NoV-associated illness,\nincludes the following four criteria (Kaplan et al., 1982):\n vomiting in more than 50% of affected persons in an outbreak;\n a mean (or median) incubation period of 24 to 48 hours;\n a mean (or median) duration of illness of 12 to 60 hours;\n lack of identification of a bacterial pathogen in stool culture."
+          },
+          {
+            "chunk_id": "bad-bug-book:p168:c1",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.4074,
+            "text": "have been shown to infect\nother animals (primarily cattle, swine,\nand mice).\nNorovirus in genogroups GI and GII\nalone can be divided into at least 15\ngenetic clusters. A genetic cluster of NoV\nis defined as strains that have at least\n80% homology to a reference strain’s\namino acid sequence.\nNoroviruses constitute a genus of genetically diverse, single-s tranded RNA viruses belonging to\nthe family Caliciviridae. The NoV genome contains approximately 7.7 kilobases of genetic\nmaterial protected from the environment by a naked protein capsid (i.e., no lipid-containing\nenvelope). The icosahedral shaped capsid is composed of a major capsid protein (VP1) and a\nFor Consumers: A Snapshot\nIn the U.S., norovirus is the leading cause of illness from\ncontaminated food or water – but food isn’t the only way\npeople get this illness. It also spreads easily from person\nto person and spreads quickly in groups of people.\nExamples of foods that have caused norovirus illness are\nfruits, vegetables, meats, and salads prepared or handled\nby an infected person. Oysters grown in contaminated\nwater are another example. Symptoms usually start\nwithin 1 or 2 days of eating the contaminated food, but"
+          },
+          {
+            "chunk_id": "bad-bug-book:p182:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 182,
+            "distance": 0.4099,
+            "text": "worldwide, each year. Since 2006, a rotavirus\nvaccine has been given to children in the U.S., and\nrotavirus illness in this country has gone down.\nAlthough contaminated food can pass this virus to\npeople, the main way it gets into people is from\nthe hands into the mouth. For example, when an\ninfected person goes to the bathroom and doesn’t\nuse good handwashing afterwards, anything he or\nshe touches – such as a doorknob – can become\ncontaminated with the virus, and another person\ncan pick it up on his or her hands; then it can get\ninto the mouth through food or touching. When\nfood causes this illness, it’s likely to be food that\nwas handled by an infected person and then\nwasn’t cooked, such as salads and raw fruits and\nvegetables. Watery diarrhea starts in about 2 days,\nand other symptoms may include vomiting and\nfever higher than 101º F. Most people get better in\n3 days to a week. But the illness may be much\nmore serious in some people, especially very\nyoung children, premature babies, elderly people,\nand people with weak immune systems or who are\non certain medicines, such as some drugs used for\nrheumatoid arthritis. It’s especially important for"
+          },
+          {
+            "chunk_id": "bad-bug-book:p168:c3",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.4295,
+            "text": "yourself and others against\nnorovirus by following basic food‐safety tips. Because\nnorovirus also is spread from person to person, especially\nin crowded living situations – dormitories, nursing\nhomes, day‐care centers, prisons, and cruise ships are a\nfew examples – handwashing is especially important.\nNorovirus spreads easily to things people touch, and\nother people can pick up the virus that way. It takes very\nlittle norovirus to cause illness. Although alcohol‐based\nantibacterial hand gels work against many harmful\nbacteria, they don’t protect against norovirus. And the\nvirus may continue to pass in bowel movements even\nafter symptoms have gone away – another reason to\nmake handwashing a healthy habit."
+          },
+          {
+            "chunk_id": "bad-bug-book:p169:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 169,
+            "distance": 0.436,
+            "text": "Explosive, projectile\nvomiting usually is the first sign of illness and is often used to characterize the illness.\nHeadache, low-grade fever, chills, and muscle aches may also occur. The severity of\nsymptoms appears to be higher in hospitalized patients, immunocompromised people,\nand elderly people, compared with younger adults and other groups.\nStudies suggest that 30% of people infected with NoV display no gastrointestinal illness\nor associated symptoms, but still excrete high levels of virus in their stool. These distinct\ngroups of people are considered to be silent shedders of NoV.\n Duration: Symptoms generally persist for 12 to 60 hours, with a mean period of 24 to 48\nhours. Most people report feeling better within 1 to 2 days. However, for hospitalized\npatients, immunocompromised people, and the elderly, vomiting and diarrhea generally\nresolve within 72 to 96 hours, while the non-specific symptoms, such as headache, thirst,\nand vertigo, could persist up to 19 days."
+          }
+        ],
+        "steps_remaining": 9
+      }
+    },
+    {
+      "step": 2,
+      "model": {
+        "content": null,
+        "reasoning": "I have most of the info. Let me get more detail on food worker contamination of RTE food — e.g., \"contaminated by food workers\" via fecal-oral route, improper handwashing. Let me search for control/prevention section regarding food workers.",
+        "tool_calls": [
+          {
+            "id": "call_956188fe",
+            "name": "search_documents",
+            "arguments": {
+              "k": 8,
+              "query": "norovirus prevention control food handlers ill workers handwashing contaminated ready-to-eat food no cook step",
+              "sources": [
+                "bad-bug-book"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "norovirus prevention control food handlers ill workers handwashing contaminated ready-to-eat food no cook step",
+          "sources": [
+            "bad-bug-book"
+          ],
+          "k": 8
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 8,
+        "results": [
+          {
+            "chunk_id": "bad-bug-book:p170:c0",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 170,
+            "distance": 0.3737,
+            "text": " Route of entry: Foodborne norovirus illnesses have been epidemiologically linked into\nthree distinct classes: with cases associated with consumption of ready-to-eat (RTE)\nfoods contaminated by food workers; with environmental contamination of produce; or\nwith consumption of molluscan shellfish harvested from contaminated water. In each of\nthese classes, transmission occurs through the fecal-oral route (or vomit, on occasion),\nand is often associated with improper sanitation controls or their application. Secondary\ntransmission following foodborne illness is common, due to the high levels of virus that\nare excreted.\n Pathway: Norovirus infection causes gastroente ritis, an inflammation of the stomach\nand the small and large intestines. However, the precise pathogenic pathway of infection\nis unknown, which has hampered progress in propagating the virus in the laboratory.\n3. Frequency\nThe Centers for Disease Control and Prevention (CDC) estimates that noroviruses cause\n5.5 million illness annually in the U.S. (estimated range: 3.2 million to 8.3 million cases of\nfoodborne illness), which accounts for 58% of all foodborne illnesses. Of these illnesses,"
+          },
+          {
+            "chunk_id": "bad-bug-book:p168:c3",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.3839,
+            "text": "yourself and others against\nnorovirus by following basic food‐safety tips. Because\nnorovirus also is spread from person to person, especially\nin crowded living situations – dormitories, nursing\nhomes, day‐care centers, prisons, and cruise ships are a\nfew examples – handwashing is especially important.\nNorovirus spreads easily to things people touch, and\nother people can pick up the virus that way. It takes very\nlittle norovirus to cause illness. Although alcohol‐based\nantibacterial hand gels work against many harmful\nbacteria, they don’t protect against norovirus. And the\nvirus may continue to pass in bowel movements even\nafter symptoms have gone away – another reason to\nmake handwashing a healthy habit."
+          },
+          {
+            "chunk_id": "bad-bug-book:p170:c1",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 170,
+            "distance": 0.3864,
+            "text": "cause\n5.5 million illness annually in the U.S. (estimated range: 3.2 million to 8.3 million cases of\nfoodborne illness), which accounts for 58% of all foodborne illnesses. Of these illnesses,\napproximately 0.03% (mean, 14,663; range, 8,097 to 23,323) require hospitalization, and less\nthan 0.1% of these illnesses results in death (mean,149; range, 84 to 237).\n4. Sources\nNoV outbreaks have been associated with consumption of contaminated water, including\nmunicipal water, well water, stream water, commercial ice, lake water, and swimming pool or\nrecreational surface-water exposure, as well as floodwater.\nSalad ingredients, fruit, and oysters are the foods most often implicated in norovirus outbreaks.\nHowever, any ready-to-eat food that is that is handled by ill food workers may be contaminated.\nNearly 29% of all NoV foodborne outbreaks from 1997-2004 could be attributed to food\npurchased or served at a restaurant or delicatessen. Molluscan shellfish, particularly oysters,\nhave been commonly identified in NoV-related gastroenteritis outbreaks, worldwide. However,\nthis represents a different etiology that does not necessarily involve a contaminated food\nworker."
+          },
+          {
+            "chunk_id": "bad-bug-book:p185:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 185,
+            "distance": 0.4044,
+            "text": "A Snapshot\nOf the viruses that can ca use illness through\ncontaminated food, norovirus, hepatitis, and\nrotavirus cause the largest number of known\ncases. They’re covered in separate chapters of\nthis book. This chapter is about other viruses\nthat also cause foodborne illness, but not nearly\nas often. In general, the illnesses they cause\nstart within 10 to 70 hours after a person eats or\ndrinks contaminated food or fluid, are mild, last\nanywhere from 2 to 9 days, and go away by\nthemselves. Some common symptoms are\nnausea; vomiting; diarrhea; a sick,\nuncomfortable feeling; abdominal pain;\nheadache; and fever. Following basic food‐safety\ntips can help protect you from getting these\nviruses. Since they can also be spread from\nperson to person (for example, when infected\npeople have a bowel movement and don’t wash\ntheir hands well, so that anything they touch\nspreads the virus to other people and objects),\ngood handwashing is especially important."
+          },
+          {
+            "chunk_id": "bad-bug-book:p3:c1",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 3,
+            "distance": 0.4181,
+            "text": "and with the food industry to make the U.S. food supply one of the safest in the world.\nYou also play a part in the safety of what you eat. When you read the consumer boxes, you’ll see that\ndifferent pathogens can be risky in different ways, and that a safety step that’s effective against one\nmight not be as effective against another. So what should you do? The answer is to follow some simple\nsteps that, together, lower the risk from most pathogens.\n Washing your hands before and after handling food, and in between handling different foods, is one\nof the most important steps you can take. Do the same with equipment, utensils, and countertops.\n Wash raw fruits and vegetables under running water. These nutritious foods usually are safe, as you\nprobably know from the many times you’ve eaten them, but wash them just in case they’ve\nsomehow become contaminated. For the most part, the less of a pathogen on a food – if any – the\nless chance that it can make you sick.\n Cooking food to proper temperatures kills most bacteria, including Salmonella, Listeria, and the\nkinds of E. coli that cause illness, and parasites."
+          },
+          {
+            "chunk_id": "bad-bug-book:p38:c3",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 38,
+            "distance": 0.4313,
+            "text": "But\npreventing the illness in the first place is a better idea. You\ncan help protect yourself by cooking seafood until the inside\nreaches a temperature, for at least 15 seconds, of 145°F, but\n155°F for things like fishcakes and 165°F for stuffed fish. It’s\nimportant to wash raw foods in sanitary water and to wash\nhands, equipment, and cooking and food‐handling surfaces,\nand to keep food refrigerated at 40°F or lower. After kitchen\nsurfaces are washed, sanitize them with a commercially\navailable product that’s sold as a kitchen sanitizer. Cooked\nfoods should always be kept from touching raw foods, to\nprevent contamination. That’s especially important with this\nkind of Vibrio, which can grow in cooked food if it becomes\ncontaminated. You might have heard people say that you\nshould eat oysters or other shellfish only in months with the\nletter “R” – for example January, February, etc. But\nremember that Vibrio and other bacteria (and viruses) that\naffect seafood can cause illness in any month, so follow basic\nfood‐safety tips all year."
+          },
+          {
+            "chunk_id": "bad-bug-book:p168:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.4392,
+            "text": "meats, and salads prepared or handled\nby an infected person. Oysters grown in contaminated\nwater are another example. Symptoms usually start\nwithin 1 or 2 days of eating the contaminated food, but\nmay start in as few as 12 hours. Vomiting that’s explosive\nand projectile – that shoots out – often is the first\nsymptom, along with watery diarrhea that isn’t bloody,\nand cramps. Headache, mild fever, and muscle aches also\nmay occur. Most people get better in a day or two,\nalthough it takes others a little longer. Occasionally,\nsome people lose so much body fluid that it throws off\nthe body’s balance of some important minerals (called\nelectrolytes) and fluid, which can cause serious health\nproblems. These people need to be treated by a health\nprofessional, and sometimes need to be hospitalized.\nAntibiotics don’t work against this or other viruses (they\nonly work against bacteria), but health professionals can\ngive the right fluids and minerals to put the body back in\nbalance. You can help protect yourself and others against\nnorovirus by following basic food‐safety tips. Because\nnorovirus also is spread from person to person, especially\nin crowded living situations – dormitories, nursing"
+          },
+          {
+            "chunk_id": "bad-bug-book:p113:c3",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 113,
+            "distance": 0.4524,
+            "text": "by following basic\nfood‐safety tips; for example, by not using\nunpasteurized (“raw”) milk or certain cheeses\nand other food made from it, by thoroughly\ncooking meat or food that contains meat, and\nby washing your hands, kitchen equipment,\nand other surfaces before and after you\nhandle food."
+          }
+        ],
+        "steps_remaining": 8
+      }
+    },
+    {
+      "step": 3,
+      "model": {
+        "content": null,
+        "reasoning": "I have good coverage. Let me also check p169:c1 maybe for symptoms details (nausea, abdominal cramps, diarrhea) — p169:c2 covers \"Explosive, projectile vomiting usually is the first sign\". Let me search for the \"Illness / complications\" continuation and prevention/control section for food worker contamination details (e.g., \"infected food handlers\", \"no cook step\").\n\nLet me do one more search on prevention/control section.",
+        "tool_calls": [
+          {
+            "id": "call_c63437e6",
+            "name": "search_documents",
+            "arguments": {
+              "k": 8,
+              "query": "norovirus Prevention and Control infected food handlers exclude symptomatic employees handwashing gloves utensils",
+              "sources": [
+                "bad-bug-book"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "norovirus Prevention and Control infected food handlers exclude symptomatic employees handwashing gloves utensils",
+          "sources": [
+            "bad-bug-book"
+          ],
+          "k": 8
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 8,
+        "results": [
+          {
+            "chunk_id": "bad-bug-book:p168:c3",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.3722,
+            "text": "yourself and others against\nnorovirus by following basic food‐safety tips. Because\nnorovirus also is spread from person to person, especially\nin crowded living situations – dormitories, nursing\nhomes, day‐care centers, prisons, and cruise ships are a\nfew examples – handwashing is especially important.\nNorovirus spreads easily to things people touch, and\nother people can pick up the virus that way. It takes very\nlittle norovirus to cause illness. Although alcohol‐based\nantibacterial hand gels work against many harmful\nbacteria, they don’t protect against norovirus. And the\nvirus may continue to pass in bowel movements even\nafter symptoms have gone away – another reason to\nmake handwashing a healthy habit."
+          },
+          {
+            "chunk_id": "bad-bug-book:p185:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 185,
+            "distance": 0.4016,
+            "text": "A Snapshot\nOf the viruses that can ca use illness through\ncontaminated food, norovirus, hepatitis, and\nrotavirus cause the largest number of known\ncases. They’re covered in separate chapters of\nthis book. This chapter is about other viruses\nthat also cause foodborne illness, but not nearly\nas often. In general, the illnesses they cause\nstart within 10 to 70 hours after a person eats or\ndrinks contaminated food or fluid, are mild, last\nanywhere from 2 to 9 days, and go away by\nthemselves. Some common symptoms are\nnausea; vomiting; diarrhea; a sick,\nuncomfortable feeling; abdominal pain;\nheadache; and fever. Following basic food‐safety\ntips can help protect you from getting these\nviruses. Since they can also be spread from\nperson to person (for example, when infected\npeople have a bowel movement and don’t wash\ntheir hands well, so that anything they touch\nspreads the virus to other people and objects),\ngood handwashing is especially important."
+          },
+          {
+            "chunk_id": "bad-bug-book:p170:c0",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 170,
+            "distance": 0.4281,
+            "text": " Route of entry: Foodborne norovirus illnesses have been epidemiologically linked into\nthree distinct classes: with cases associated with consumption of ready-to-eat (RTE)\nfoods contaminated by food workers; with environmental contamination of produce; or\nwith consumption of molluscan shellfish harvested from contaminated water. In each of\nthese classes, transmission occurs through the fecal-oral route (or vomit, on occasion),\nand is often associated with improper sanitation controls or their application. Secondary\ntransmission following foodborne illness is common, due to the high levels of virus that\nare excreted.\n Pathway: Norovirus infection causes gastroente ritis, an inflammation of the stomach\nand the small and large intestines. However, the precise pathogenic pathway of infection\nis unknown, which has hampered progress in propagating the virus in the laboratory.\n3. Frequency\nThe Centers for Disease Control and Prevention (CDC) estimates that noroviruses cause\n5.5 million illness annually in the U.S. (estimated range: 3.2 million to 8.3 million cases of\nfoodborne illness), which accounts for 58% of all foodborne illnesses. Of these illnesses,"
+          },
+          {
+            "chunk_id": "bad-bug-book:p168:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.4347,
+            "text": "meats, and salads prepared or handled\nby an infected person. Oysters grown in contaminated\nwater are another example. Symptoms usually start\nwithin 1 or 2 days of eating the contaminated food, but\nmay start in as few as 12 hours. Vomiting that’s explosive\nand projectile – that shoots out – often is the first\nsymptom, along with watery diarrhea that isn’t bloody,\nand cramps. Headache, mild fever, and muscle aches also\nmay occur. Most people get better in a day or two,\nalthough it takes others a little longer. Occasionally,\nsome people lose so much body fluid that it throws off\nthe body’s balance of some important minerals (called\nelectrolytes) and fluid, which can cause serious health\nproblems. These people need to be treated by a health\nprofessional, and sometimes need to be hospitalized.\nAntibiotics don’t work against this or other viruses (they\nonly work against bacteria), but health professionals can\ngive the right fluids and minerals to put the body back in\nbalance. You can help protect yourself and others against\nnorovirus by following basic food‐safety tips. Because\nnorovirus also is spread from person to person, especially\nin crowded living situations – dormitories, nursing"
+          },
+          {
+            "chunk_id": "bad-bug-book:p170:c1",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 170,
+            "distance": 0.4354,
+            "text": "cause\n5.5 million illness annually in the U.S. (estimated range: 3.2 million to 8.3 million cases of\nfoodborne illness), which accounts for 58% of all foodborne illnesses. Of these illnesses,\napproximately 0.03% (mean, 14,663; range, 8,097 to 23,323) require hospitalization, and less\nthan 0.1% of these illnesses results in death (mean,149; range, 84 to 237).\n4. Sources\nNoV outbreaks have been associated with consumption of contaminated water, including\nmunicipal water, well water, stream water, commercial ice, lake water, and swimming pool or\nrecreational surface-water exposure, as well as floodwater.\nSalad ingredients, fruit, and oysters are the foods most often implicated in norovirus outbreaks.\nHowever, any ready-to-eat food that is that is handled by ill food workers may be contaminated.\nNearly 29% of all NoV foodborne outbreaks from 1997-2004 could be attributed to food\npurchased or served at a restaurant or delicatessen. Molluscan shellfish, particularly oysters,\nhave been commonly identified in NoV-related gastroenteritis outbreaks, worldwide. However,\nthis represents a different etiology that does not necessarily involve a contaminated food\nworker."
+          },
+          {
+            "chunk_id": "bad-bug-book:p182:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 182,
+            "distance": 0.4711,
+            "text": "worldwide, each year. Since 2006, a rotavirus\nvaccine has been given to children in the U.S., and\nrotavirus illness in this country has gone down.\nAlthough contaminated food can pass this virus to\npeople, the main way it gets into people is from\nthe hands into the mouth. For example, when an\ninfected person goes to the bathroom and doesn’t\nuse good handwashing afterwards, anything he or\nshe touches – such as a doorknob – can become\ncontaminated with the virus, and another person\ncan pick it up on his or her hands; then it can get\ninto the mouth through food or touching. When\nfood causes this illness, it’s likely to be food that\nwas handled by an infected person and then\nwasn’t cooked, such as salads and raw fruits and\nvegetables. Watery diarrhea starts in about 2 days,\nand other symptoms may include vomiting and\nfever higher than 101º F. Most people get better in\n3 days to a week. But the illness may be much\nmore serious in some people, especially very\nyoung children, premature babies, elderly people,\nand people with weak immune systems or who are\non certain medicines, such as some drugs used for\nrheumatoid arthritis. It’s especially important for"
+          },
+          {
+            "chunk_id": "bad-bug-book:p72:c3",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 72,
+            "distance": 0.4718,
+            "text": "who doesn’t wash his or her hands\nafter a bowel movement, for example) can spread the\nillness. To help protect yourself and others, follow\nbasic food‐safety tips. For tips about how to handle\nbaby bottles safely, see the chapter called\n“Cronobacter,” and look for the box called “For\nConsumers: A Snapshot.”"
+          },
+          {
+            "chunk_id": "bad-bug-book:p289:c1",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 289,
+            "distance": 0.4728,
+            "text": "with it.\nFeces – The waste that’s passed out of the body after food has gone through the bowel.\nFoodborne – carried by food; for example, an illness that was caused by a harmful bacterium in\nfood.\nFreshwater – inland water, such as lakes, rivers, streams, and ponds. Some parasites (see\ndefinition) that live in freshwater can cause illness in humans if the water is used for drinking or\nfor watering or rinsing fruits and vegetables, for example.\nGastrointestinal – having to do with the stomach and / or bowel.\nGenes – see the definition of “DNA.”\nHand sanitizer – Sprays, gels, or wipes that can kill many harmful bacterial cells (but not spores\n– see definition). The alcohol in hand sanitizers doesn’t destroy norovirus, the leading cause of\nfoodborne illness in the U.S. Handwa shing is the best prevention.\nHygiene – behaviors that prevent disease and help people stay healthy. Examples of hygienic\nbehaviors in this book include handwashing, using clean cooking equipment, and keeping\nkitchen counters clean.\nImmune system – the complex system in the body that attacks bacteria, viruses, and other\nharmful substance that enter the body. The immune system prevents or stops many infections in"
+          }
+        ],
+        "steps_remaining": 7
+      }
+    },
+    {
+      "step": 4,
+      "model": {
+        "content": null,
+        "reasoning": "I have enough. Let me also check p171 for \"Prevention and Control\" section regarding food workers contamination — maybe more specific (e.g., infected food workers, asymptomatic carriers, handwashing, no cook step to inactivate). Let me search once more for \"silent shedders\" and prevention/control section.",
+        "tool_calls": [
+          {
+            "id": "call_af0630a4",
+            "name": "search_documents",
+            "arguments": {
+              "k": 6,
+              "query": "norovirus \"Prevention and Control\" food service establishments infected employees shedding stool vomiting food products contaminated by handlers",
+              "sources": [
+                "bad-bug-book"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "norovirus \"Prevention and Control\" food service establishments infected employees shedding stool vomiting food products contaminated by handlers",
+          "sources": [
+            "bad-bug-book"
+          ],
+          "k": 6
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 6,
+        "results": [
+          {
+            "chunk_id": "bad-bug-book:p170:c0",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 170,
+            "distance": 0.373,
+            "text": " Route of entry: Foodborne norovirus illnesses have been epidemiologically linked into\nthree distinct classes: with cases associated with consumption of ready-to-eat (RTE)\nfoods contaminated by food workers; with environmental contamination of produce; or\nwith consumption of molluscan shellfish harvested from contaminated water. In each of\nthese classes, transmission occurs through the fecal-oral route (or vomit, on occasion),\nand is often associated with improper sanitation controls or their application. Secondary\ntransmission following foodborne illness is common, due to the high levels of virus that\nare excreted.\n Pathway: Norovirus infection causes gastroente ritis, an inflammation of the stomach\nand the small and large intestines. However, the precise pathogenic pathway of infection\nis unknown, which has hampered progress in propagating the virus in the laboratory.\n3. Frequency\nThe Centers for Disease Control and Prevention (CDC) estimates that noroviruses cause\n5.5 million illness annually in the U.S. (estimated range: 3.2 million to 8.3 million cases of\nfoodborne illness), which accounts for 58% of all foodborne illnesses. Of these illnesses,"
+          },
+          {
+            "chunk_id": "bad-bug-book:p168:c3",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.3807,
+            "text": "yourself and others against\nnorovirus by following basic food‐safety tips. Because\nnorovirus also is spread from person to person, especially\nin crowded living situations – dormitories, nursing\nhomes, day‐care centers, prisons, and cruise ships are a\nfew examples – handwashing is especially important.\nNorovirus spreads easily to things people touch, and\nother people can pick up the virus that way. It takes very\nlittle norovirus to cause illness. Although alcohol‐based\nantibacterial hand gels work against many harmful\nbacteria, they don’t protect against norovirus. And the\nvirus may continue to pass in bowel movements even\nafter symptoms have gone away – another reason to\nmake handwashing a healthy habit."
+          },
+          {
+            "chunk_id": "bad-bug-book:p185:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 185,
+            "distance": 0.3957,
+            "text": "A Snapshot\nOf the viruses that can ca use illness through\ncontaminated food, norovirus, hepatitis, and\nrotavirus cause the largest number of known\ncases. They’re covered in separate chapters of\nthis book. This chapter is about other viruses\nthat also cause foodborne illness, but not nearly\nas often. In general, the illnesses they cause\nstart within 10 to 70 hours after a person eats or\ndrinks contaminated food or fluid, are mild, last\nanywhere from 2 to 9 days, and go away by\nthemselves. Some common symptoms are\nnausea; vomiting; diarrhea; a sick,\nuncomfortable feeling; abdominal pain;\nheadache; and fever. Following basic food‐safety\ntips can help protect you from getting these\nviruses. Since they can also be spread from\nperson to person (for example, when infected\npeople have a bowel movement and don’t wash\ntheir hands well, so that anything they touch\nspreads the virus to other people and objects),\ngood handwashing is especially important."
+          },
+          {
+            "chunk_id": "bad-bug-book:p170:c1",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 170,
+            "distance": 0.3971,
+            "text": "cause\n5.5 million illness annually in the U.S. (estimated range: 3.2 million to 8.3 million cases of\nfoodborne illness), which accounts for 58% of all foodborne illnesses. Of these illnesses,\napproximately 0.03% (mean, 14,663; range, 8,097 to 23,323) require hospitalization, and less\nthan 0.1% of these illnesses results in death (mean,149; range, 84 to 237).\n4. Sources\nNoV outbreaks have been associated with consumption of contaminated water, including\nmunicipal water, well water, stream water, commercial ice, lake water, and swimming pool or\nrecreational surface-water exposure, as well as floodwater.\nSalad ingredients, fruit, and oysters are the foods most often implicated in norovirus outbreaks.\nHowever, any ready-to-eat food that is that is handled by ill food workers may be contaminated.\nNearly 29% of all NoV foodborne outbreaks from 1997-2004 could be attributed to food\npurchased or served at a restaurant or delicatessen. Molluscan shellfish, particularly oysters,\nhave been commonly identified in NoV-related gastroenteritis outbreaks, worldwide. However,\nthis represents a different etiology that does not necessarily involve a contaminated food\nworker."
+          },
+          {
+            "chunk_id": "bad-bug-book:p168:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.4169,
+            "text": "meats, and salads prepared or handled\nby an infected person. Oysters grown in contaminated\nwater are another example. Symptoms usually start\nwithin 1 or 2 days of eating the contaminated food, but\nmay start in as few as 12 hours. Vomiting that’s explosive\nand projectile – that shoots out – often is the first\nsymptom, along with watery diarrhea that isn’t bloody,\nand cramps. Headache, mild fever, and muscle aches also\nmay occur. Most people get better in a day or two,\nalthough it takes others a little longer. Occasionally,\nsome people lose so much body fluid that it throws off\nthe body’s balance of some important minerals (called\nelectrolytes) and fluid, which can cause serious health\nproblems. These people need to be treated by a health\nprofessional, and sometimes need to be hospitalized.\nAntibiotics don’t work against this or other viruses (they\nonly work against bacteria), but health professionals can\ngive the right fluids and minerals to put the body back in\nbalance. You can help protect yourself and others against\nnorovirus by following basic food‐safety tips. Because\nnorovirus also is spread from person to person, especially\nin crowded living situations – dormitories, nursing"
+          },
+          {
+            "chunk_id": "bad-bug-book:p172:c0",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 172,
+            "distance": 0.4385,
+            "text": "8. Examples of Outbreaks\n0\n50\n100\n150\n200\n250\n300\n350\n400\n450\n500\nNumber Outbreaks\n1990 1993 1996 1999 2002 2005\nYear\nReported number of norovirus outbreaks in the United States from 1990 to 2007 (adapted from Centers for\nDisease Control and Prevention, 2008)\nSelected examples of specific outbreaks from 2000-2006:\nAnderson AD, Heryford AG, Sarisky JP, Higgins C, Monroe SS, Beard RS, Newport CM,\nCashdollar JL, Fout GS, Robbins DE, Seys SA, Musgrave KJ, Medus C, Vinjé J, Bresee JS,\nMainzer HM, Glass RI. 2003. A waterborne outbreak of Norwalk-like virus among\nsnowmobilers – Wyoming, 2001. J. Infect. Dis. 187:303-306.\nCenters for Disease Control and Prevention (CDC). 2006. Multisite outbreak of norovirus\nassociated with a franchise restaurant -- Kent County, Michigan, May 2005. MMWR 55:395­\n397.\nCotterelle BC, Drougard J, Rolland M, Becamel M, Boudon S, Pinede O, Traoré K, Balay P,\nPothier EE, Espié E. 2005. Outbreak of norovirus infection associated with the consumption of\nfrozen raspberries, France. March 2005. Euro Surveill. 10(4):E050428.1.\nShieh Y, Monroe SS, Fankhauser RL, Langlois GW, Burkhardt W III, Baric RS. 2000. Detection"
+          }
+        ],
+        "steps_remaining": 6
+      }
+    },
+    {
+      "step": 5,
+      "model": {
+        "content": null,
+        "reasoning": "I have enough. Let me also check p169:c1 for symptoms detail (nausea, abdominal cramps) — chunk p169:c2 mentions explosive projectile vomiting. Let me search for \"nausea\" norovirus symptoms to complete symptom list. Actually p169:c2 begins mid-chunk: \"Explosive, projectile vomiting usually is the first sign of illness...\" The full technical symptoms may include nausea and abdominal cramps. Let me do one more search with contains or query.",
+        "tool_calls": [
+          {
+            "id": "call_69582a1d",
+            "name": "search_documents",
+            "arguments": {
+              "k": 5,
+              "query": "norovirus illness nausea abdominal cramps diarrhea vomiting symptoms technical description gastroenteritis duration",
+              "sources": [
+                "bad-bug-book"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "norovirus illness nausea abdominal cramps diarrhea vomiting symptoms technical description gastroenteritis duration",
+          "sources": [
+            "bad-bug-book"
+          ],
+          "k": 5
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 5,
+        "results": [
+          {
+            "chunk_id": "bad-bug-book:p169:c0",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 169,
+            "distance": 0.329,
+            "text": "single copy of a minor structural Protein (VP2). The 27-32 nm viral particles have a buoyant\ndensity of 1.39 to 1.40 g/ml in CsCl.\n2. Disease\nCommon names of the illness, which is the leading cause of foodborne illness in the United\nStates, are viral gastroenteritis, acute nonbacterial gastroenteritis, food poisoning, and winter\nvomiting disease.\n Mortality: Overall, these illne sses account for 26% of hospitalizations and 11% of\ndeaths associated with food consumption.\n Infective dose: The infective dose is very low; it is estimated to be as low as 1 to 10\nviral particles, and the particles are excreted at high levels by both symptomatic and\nasymptomatic people (as high as 1 x 1012 million viral particles/g feces).\n Onset: A mild, brief illness usually develops between 24 and 48 hours after contaminated\nfood or water is consumed (median in outbreaks: 33 to 36 hours), but onset times within\n12 hours of exposure have been reported.\n Illness / complications: Norovirus illness is self-limiting, but can be very debilitating as\na result of the high rate of vomiting. Recovery is usually complete and without evidence"
+          },
+          {
+            "chunk_id": "bad-bug-book:p169:c1",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 169,
+            "distance": 0.344,
+            "text": "been reported.\n Illness / complications: Norovirus illness is self-limiting, but can be very debilitating as\na result of the high rate of vomiting. Recovery is usually complete and without evidence\nof long-term effects. Dehydration is the most common complication, especially among\nthe very young, the elderly, and patients with underlying medical conditions.\nNo specific therapy exists for viral gastroenteritis, in general, or NoV infection, in\nparticular. For most people, treatment of NoV infection is supportive; besides rest, it\nconsists primarily of oral rehydration and, if needed, intravenous replacement of\nelectrolytes. Currently no antiviral medication is available, and antibiotics are not\neffective for treating NoV infection. Presently no vaccines are available to prevent NoV\ninfection, although this is an active area of research.\n Symptoms: Symptoms usually present as acute-onset vomiting (often explosive);\nwatery, non-bloody diarrhea with abdominal cramps; and nausea. Explosive, projectile\nvomiting usually is the first sign of illness and is often used to characterize the illness.\nHeadache, low-grade fever, chills, and muscle aches may also occur. The severity of"
+          },
+          {
+            "chunk_id": "bad-bug-book:p169:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 169,
+            "distance": 0.3503,
+            "text": "Explosive, projectile\nvomiting usually is the first sign of illness and is often used to characterize the illness.\nHeadache, low-grade fever, chills, and muscle aches may also occur. The severity of\nsymptoms appears to be higher in hospitalized patients, immunocompromised people,\nand elderly people, compared with younger adults and other groups.\nStudies suggest that 30% of people infected with NoV display no gastrointestinal illness\nor associated symptoms, but still excrete high levels of virus in their stool. These distinct\ngroups of people are considered to be silent shedders of NoV.\n Duration: Symptoms generally persist for 12 to 60 hours, with a mean period of 24 to 48\nhours. Most people report feeling better within 1 to 2 days. However, for hospitalized\npatients, immunocompromised people, and the elderly, vomiting and diarrhea generally\nresolve within 72 to 96 hours, while the non-specific symptoms, such as headache, thirst,\nand vertigo, could persist up to 19 days."
+          },
+          {
+            "chunk_id": "bad-bug-book:p185:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 185,
+            "distance": 0.3509,
+            "text": "A Snapshot\nOf the viruses that can ca use illness through\ncontaminated food, norovirus, hepatitis, and\nrotavirus cause the largest number of known\ncases. They’re covered in separate chapters of\nthis book. This chapter is about other viruses\nthat also cause foodborne illness, but not nearly\nas often. In general, the illnesses they cause\nstart within 10 to 70 hours after a person eats or\ndrinks contaminated food or fluid, are mild, last\nanywhere from 2 to 9 days, and go away by\nthemselves. Some common symptoms are\nnausea; vomiting; diarrhea; a sick,\nuncomfortable feeling; abdominal pain;\nheadache; and fever. Following basic food‐safety\ntips can help protect you from getting these\nviruses. Since they can also be spread from\nperson to person (for example, when infected\npeople have a bowel movement and don’t wash\ntheir hands well, so that anything they touch\nspreads the virus to other people and objects),\ngood handwashing is especially important."
+          },
+          {
+            "chunk_id": "bad-bug-book:p168:c2",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 168,
+            "distance": 0.353,
+            "text": "meats, and salads prepared or handled\nby an infected person. Oysters grown in contaminated\nwater are another example. Symptoms usually start\nwithin 1 or 2 days of eating the contaminated food, but\nmay start in as few as 12 hours. Vomiting that’s explosive\nand projectile – that shoots out – often is the first\nsymptom, along with watery diarrhea that isn’t bloody,\nand cramps. Headache, mild fever, and muscle aches also\nmay occur. Most people get better in a day or two,\nalthough it takes others a little longer. Occasionally,\nsome people lose so much body fluid that it throws off\nthe body’s balance of some important minerals (called\nelectrolytes) and fluid, which can cause serious health\nproblems. These people need to be treated by a health\nprofessional, and sometimes need to be hospitalized.\nAntibiotics don’t work against this or other viruses (they\nonly work against bacteria), but health professionals can\ngive the right fluids and minerals to put the body back in\nbalance. You can help protect yourself and others against\nnorovirus by following basic food‐safety tips. Because\nnorovirus also is spread from person to person, especially\nin crowded living situations – dormitories, nursing"
+          }
+        ],
+        "steps_remaining": 5
+      }
+    },
+    {
+      "step": 6,
+      "model": {
+        "content": null,
+        "reasoning": "I have all four parts. Let me compose the final answer with citations.\n\nNote: the \"silent shedders\" point is relevant to how food workers contaminate RTE food (asymptomatic workers excreting high virus levels). Also handwashing/alcohol gels ineffective.\n\nCitations:\n1. Infective dose: bad-bug-book:p169:c0\n2. Onset: bad-bug-book:p169:c0 and p168:c2\n3. Symptoms: bad-bug-book:p169:c1, p169:c2\n4. Contamination of RTE food: bad-bug-book:p170:c0, p170:c1, p169:c2 (silent shedders), p168:c3 (handwashing, gels ineffective, shedding after symptoms)\n5. Duration: p169:c2\n\nAlso note the source role: Bad Bug Book is FDA pathogen reference (2012), not a regulation.",
+        "tool_calls": [
+          {
+            "id": "call_c746b4e5",
+            "name": "final_answer",
+            "arguments": {
+              "claims": [
+                {
+                  "citations": [
+                    "bad-bug-book:p169:c0"
+                  ],
+                  "text": "Infective dose: the Bad Bug Book (2012 FDA pathogen reference, not a regulation) states the norovirus infective dose is very low, estimated to be as low as 1 to 10 viral particles, while viral particles are excreted at high levels by both symptomatic and asymptomatic people (as high as 1 x 10^12 viral particles per gram of feces)."
+                },
+                {
+                  "citations": [
+                    "bad-bug-book:p169:c0",
+                    "bad-bug-book:p168:c2"
+                  ],
+                  "text": "Onset: a mild, brief illness usually develops between 24 and 48 hours after consuming contaminated food or water (median in outbreaks 33 to 36 hours), with onset times within 12 hours of exposure reported; the consumer snapshot likewise says symptoms usually start within 1 or 2 days but may start in as few as 12 hours."
+                },
+                {
+                  "citations": [
+                    "bad-bug-book:p169:c1"
+                  ],
+                  "text": "Characteristic symptoms: acute-onset vomiting (often explosive), watery non-bloody diarrhea with abdominal cramps, and nausea; explosive, projectile vomiting is usually the first sign of illness and is often used to characterize the illness, and headache, low-grade fever, chills, and muscle aches may also occur."
+                },
+                {
+                  "citations": [
+                    "bad-bug-book:p169:c2"
+                  ],
+                  "text": "Course of illness: symptoms generally persist for 12 to 60 hours (mean 24 to 48 hours), with most people feeling better within 1 to 2 days; dehydration is the most common complication, especially among the very young, the elderly, and those with underlying medical conditions."
+                },
+                {
+                  "citations": [
+                    "bad-bug-book:p170:c0",
+                    "bad-bug-book:p170:c1"
+                  ],
+                  "text": "Food-worker contamination of ready-to-eat food: foodborne norovirus illnesses are epidemiologically linked to consumption of ready-to-eat (RTE) foods contaminated by food workers (along with environmental contamination of produce and contaminated molluscan shellfish), with transmission occurring through the fecal-oral route (or vomit on occasion) and often associated with improper sanitation controls or their application."
+                },
+                {
+                  "citations": [
+                    "bad-bug-book:p170:c1"
+                  ],
+                  "text": "Any ready-to-eat food handled by ill food workers may be contaminated; salad ingredients, fruit, and oysters are the foods most often implicated, and nearly 29% of all norovirus foodborne outbreaks from 1997-2004 were attributed to food purchased or served at a restaurant or delicatessen."
+                },
+                {
+                  "citations": [
+                    "bad-bug-book:p169:c2",
+                    "bad-bug-book:p168:c3"
+                  ],
+                  "text": "Contamination can occur without visible illness: about 30% of infected people show no gastrointestinal illness or symptoms yet still excrete high levels of virus in stool (\"silent shedders\"), and the virus may continue to pass in bowel movements even after symptoms resolve; alcohol-based antibacterial hand gels do not protect against norovirus, so handwashing is especially important."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "final_answer",
+        "arguments": {
+          "claims": [
+            {
+              "text": "Infective dose: the Bad Bug Book (2012 FDA pathogen reference, not a regulation) states the norovirus infective dose is very low, estimated to be as low as 1 to 10 viral particles, while viral particles are excreted at high levels by both symptomatic and asymptomatic people (as high as 1 x 10^12 viral particles per gram of feces).",
+              "citations": [
+                "bad-bug-book:p169:c0"
+              ]
+            },
+            {
+              "text": "Onset: a mild, brief illness usually develops between 24 and 48 hours after consuming contaminated food or water (median in outbreaks 33 to 36 hours), with onset times within 12 hours of exposure reported; the consumer snapshot likewise says symptoms usually start within 1 or 2 days but may start in as few as 12 hours.",
+              "citations": [
+                "bad-bug-book:p169:c0",
+                "bad-bug-book:p168:c2"
+              ]
+            },
+            {
+              "text": "Characteristic symptoms: acute-onset vomiting (often explosive), watery non-bloody diarrhea with abdominal cramps, and nausea; explosive, projectile vomiting is usually the first sign of illness and is often used to characterize the illness, and headache, low-grade fever, chills, and muscle aches may also occur.",
+              "citations": [
+                "bad-bug-book:p169:c1"
+              ]
+            },
+            {
+              "text": "Course of illness: symptoms generally persist for 12 to 60 hours (mean 24 to 48 hours), with most people feeling better within 1 to 2 days; dehydration is the most common complication, especially among the very young, the elderly, and those with underlying medical conditions.",
+              "citations": [
+                "bad-bug-book:p169:c2"
+              ]
+            },
+            {
+              "text": "Food-worker contamination of ready-to-eat food: foodborne norovirus illnesses are epidemiologically linked to consumption of ready-to-eat (RTE) foods contaminated by food workers (along with environmental contamination of produce and contaminated molluscan shellfish), with transmission occurring through the fecal-oral route (or vomit on occasion) and often associated with improper sanitation controls or their application.",
+              "citations": [
+                "bad-bug-book:p170:c0",
+                "bad-bug-book:p170:c1"
+              ]
+            },
+            {
+              "text": "Any ready-to-eat food handled by ill food workers may be contaminated; salad ingredients, fruit, and oysters are the foods most often implicated, and nearly 29% of all norovirus foodborne outbreaks from 1997-2004 were attributed to food purchased or served at a restaurant or delicatessen.",
+              "citations": [
+                "bad-bug-book:p170:c1"
+              ]
+            },
+            {
+              "text": "Contamination can occur without visible illness: about 30% of infected people show no gastrointestinal illness or symptoms yet still excrete high levels of virus in stool (\"silent shedders\"), and the virus may continue to pass in bowel movements even after symptoms resolve; alcohol-based antibacterial hand gels do not protect against norovirus, so handwashing is especially important.",
+              "citations": [
+                "bad-bug-book:p169:c2",
+                "bad-bug-book:p168:c3"
+              ]
+            }
+          ]
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "accepted",
+        "terminal_reason": "answer"
+      }
+    }
+  ]
+}

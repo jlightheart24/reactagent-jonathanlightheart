@@ -1,0 +1,28 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Supplied source PDFs (distributed with the assignment; never committed)
+U0-HW-09-materials/documents/
+*.pdf
+!report/*.pdf
+
+# Generated vector store and runtime files
+chroma/
+.chroma/
+*.sqlite3
+logs/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+.DS_Store
+
+# Lecture 170 reference example (course material, kept locally only)
+vector-retrieval-example/

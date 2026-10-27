@@ -1,0 +1,373 @@
+{
+  "query_id": "Q4",
+  "title": "Pathogen Growth Limits",
+  "expected": "answer",
+  "question": "According to Appendix 3, Table 3-A, compare *Salmonella* species and *Listeria monocytogenes* by minimum water activity, pH range, temperature range, maximum water-phase salt, and oxygen requirement.",
+  "terminal_reason": "answer",
+  "steps_used": 2,
+  "max_steps": 10,
+  "final_result": "- In Appendix 3, Table 3-A (Limiting Conditions for Pathogen Growth), Salmonella spp. is listed with a minimum water activity (using salt) of 0.94, a minimum pH of 3.7, a maximum pH of 9.5, a maximum water-phase salt of 8%, a minimum temperature of 41.4°F (5.2°C), a maximum temperature of 115.2°F (46.2°C), and an oxygen requirement of facultative anaerobe. [appendix-3:p3:c0]\n- In the same Table 3-A, Listeria monocytogenes is listed with a minimum water activity (using salt) of 0.92, a minimum pH of 4.4, a maximum pH of 9.4, a maximum water-phase salt of 10%, a minimum temperature of 31.3°F (-0.4°C), a maximum temperature of 113°F (45°C), and an oxygen requirement of facultative anaerobe. [appendix-3:p3:c0]\n- Comparison of water activity and salt: Listeria monocytogenes has the lower minimum aw (0.92 vs. 0.94 for Salmonella spp.) and tolerates a higher maximum water-phase salt (10% vs. 8%). [appendix-3:p3:c0]\n- Comparison of pH: Salmonella spp. starts at a more acidic minimum pH (3.7) than Listeria monocytogenes (4.4), while their maximum pH values are nearly the same (9.5 for Salmonella spp. vs. 9.4 for L. monocytogenes). [appendix-3:p3:c0]\n- Comparison of temperature: Listeria monocytogenes has the lower minimum growth temperature, 31.3°F (-0.4°C), versus 41.4°F (5.2°C) for Salmonella spp., while Salmonella spp. has the slightly higher maximum growth temperature, 115.2°F (46.2°C) versus 113°F (45°C) for L. monocytogenes. [appendix-3:p3:c0]\n- Oxygen requirement: Table 3-A lists both Salmonella spp. and Listeria monocytogenes as facultative anaerobes, which the table's footnote 4 defines as organisms that grow either with or without oxygen. [appendix-3:p3:c0; appendix-3:p4:c0]\n- Appendix 3 states that the values in Table 3-A are the extreme limits reported among the cited references and may not apply to a given food or processing conditions; the document is labeled non-binding, draft guidance not for implementation. [appendix-3:p1:c3; appendix-3:p2:c0]",
+  "claims": [
+    {
+      "text": "In Appendix 3, Table 3-A (Limiting Conditions for Pathogen Growth), Salmonella spp. is listed with a minimum water activity (using salt) of 0.94, a minimum pH of 3.7, a maximum pH of 9.5, a maximum water-phase salt of 8%, a minimum temperature of 41.4°F (5.2°C), a maximum temperature of 115.2°F (46.2°C), and an oxygen requirement of facultative anaerobe.",
+      "citations": [
+        "appendix-3:p3:c0"
+      ]
+    },
+    {
+      "text": "In the same Table 3-A, Listeria monocytogenes is listed with a minimum water activity (using salt) of 0.92, a minimum pH of 4.4, a maximum pH of 9.4, a maximum water-phase salt of 10%, a minimum temperature of 31.3°F (-0.4°C), a maximum temperature of 113°F (45°C), and an oxygen requirement of facultative anaerobe.",
+      "citations": [
+        "appendix-3:p3:c0"
+      ]
+    },
+    {
+      "text": "Comparison of water activity and salt: Listeria monocytogenes has the lower minimum aw (0.92 vs. 0.94 for Salmonella spp.) and tolerates a higher maximum water-phase salt (10% vs. 8%).",
+      "citations": [
+        "appendix-3:p3:c0"
+      ]
+    },
+    {
+      "text": "Comparison of pH: Salmonella spp. starts at a more acidic minimum pH (3.7) than Listeria monocytogenes (4.4), while their maximum pH values are nearly the same (9.5 for Salmonella spp. vs. 9.4 for L. monocytogenes).",
+      "citations": [
+        "appendix-3:p3:c0"
+      ]
+    },
+    {
+      "text": "Comparison of temperature: Listeria monocytogenes has the lower minimum growth temperature, 31.3°F (-0.4°C), versus 41.4°F (5.2°C) for Salmonella spp., while Salmonella spp. has the slightly higher maximum growth temperature, 115.2°F (46.2°C) versus 113°F (45°C) for L. monocytogenes.",
+      "citations": [
+        "appendix-3:p3:c0"
+      ]
+    },
+    {
+      "text": "Oxygen requirement: Table 3-A lists both Salmonella spp. and Listeria monocytogenes as facultative anaerobes, which the table's footnote 4 defines as organisms that grow either with or without oxygen.",
+      "citations": [
+        "appendix-3:p3:c0",
+        "appendix-3:p4:c0"
+      ]
+    },
+    {
+      "text": "Appendix 3 states that the values in Table 3-A are the extreme limits reported among the cited references and may not apply to a given food or processing conditions; the document is labeled non-binding, draft guidance not for implementation.",
+      "citations": [
+        "appendix-3:p1:c3",
+        "appendix-3:p2:c0"
+      ]
+    }
+  ],
+  "insufficient_reason": null,
+  "error": null,
+  "citations": [
+    {
+      "chunk_id": "appendix-3:p3:c0",
+      "source_id": "appendix-3",
+      "title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+      "page": 3
+    },
+    {
+      "chunk_id": "appendix-3:p4:c0",
+      "source_id": "appendix-3",
+      "title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+      "page": 4
+    },
+    {
+      "chunk_id": "appendix-3:p1:c3",
+      "source_id": "appendix-3",
+      "title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+      "page": 1
+    },
+    {
+      "chunk_id": "appendix-3:p2:c0",
+      "source_id": "appendix-3",
+      "title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+      "page": 2
+    }
+  ],
+  "warnings": [],
+  "retrieved_chunk_ids": [
+    "appendix-3:p3:c0",
+    "appendix-3:p4:c0",
+    "appendix-3:p1:c3",
+    "appendix-3:p2:c0",
+    "appendix-3:p18:c2",
+    "appendix-3:p17:c0",
+    "appendix-3:p18:c0",
+    "appendix-3:p18:c1",
+    "appendix-3:p22:c0",
+    "appendix-3:p13:c0"
+  ],
+  "model": "Qwen3.8-Flash-Next",
+  "config": {
+    "embedding_model": "Qwen3-Embedding-8B",
+    "llm_model": "Qwen3.8-Flash-Next",
+    "collection": "food_safety_corpus",
+    "chunk_size_chars": 1200,
+    "chunk_overlap_chars": 200,
+    "retrieval_top_k": 5,
+    "max_steps": 10,
+    "temperature": 0.0,
+    "tool_choice": "auto",
+    "query_instruction": "Given a question about food safety, retrieve passages from food-safety documents that answer it",
+    "index_chunk_count": 3030,
+    "index_built_at": "2026-10-27T00:42:25+00:00"
+  },
+  "started_at": "2026-10-27T00:47:53+00:00",
+  "duration_s": 18.42,
+  "trace": [
+    {
+      "step": 1,
+      "model": {
+        "content": null,
+        "reasoning": "We need to find Appendix 3, Table 3-A, comparing Salmonella species and Listeria monocytogenes.\n\nLet's search.",
+        "tool_calls": [
+          {
+            "id": "call_fdb15fb3",
+            "name": "search_documents",
+            "arguments": {
+              "query": "Table 3-A bacterial pathogen growth minimum water activity pH range temperature range maximum water-phase salt oxygen requirement",
+              "sources": [
+                "appendix-3"
+              ],
+              "k": 10
+            }
+          },
+          {
+            "id": "call_493f356d",
+            "name": "search_documents",
+            "arguments": {
+              "query": "Salmonella species Listeria monocytogenes aw pH temperature salt oxygen requirements comparison table",
+              "sources": [
+                "appendix-3"
+              ],
+              "k": 10
+            }
+          }
+        ]
+      },
+      "extra_tool_calls_rejected": 1,
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Table 3-A bacterial pathogen growth minimum water activity pH range temperature range maximum water-phase salt oxygen requirement",
+          "sources": [
+            "appendix-3"
+          ],
+          "k": 10
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 10,
+        "results": [
+          {
+            "chunk_id": "appendix-3:p3:c0",
+            "source_id": "appendix-3",
+            "source_title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+            "source_role": "Draft, nonbinding FDA scientific guidance for food processing.",
+            "page": 3,
+            "distance": 0.1766,
+            "text": "Contains Non-binding Recommendations\nDraft-Not for Implementation\n\nAppendix 3 (Bacterial Pathogen Growth and Inactivation) - Page 3\n\nTable 3-A Limiting Conditions for Pathogen Growth\nPathogen\nMin. aw\n(using\nsalt)\nMin.\npH\nMax.\npH\nMax. %\nWater\nPhase\nSalt\nMin.\nTemp.\nMax.\nTemp.\nOxygen\nRequirement\nBacillus\ncereus 0.92 4.3 9.3 10 39.2°F 4°C 131°F1 55°C facultative anaerobe4\nCampylo-\nbacter jejuni 0.987 4.9 9.5 1.7 86°F 30°C 113°F 45°C micro- aerophile2\nClostridium\nbotulinum,\ntype A, and\nproteolytic\ntypes B and\nF\n0.935 4.6 9 10 50°F 10°C 118.4°F 48°C anaerobe3\nClostridium\nbotulinum,\ntype E, and\nnon-\nproteolytic\ntypes B and\nF\n0.97 5 9 5 37.9°F 3.3°C 113°F 45°C anaerobe3\nClostridium\nperfringens 0.93 5 9 7 50°F 10°C 125.6°F 52°C anaerobe3\nPathogenic\nstrains of\nEscherichia\ncoli\n0.95 4 10 6.5 43.7°F 6.5°C 120.9°F 49.4°C facultative anaerobe4\nListeria\nmonocyto-\ngenes\n0.92 4.4 9.4 10 31.3°F -0.4°C 113°F 45°C facultative anaerobe4\nSalmonella\nspp. 0.94 3.7 9.5 8 41.4°F 5.2°C 115.2°F 46.2°C facultative anaerobe4\nShigella spp. 0.96 4.8 9.3 5.2 43°F 6.1°C 116.8°F 47.1°C facultative anaerobe4\nStaphylo-\ncoccus\naureus\ngrowth\n0.83 4 10 20 44.6°F 7°C 122°F 50°C facultative anaerobe4"
+          },
+          {
+            "chunk_id": "appendix-3:p4:c0",
+            "source_id": "appendix-3",
+            "source_title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+            "source_role": "Draft, nonbinding FDA scientific guidance for food processing.",
+            "page": 4,
+            "distance": 0.181,
+            "text": "Contains Non-binding Recommendations\nDraft-Not for Implementation\n\nAppendix 3 (Bacterial Pathogen Growth and Inactivation) - Page 4\n\nPathogen\nMin. aw\n(using\nsalt)\nMin.\npH\nMax.\npH\nMax. %\nWater\nPhase\nSalt\nMin.\nTemp.\nMax.\nTemp.\nOxygen\nRequirement\nStaphylo-\ncoccus\naureus toxin\nformation\n0.85 4 9.8 10 50°F 10°C 118°F 48°C facultative anaerobe4\nVibrio\ncholerae 0.97 5 10 6 50°F 10°C 109.4°F 43°C facultative anaerobe4\nVibrio\nparahaemo-\nlyticus\n0.94 4.8 11 10 41°F 5°C 113.5°F 45.3°C facultative anaerobe4\nVibrio\nvulnificus 0.96 5 10 5 46.4°F 8°C 109.4°F 43°C facultative anaerobe4\nYersinia\nenterocoliti-\nca\n0.945 4.2 10 7 29.7°F -1.3°C 107.6°F 42°C facultative anaerobe4\n1Has significantly delayed growth (>24 hours) at 131°F (55°C).\n2Requires limited levels of oxygen.\n3Requires the absence of oxygen.\n4Grows either with or without oxygen."
+          },
+          {
+            "chunk_id": "appendix-3:p1:c3",
+            "source_id": "appendix-3",
+            "source_title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+            "source_role": "Draft, nonbinding FDA scientific guidance for food processing.",
+            "page": 1,
+            "distance": 0.2832,
+            "text": "at\nthat temperature. Therefore, D-values and z-values provide a means to compare the thermal\nresistance of different microorganisms, or different strains of the same microorganism, at one or mor e\ntemperatures.\nTable 3-A contains information on the minimum water activity (aw), minimum and maximum pH,\nand minimum and maximum temperatures that limit growth for the bacterial pathogens that are\nof greatest concern in food processing. Table 3-A also provides data on the maximum water\n\n1 This guidance has been prepared by the Office of Food Safety in the Center for Food Safety and\nApplied Nutrition at the U.S. Food and Drug Administration. Underlined text in yellow highlights\nrepresents a correction from the draft Appendix 3 that we issued for public comment in August 2016."
+          },
+          {
+            "chunk_id": "appendix-3:p2:c0",
+            "source_id": "appendix-3",
+            "source_title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+            "source_role": "Draft, nonbinding FDA scientific guidance for food processing.",
+            "page": 2,
+            "distance": 0.3108,
+            "text": "Contains Non-binding Recommendations\nDraft-Not for Implementation\n\nAppendix 3 (Bacterial Pathogen Growth and Inactivation) - Page 2\n\nphase salt that limits growth and the oxygen requirements for the pathogens listed. The data\nshown in Table 3-A are the extreme limits reported among the references cited. These values\nmay not apply to your food or processing conditions.\nTable 3-B contains information on maximum cumulative exposure time at internal product\ntemperature ranges for exposure of foods that, under ordinary circumstances, will be safe for\nthe bacterial pathogens that are of greatest concern in food processing. These maximum,\ncumulative exposure times are derived from published scientific information.\nTable 3-C is a Quick Reference Guide based on Table 3-B.\nBecause the nature of bacterial growth is logarithmic, linear interpolation using the time and\ntemperature guidance may not be appropriate. Furthermore, the food matrix affects bacterial\ngrowth (e.g., presence of competing microorganisms, available nutrients, growth-restrictive\nagents). You should consider such attributes when using the information in Tables 3-A, 3-B,\nand 3-C."
+          },
+          {
+            "chunk_id": "appendix-3:p18:c2",
+            "source_id": "appendix-3",
+            "source_title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+            "source_role": "Draft, nonbinding FDA scientific guidance for food processing.",
+            "page": 18,
+            "distance": 0.3109,
+            "text": "C.\"\nInternational Journal of Food Microbiology 24 (1-2):137-145. doi: 10.1016/0168-\n1605(94)90113-9.\nLotter, L. P., and L. Leistner. 1978. \"Minimal water activity for enterotoxin a production and\ngrowth of Staphylococcus aureus.\" Appl Environ Microbiol 36 (2):377-80.\nLund, B. M., A. F. Graham, S. M. George, and D. Brown. 1990. \"The combined effect of\nincubation temperature, pH and sorbic acid on the probability of growth of non-\nproteolytic, type B Clostridium botulinum.\" J Appl Bacteriol 69 (4):481-92.\nMackey, B. M., and N. Bratchell. 1989. \"The heat resistance of Listeria monocytogenes.\" Lett\nAppl Microbiol 9 (3):89-94. doi: 10.1111/j.1472-765X.1989.tb00298.x.\nMackey, B. M., T. A. Roberts, J. Mansfield, and G. Farkas. 1980. \"Growth of Salmonella on\nchilled meat.\" J Hyg Cambridge 85 (1):115-124.\nMatches, J. R., and J. Liston. 1968. \"Low temperature growth of Salmonella.\" J Food Sci 33\n(6):641-645. doi: 10.1111/j.1365-2621.1968.tb09092.x."
+          },
+          {
+            "chunk_id": "appendix-3:p17:c0",
+            "source_id": "appendix-3",
+            "source_title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+            "source_role": "Draft, nonbinding FDA scientific guidance for food processing.",
+            "page": 17,
+            "distance": 0.3145,
+            "text": "Contains Non-binding Recommendations\nDraft-Not for Implementation\n\nAppendix 3 (Bacterial Pathogen Growth and Inactivation) - Page 17\n\nHuss, H. H., I. Shaeffer, E. R. Petersen, and D. C. Cann. 1979. \"Toxin production by Clostridium\nbotulinum type E in fresh herring in relation to the measured oxidation potential (Eh).\"\nNord Vet Med 31 (2):81-6.\nHwang, C. A., and M. L. Tamplin. 2005. \"The influence of mayonnaise pH and storage\ntemperature on the growth of Listeria monocytogenes in seafood salad.\" Int J Food\nMicrobiol 102 (3):277-85. doi: 10.1016/j.ijfoodmicro.2004.11.019.\nIngham, S. C., R. A. Alford, and A. P. McCown. 1990. \"Comparative growth-rates of Salmonella\ntyphimurium and Pseudomonas fragi on cooked crab meat stored under air and modified\natmosphere.\" J Food Protect 53 (7):566-&.\nInternational Commission on Microbiological Specification for Foods (ICMSF). 1996.\nMicroorganisms in Foods 5: Characteristics of Microbial Pathogens. Blackie Academic &\nProfessional.\nIslam, M. S., M. K. Hasan, and S. I. Khan. 1993. \"Growth and survival of Shigella flexneri in\ncommon Bangladeshi foods under various conditions of time and temperature.\" Appl\nEnviron Microbiol 59 (2):652-654."
+          },
+          {
+            "chunk_id": "appendix-3:p18:c0",
+            "source_id": "appendix-3",
+            "source_title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+            "source_role": "Draft, nonbinding FDA scientific guidance for food processing.",
+            "page": 18,
+            "distance": 0.3199,
+            "text": "Contains Non-binding Recommendations\nDraft-Not for Implementation\n\nAppendix 3 (Bacterial Pathogen Growth and Inactivation) - Page 18\n\nKang, C. K., M. Woodburn, A. Pagenkopf, and R. Cheney. 1969. \"Growth, sporulation, and\ngermination of Clostridium perfringens in media of controlled water activity.\" Appl\nMicrobiol 18 (5):798-805.\nKaspar, C. W., and M. L. Tamplin. 1993. \"Effects of temperature and salinity on the survival of\nVibrio vulnificus in seawater and shellfish.\" Appl Environ Microbiol 59 (8):2425-9.\nKauppi, K. L., S. R. Tatini, F. Harrell, and P. Feng. 1996. \"Influence of substrate and low\ntemperature on growth and survival of verotoxigenic Escherichia coli.\" Food Microbiol\n13 (5):397-405. doi: 10.1006/fmic.1996.0046.\nKramer, J. M., and J. M. Gilbert. 1989. “Chapter 2: Bacillus cereus and other Bacillus species.”\nIn Foodborne Bacterial Pathogens. Edited by Doyle, M. P., New York, NY: Marcel\nDekker, Inc.\nLappi, V. R., A. Ho, K. Gall, and M. Wiedmann. 2004. \"Prevalence and growth of Listeria on\nnaturally contaminated smoked salmon over 28 days of storage at 4 deg C.\" Journal of\nFood Protection 67 (5):1022-1026."
+          },
+          {
+            "chunk_id": "appendix-3:p18:c1",
+            "source_id": "appendix-3",
+            "source_title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+            "source_role": "Draft, nonbinding FDA scientific guidance for food processing.",
+            "page": 18,
+            "distance": 0.3283,
+            "text": "A. Ho, K. Gall, and M. Wiedmann. 2004. \"Prevalence and growth of Listeria on\nnaturally contaminated smoked salmon over 28 days of storage at 4 deg C.\" Journal of\nFood Protection 67 (5):1022-1026.\nLarousse, J., and B. Brown. 1997. “Thermobacteriology.” In Food Canning Technology. Edited\nby Larousse, J. and Brown, B., New York: Wiley-VCH.\nLin, J. S., I. S. Lee, J. Frey, J. L. Slonczewski, and J. W. Foster. 1995. \"Comparative analysis of\nextreme acid survival in Salmonella typhimurium, Shigella flexneri, and Escherichia coli.\"\nJ Bacteriol 177 (14):4097-4104.\nLindberg, C. W., and E. Borch. 1994. \"Predicting the aerobic growth of Y. enterocolitica O-3 at\ndifferent pH-values, temperatures and l-lactate concentrations using conductance\nmeasurements.\" International Journal of Food Microbiology 22 (2-3):141-153.\nLittle, C. L., and S. Knochel. 1994. \"Growth and survival of Yersinia enterocolitica, Salmonella\nand Bacillus cereus in Brie stored at 4 degrees C, 8 degrees C and 20 degrees C.\"\nInternational Journal of Food Microbiology 24 (1-2):137-145. doi: 10.1016/0168-\n1605(94)90113-9.\nLotter, L. P., and L. Leistner. 1978. \"Minimal water activity for enterotoxin a production and"
+          },
+          {
+            "chunk_id": "appendix-3:p22:c0",
+            "source_id": "appendix-3",
+            "source_title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+            "source_role": "Draft, nonbinding FDA scientific guidance for food processing.",
+            "page": 22,
+            "distance": 0.3302,
+            "text": "Contains Non-binding Recommendations\nDraft-Not for Implementation\n\nAppendix 3 (Bacterial Pathogen Growth and Inactivation) - Page 22\n\nSutherland, A. D. 1993. \"Toxin production by Bacillus cereus in dairy products.\" J Dairy\nResearch 60 (4):569-574.\nSutherland, J. P., A. Aherne, and A. L. Beaumont. 1996. \"Preparation and validation of a growth\nmodel for Bacillus cereus: The effects of temperature, pH, sodium chloride, and carbon\ndioxide.\" Int J Food Microbiol 30 (3):359-372. doi: 10.1016/0168-1605(96)00962-2.\nSutherland, J. P., and A. J. Bayliss. 1994. \"Predictive modeling of growth of Yersinia\nenterocolitica: The effects of temperature, pH and sodium chloride.\" Int J Food Microbiol\n21 (3):197-215. doi: 10.1016/0168-1605(94)90028-0.\nSutherland, J. P., A. J. Bayliss, and D. S. Braxton. 1995. \"Predictive modeling of growth of\nEscherichia coli O157:H7: The effects of temperature, pH and sodium chloride.\" Int J\nFood Microbiol 25 (1):29-49. doi: Doi 10.1016/0168-1605(94)00082-H.\nSutherland, J. P., A. J. Bayliss, and T. A. Roberts. 1994. \"Predictive modeling of growth of\nStaphylococcus aureus: The effects of temperature, pH and sodium chloride.\" Int J"
+          },
+          {
+            "chunk_id": "appendix-3:p13:c0",
+            "source_id": "appendix-3",
+            "source_title": "Appendix 3: Bacterial Pathogen Growth and Inactivation",
+            "source_role": "Draft, nonbinding FDA scientific guidance for food processing.",
+            "page": 13,
+            "distance": 0.3326,
+            "text": "Contains Non-binding Recommendations\nDraft-Not for Implementation\n\nAppendix 3 (Bacterial Pathogen Growth and Inactivation) - Page 13\n\nCatsaras, M., and D. Grebot. 1984. \"Multiplication des Salmonella dans la viande hachee.\" Bull.\nAcad. Vet. France. 57:501-512.\nCole, M. B., M. V. Jones, and C. Holyoak. 1990. \"The effect of pH, salt concentration and\ntemperature on the survival and growth of Listeria monocytogenes.\" J Appl Bacteriol 69\n(1):63-72.\nColwell, R. R. 1984. Vibrios in the environment. New York, NY: John Wiley Interscience.\nConner, D. E., V. N. Scott, and D. T. Bernard. 1990. \"Potential Clostridium botulinum hazards\nassociated with extended shelf-life refrigerated foods: a review.\" Journal of Food Safety\n10 (2):131-153.\nCortesi, M. L., T. Sarli, A. Santoro, N. Murru, and T. Pepe. 1997. \"Distribution and behavior of\nListeria monocytogenes in three lots of naturally-contaminated vacuum-packed smoked\nsalmon stored at 2 and 10 degrees C.\" International Journal of Food Microbiology 37 (2-\n3):209-214. doi: 10.1016/S0168-1605(97)00064-0.\nCraven, S. E. 1980. \"Growth and sporulation of Clostridium perfringens in foods.\" Food Technol\nChicago 34 (4):80-&."
+          }
+        ],
+        "steps_remaining": 9
+      }
+    },
+    {
+      "step": 2,
+      "model": {
+        "content": null,
+        "reasoning": "I have the table data. Both rows are in chunk appendix-3:p3:c0. Also footnote 4 in p4:c0 explains facultative anaerobe. Also p1:c3 / p2:c0 describe the table's meaning (extreme limits, non-binding draft).\n\nLet me construct claims.\n\nSalmonella spp.: min aw 0.94, min pH 3.7, max pH 9.5, max water-phase salt 8%, min temp 41.4°F (5.2°C), max temp 115.2°F (46.2°C), facultative anaerobe.\nListeria monocytogenes: min aw 0.92, min pH 4.4, max pH 9.4, max water-phase salt 10%, min temp 31.3°F (-0.4°C), max temp 113°F (45°C), facultative anaerobe.\n\nComparisons: Listeria tolerates lower aw (0.92 vs 0.94), higher salt (10% vs 8%), lower min temp (31.3°F vs 41.4°F — can grow below freezing), narrower acid range on the low end (Salmonella min pH 3.7 vs Listeria 4.4), similar max pH (9.5 vs 9.4), similar max temp (115.2 vs 113). Both facultative anaerobes — grow with or without oxygen.\n\nI'll include a claim noting the table's caveat and draft status.",
+        "tool_calls": [
+          {
+            "id": "call_c42fa07a",
+            "name": "final_answer",
+            "arguments": {
+              "claims": [
+                {
+                  "citations": [
+                    "appendix-3:p3:c0"
+                  ],
+                  "text": "In Appendix 3, Table 3-A (Limiting Conditions for Pathogen Growth), Salmonella spp. is listed with a minimum water activity (using salt) of 0.94, a minimum pH of 3.7, a maximum pH of 9.5, a maximum water-phase salt of 8%, a minimum temperature of 41.4°F (5.2°C), a maximum temperature of 115.2°F (46.2°C), and an oxygen requirement of facultative anaerobe."
+                },
+                {
+                  "citations": [
+                    "appendix-3:p3:c0"
+                  ],
+                  "text": "In the same Table 3-A, Listeria monocytogenes is listed with a minimum water activity (using salt) of 0.92, a minimum pH of 4.4, a maximum pH of 9.4, a maximum water-phase salt of 10%, a minimum temperature of 31.3°F (-0.4°C), a maximum temperature of 113°F (45°C), and an oxygen requirement of facultative anaerobe."
+                },
+                {
+                  "citations": [
+                    "appendix-3:p3:c0"
+                  ],
+                  "text": "Comparison of water activity and salt: Listeria monocytogenes has the lower minimum aw (0.92 vs. 0.94 for Salmonella spp.) and tolerates a higher maximum water-phase salt (10% vs. 8%)."
+                },
+                {
+                  "citations": [
+                    "appendix-3:p3:c0"
+                  ],
+                  "text": "Comparison of pH: Salmonella spp. starts at a more acidic minimum pH (3.7) than Listeria monocytogenes (4.4), while their maximum pH values are nearly the same (9.5 for Salmonella spp. vs. 9.4 for L. monocytogenes)."
+                },
+                {
+                  "citations": [
+                    "appendix-3:p3:c0"
+                  ],
+                  "text": "Comparison of temperature: Listeria monocytogenes has the lower minimum growth temperature, 31.3°F (-0.4°C), versus 41.4°F (5.2°C) for Salmonella spp., while Salmonella spp. has the slightly higher maximum growth temperature, 115.2°F (46.2°C) versus 113°F (45°C) for L. monocytogenes."
+                },
+                {
+                  "citations": [
+                    "appendix-3:p3:c0",
+                    "appendix-3:p4:c0"
+                  ],
+                  "text": "Oxygen requirement: Table 3-A lists both Salmonella spp. and Listeria monocytogenes as facultative anaerobes, which the table's footnote 4 defines as organisms that grow either with or without oxygen."
+                },
+                {
+                  "citations": [
+                    "appendix-3:p1:c3",
+                    "appendix-3:p2:c0"
+                  ],
+                  "text": "Appendix 3 states that the values in Table 3-A are the extreme limits reported among the cited references and may not apply to a given food or processing conditions; the document is labeled non-binding, draft guidance not for implementation."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "final_answer",
+        "arguments": {
+          "claims": [
+            {
+              "text": "In Appendix 3, Table 3-A (Limiting Conditions for Pathogen Growth), Salmonella spp. is listed with a minimum water activity (using salt) of 0.94, a minimum pH of 3.7, a maximum pH of 9.5, a maximum water-phase salt of 8%, a minimum temperature of 41.4°F (5.2°C), a maximum temperature of 115.2°F (46.2°C), and an oxygen requirement of facultative anaerobe.",
+              "citations": [
+                "appendix-3:p3:c0"
+              ]
+            },
+            {
+              "text": "In the same Table 3-A, Listeria monocytogenes is listed with a minimum water activity (using salt) of 0.92, a minimum pH of 4.4, a maximum pH of 9.4, a maximum water-phase salt of 10%, a minimum temperature of 31.3°F (-0.4°C), a maximum temperature of 113°F (45°C), and an oxygen requirement of facultative anaerobe.",
+              "citations": [
+                "appendix-3:p3:c0"
+              ]
+            },
+            {
+              "text": "Comparison of water activity and salt: Listeria monocytogenes has the lower minimum aw (0.92 vs. 0.94 for Salmonella spp.) and tolerates a higher maximum water-phase salt (10% vs. 8%).",
+              "citations": [
+                "appendix-3:p3:c0"
+              ]
+            },
+            {
+              "text": "Comparison of pH: Salmonella spp. starts at a more acidic minimum pH (3.7) than Listeria monocytogenes (4.4), while their maximum pH values are nearly the same (9.5 for Salmonella spp. vs. 9.4 for L. monocytogenes).",
+              "citations": [
+                "appendix-3:p3:c0"
+              ]
+            },
+            {
+              "text": "Comparison of temperature: Listeria monocytogenes has the lower minimum growth temperature, 31.3°F (-0.4°C), versus 41.4°F (5.2°C) for Salmonella spp., while Salmonella spp. has the slightly higher maximum growth temperature, 115.2°F (46.2°C) versus 113°F (45°C) for L. monocytogenes.",
+              "citations": [
+                "appendix-3:p3:c0"
+              ]
+            },
+            {
+              "text": "Oxygen requirement: Table 3-A lists both Salmonella spp. and Listeria monocytogenes as facultative anaerobes, which the table's footnote 4 defines as organisms that grow either with or without oxygen.",
+              "citations": [
+                "appendix-3:p3:c0",
+                "appendix-3:p4:c0"
+              ]
+            },
+            {
+              "text": "Appendix 3 states that the values in Table 3-A are the extreme limits reported among the cited references and may not apply to a given food or processing conditions; the document is labeled non-binding, draft guidance not for implementation.",
+              "citations": [
+                "appendix-3:p1:c3",
+                "appendix-3:p2:c0"
+              ]
+            }
+          ]
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "accepted",
+        "terminal_reason": "answer"
+      }
+    }
+  ]
+}

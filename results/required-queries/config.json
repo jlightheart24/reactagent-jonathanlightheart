@@ -1,0 +1,14 @@
+{
+  "embedding_model": "Qwen3-Embedding-8B",
+  "llm_model": "Qwen3.8-Flash-Next",
+  "collection": "food_safety_corpus",
+  "chunk_size_chars": 1200,
+  "chunk_overlap_chars": 200,
+  "retrieval_top_k": 5,
+  "max_steps": 10,
+  "temperature": 0.0,
+  "tool_choice": "auto",
+  "query_instruction": "Given a question about food safety, retrieve passages from food-safety documents that answer it",
+  "index_chunk_count": 3030,
+  "index_built_at": "2026-10-27T00:42:25+00:00"
+}

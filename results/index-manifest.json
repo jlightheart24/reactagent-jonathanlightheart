@@ -1,0 +1,61 @@
+{
+  "collection": "food_safety_corpus",
+  "embedding_model": "Qwen3-Embedding-8B",
+  "chunk_size_chars": 1200,
+  "chunk_overlap_chars": 200,
+  "pages_total": 1110,
+  "chunks_total": 3030,
+  "chunks_added": 3030,
+  "chunks_already_present": 0,
+  "built_at": "2026-10-27T00:42:25+00:00",
+  "sources": [
+    {
+      "source_id": "food-code-2026",
+      "filename": "fda-food-code-2026.pdf",
+      "pages": 732,
+      "empty_pages": [
+        1,
+        2,
+        245,
+        732
+      ],
+      "chunks": 2025
+    },
+    {
+      "source_id": "employee-health-handbook",
+      "filename": "fda-employee-health-personal-hygiene-handbook.pdf",
+      "pages": 45,
+      "empty_pages": [
+        43,
+        44,
+        45
+      ],
+      "chunks": 103
+    },
+    {
+      "source_id": "bad-bug-book",
+      "filename": "fda-bad-bug-book-second-edition.pdf",
+      "pages": 292,
+      "empty_pages": [
+        167,
+        193,
+        257
+      ],
+      "chunks": 804
+    },
+    {
+      "source_id": "appendix-3",
+      "filename": "fda-appendix-3-bacterial-pathogen-growth-inactivation.pdf",
+      "pages": 23,
+      "empty_pages": [],
+      "chunks": 59
+    },
+    {
+      "source_id": "utah-risk-factor-study",
+      "filename": "utah-risk-factor-study-2016-2017.pdf",
+      "pages": 18,
+      "empty_pages": [],
+      "chunks": 39
+    }
+  ]
+}

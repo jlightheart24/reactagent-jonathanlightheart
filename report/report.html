@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>U0-HW-09: ReAct Agent With Vector Retrieval</title>
+<meta name="author" content="Jonny Lightheart">
+<style>
+  body { font-family: Georgia, "Times New Roman", serif; font-size: 11pt; line-height: 1.4; color: #111; background: #fff; max-width: 7in; margin: 0 auto; }
+  h1 { font-size: 18pt; margin-bottom: 0.2em; }
+  h2 { font-size: 14pt; margin-top: 1.2em; border-bottom: 1px solid #999; }
+  h3 { font-size: 12pt; }
+  table { border-collapse: collapse; width: 100%; margin: 0.5em 0; font-size: 10pt; }
+  th, td { border: 1px solid #888; padding: 3px 6px; text-align: left; vertical-align: top; }
+  th { background: #eee; }
+  code { font-family: Menlo, Consolas, monospace; font-size: 9pt; }
+  .todo { background: #fff3c4; }
+  @page { size: letter; margin: 0.75in; }
+</style>
+</head>
+<body>
+<main>
+<h1>U0-HW-09: ReAct Agent With Vector Retrieval</h1>
+<p>Jonny Lightheart · CS 4300 · October 2026</p>
+<p>Repository: <a href="https://github.com/jlightheart24/reactagent-jonathanlightheart">https://github.com/jlightheart24/reactagent-jonathanlightheart</a></p>
+
+<h2>Task</h2>
+<p>The agent answers food-safety questions using only five supplied documents (1,110 PDF pages): the FDA Food
+Code 2026, the FDA <cite>Employee Health and Personal Hygiene Handbook</cite>, the <cite>Bad Bug Book</cite> (Second
+Edition), FDA Appendix 3 on bacterial pathogen growth and inactivation, and the Utah Risk Factor Study
+2016–2017. Each run ends with one of four outcomes: an answer whose claims cite retrieved passages, an
+insufficient-evidence result when the corpus does not support an answer, an error, or the step limit.</p>
+
+<h2>Tools</h2>
+<ul>
+  <li><code>search_documents(query, sources?, contains?, k?)</code> runs semantic search over the Chroma index. Pydantic
+  validates the arguments: the query must be 3–500 characters after trimming; <code>sources</code> must be known source
+  IDs without repeats; <code>contains</code> is an exact-text filter (useful for section numbers such as
+  <code>2-201.12</code>); <code>k</code> must be 1–10; and unknown fields are rejected. Each observation returns the passage
+  text with its <code>chunk_id</code>, source title, source role, one-based PDF page, and cosine distance.</li>
+  <li><code>final_answer(claims)</code> ends the run with an answer. Each claim is one statement with its own citation list.</li>
+  <li><code>insufficient_evidence(reason, citations?)</code> ends the run when the evidence does not support an answer.
+  It is accepted only after at least one search.</li>
+</ul>
+
+<h2>Vector-store design</h2>
+<ul>
+  <li><strong>Extraction.</strong> <code>pypdf</code> extracts text page by page and normalizes whitespace. Ten pages
+  have no extractable text (covers, blank pages, and image-only pages), so they produce no chunks. The build checks
+  every file's SHA-256 digest and page count against the materials README before indexing.</li>
+  <li><strong>Chunking.</strong> Chunks are 1,200 characters with a 200-character overlap. Each chunk stays within one
+  physical page and ends at the latest paragraph, line, sentence, or word break, giving 3,030 chunks in all.</li>
+  <li><strong>Embedding.</strong> Qwen3-Embedding-8B, called through the course's OpenAI-compatible endpoint. The text
+  embedded for each document chunk is prefixed with its title and page. Queries use the Qwen3 instruction format.</li>
+  <li><strong>Storage.</strong> A persistent ChromaDB collection using cosine HNSW. The collection metadata records the
+  embedding model, chunk settings, build time, and chunk count. A build or query whose settings differ from those
+  recorded is refused until you run <code>python -m docagent ingest --rebuild</code>. An interrupted build can be
+  resumed.</li>
+</ul>
+
+<h2>Source attribution</h2>
+<p>Each chunk's metadata holds its source ID, file name, title, one-based physical PDF page, chunk index,
+character offsets, and a stable identifier <code>&lt;source_id&gt;:p&lt;page&gt;:c&lt;index&gt;</code>. The controller
+keeps the set of chunk IDs that retrieval returned during the current run. A final answer or insufficient-evidence
+result is rejected (and sent back to the model as an observation) if any citation is outside that set. Accepted
+citations are resolved to title and page from the stored metadata, not from model output. In addition, a numeric
+support check flags any number in a claim that does not appear in that claim's cited passages. Matching citations
+establishes where a chunk came from. Whether each claim actually follows from its passages was reviewed by hand
+(see Required-query outcomes).</p>
+
+<h2>Controller</h2>
+<p>The ReAct loop is bounded. One step is one model call plus at most one validated action, and the default limit is
+10 steps (configurable). Each of the following uses a step and is returned to the model as an observation: a turn
+with no tool call, an unknown tool, malformed JSON, arguments that fail validation, and an invalid
+citation. When a turn contains several tool calls, only the first is executed and the rest are rejected. Model-service and retrieval-service exceptions end the run with the reason <code>error</code>. The trace
+records, for every step, the model's reasoning and text, the requested tool call, the action status, and the full
+observation.</p>
+
+<h2>Recorded configuration</h2>
+<table>
+  <thead><tr><th scope="col">Setting</th><th scope="col">Value</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">Embedding model</th><td>Qwen3-Embedding-8B</td></tr>
+    <tr><th scope="row">Chat model</th><td>Qwen3.8-Flash-Next, temperature 0. The supplied configuration names Qwen3.8-27B, but the assigned API key returned HTTP 403 for that model.</td></tr>
+    <tr><th scope="row">Chunk size / overlap</th><td>1,200 / 200 characters</td></tr>
+    <tr><th scope="row">Retrieval result count</th><td>5 per search (default)</td></tr>
+    <tr><th scope="row">Model/tool step limit</th><td>10</td></tr>
+    <tr><th scope="row">Index</th><td>3,030 chunks from 1,110 pages (10 pages had no extractable text)</td></tr>
+  </tbody>
+</table>
+
+<h2>Test results</h2>
+<p><code>python -m pytest</code>: <strong>70 passed</strong>, with no live services. The tests cover the following:</p>
+<ul>
+  <li>Ingestion metadata: source, one-based physical page, and chunk-ID stability across rebuilds; persistence after
+  reopening; resuming; refusal when settings change; and hash checks.</li>
+  <li>Validation of retrieval-tool arguments (13 invalid cases) and source-labeled results from Chroma and
+  substitute retrievers.</li>
+  <li>Rejection of citations that retrieval did not return, including a chunk that exists in the corpus but was not
+  returned in that run.</li>
+  <li>Step-limit enforcement and validation of the step-limit value.</li>
+  <li>All four terminal reasons.</li>
+  <li>Scripted supported and insufficient-evidence runs.</li>
+  <li>Protocol rejections and the required-query runner.</li>
+</ul>
+
+<h2>Required-query outcomes</h2>
+<table>
+  <thead><tr><th scope="col">Query</th><th scope="col">Expected</th><th scope="col">Terminal reason</th><th scope="col">Steps</th><th scope="col">Claims supported by cited passages</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">Q1 Food Code section lookup</th><td>answer</td><td>answer</td><td>6</td><td>Yes, except the final claim (see note)</td></tr>
+    <tr><th scope="row">Q2 Employee illness procedure</th><td>answer</td><td>answer</td><td>5</td><td>Yes</td></tr>
+    <tr><th scope="row">Q3 Norovirus reference</th><td>answer</td><td>answer</td><td>6</td><td>Yes</td></tr>
+    <tr><th scope="row">Q4 Pathogen growth limits</th><td>answer</td><td>answer</td><td>2</td><td>Yes (all Table 3-A values verified)</td></tr>
+    <tr><th scope="row">Q5 Utah inspection findings</th><td>answer</td><td>answer</td><td>6</td><td>Yes</td></tr>
+    <tr><th scope="row">Q6 Cross-document scenario</th><td>answer</td><td>answer</td><td>8</td><td>Yes</td></tr>
+    <tr><th scope="row">Q7 Source authority and version</th><td>answer</td><td>answer</td><td>8</td><td>Yes</td></tr>
+    <tr><th scope="row">Q8 Utah jurisdiction</th><td>insufficient_evidence</td><td>insufficient_evidence</td><td>5</td><td>Correctly declined</td></tr>
+    <tr><th scope="row">Q9 Off-topic</th><td>insufficient_evidence</td><td>insufficient_evidence</td><td>2</td><td>Correctly declined</td></tr>
+  </tbody>
+</table>
+<p>All nine queries ran once under the recorded configuration, and every one ended with its expected terminal
+reason. No query was rerun. Full traces are in <code>results/required-queries/</code>: one JSON file and one
+Markdown view per query, plus <code>REVIEW.md</code>.</p>
+<p>I checked each claim against the stored text of its cited chunk, concentrating on numbers, table values, and
+section attributions. Examples:</p>
+<ul>
+  <li>Q4: all fourteen Table 3-A values for <i>Salmonella</i> spp. and <i>L. monocytogenes</i> match the flattened
+  table on Appendix 3, PDF page 3, and no row is shifted.</li>
+  <li>Q5: the four summer line items (22, 28, 33, 36) and their rate ratios (1.37, 1.15, 1.50, 1.23) match the Utah
+  study, PDF page 4.</li>
+  <li>Q6: the answer keeps the Bad Bug Book's infective dose (1 to 10 particles) separate from the Food Code Annex
+  figure (as few as 18 particles). It treats vomiting as a symptom, not as a norovirus diagnosis.</li>
+  <li>Q7: the answer states that the 2026 Food Code controls the current model-code rule, and that the handbook,
+  adapted from the 2017 Food Code, remains usable as training guidance where it agrees with that rule.</li>
+  <li>Q8: the agent found no Utah adoption rule or penalties. It noted that the Food Code's model ordinance leaves
+  fine amounts blank for the adopting jurisdiction.</li>
+</ul>
+<p><strong>One unsupported claim.</strong> Q1's final claim explains the "P" marker on § 2-201.12 as a "provision
+addressed by a core or noncore item." The cited passage shows the letter "P" but does not define it. The
+explanation came from the model's own knowledge and is wrong: in the Food Code, "P" marks a Priority item. The
+other Q1 claims are supported.</p>
+<p><strong>Two smaller issues.</strong> Some years in claims about a source's status (2012, 2020) come from the
+source-role label the application attaches to each result, not from the passage text. Some section labels (for
+example ¶ 2-201.11(A)(1)(a)) come from a heading in the preceding chunk.</p>
+
+<h2>Limitations</h2>
+<ul>
+  <li>Text extraction drops layout. The table structure in Appendix 3 Table 3-A and in the Utah study's rate-ratio
+  table survives only as text, and image-only pages are not indexed (there is no OCR).</li>
+  <li>Chunks never cross a page boundary. A table or paragraph that continues onto the next page is split, so the
+  agent may need two searches to recover it.</li>
+  <li>Matching citations proves only where a chunk came from. Whether a claim follows from its passage is enforced by
+  the prompt, a numeric check, and manual review, not by an entailment check.</li>
+  <li>Semantic search alone handles exact section numbers poorly. The <code>contains</code> filter compensates, but it
+  is case-sensitive and matches the exact string.</li>
+  <li>Results depend on one chat model at temperature 0. The course service may not be fully deterministic, so
+  repeated runs can differ.</li>
+  <li>The check that claims match their citations has gaps. The numeric check catches mismatched numbers but not
+  invented definitions, as Q1's "P" claim shows. Section numbers can also be attributed from a neighboring chunk.</li>
+  <li>The chat model was Qwen3.8-Flash-Next rather than the Qwen3.8-27B named in the supplied configuration,
+  because the assigned key returned HTTP 403 for 27B. The service also ignored <code>tool_choice="required"</code>,
+  so the controller rejects turns that contain no tool call. The model often sent several tool calls in one turn;
+  only the first is executed.</li>
+  <li>Answers are verbose. Several runs add correct but loosely related claims (for example, cleanup procedures in Q2).</li>
+</ul>
+
+<h2>AI-assistance disclosure</h2>
+<ul>
+  <li><strong>Claude Code (Anthropic, Claude Opus 5.5)</strong>: wrote the initial design, source code, offline tests,
+  README, and this report's draft text. <span class="todo">How I verified it: e.g., read and understood each module,
+  ran the 70 tests, ran the ingestion build and all nine required queries on the course network, checked each cited
+  passage against the source PDF page, and revised …</span></li>
+</ul>
+</main>
+</body>
+</html>

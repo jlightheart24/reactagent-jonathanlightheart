@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docagent"
+version = "0.1.0"
+description = "Bounded ReAct agent that answers questions from a Chroma vector index of food-safety documents"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.0",
+    "openai>=1.40",
+    "pydantic>=2.6",
+    "pypdf>=5.0",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+docagent = "docagent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

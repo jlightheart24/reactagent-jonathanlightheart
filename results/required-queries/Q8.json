@@ -1,0 +1,451 @@
+{
+  "query_id": "Q8",
+  "title": "Insufficient Jurisdictional Evidence",
+  "expected": "insufficient_evidence",
+  "question": "What Utah regulation currently adopts the FDA Food Code 2026, and what penalties does it impose on a restaurant that violates employee-illness rules?",
+  "terminal_reason": "insufficient_evidence",
+  "steps_used": 5,
+  "max_steps": 10,
+  "final_result": "Insufficient evidence: The question asks for (1) a specific current Utah regulation that adopts the FDA Food Code 2026 and (2) the penalties that Utah law imposes on a restaurant violating employee-illness rules. Nothing in the retrieved collection supports either part. The only Utah document available (Utah Risk Factor Study, 2016-2017) is a historical analysis of local retail food inspection line-item violations; it states only that the Utah Department of Health \"oversees and administers rules and policies that provide regulatory standards of operation for food safety and authority for local health departments to enforce those standards,\" without naming any rule, its adoption of any Food Code edition, or any penalty amounts. The FDA Food Code 2026 is a model code that becomes binding only where a jurisdiction separately adopts it; its Annex 7 model ordinance uses blank placeholders such as \"(name of adopting authority)\" and \"(name of jurisdiction)\" and its examples of fines/sentences cover only California, Maryland, Texas, and federal law (no Utah). Food Code 8-911.10 leaves the fine amount to be designated by the adopting jurisdiction (\"A fine of not more than (designate amount) dollars\"), and 8-501.20 provides only non-monetary control measures (restriction, exclusion, or summary permit suspension/closure) as examples of enforcement, not Utah penalties. Because the central request — the Utah adopting rule and its penalty amounts — is absent, no answer can be given from these sources.",
+  "claims": [],
+  "insufficient_reason": "The question asks for (1) a specific current Utah regulation that adopts the FDA Food Code 2026 and (2) the penalties that Utah law imposes on a restaurant violating employee-illness rules. Nothing in the retrieved collection supports either part. The only Utah document available (Utah Risk Factor Study, 2016-2017) is a historical analysis of local retail food inspection line-item violations; it states only that the Utah Department of Health \"oversees and administers rules and policies that provide regulatory standards of operation for food safety and authority for local health departments to enforce those standards,\" without naming any rule, its adoption of any Food Code edition, or any penalty amounts. The FDA Food Code 2026 is a model code that becomes binding only where a jurisdiction separately adopts it; its Annex 7 model ordinance uses blank placeholders such as \"(name of adopting authority)\" and \"(name of jurisdiction)\" and its examples of fines/sentences cover only California, Maryland, Texas, and federal law (no Utah). Food Code 8-911.10 leaves the fine amount to be designated by the adopting jurisdiction (\"A fine of not more than (designate amount) dollars\"), and 8-501.20 provides only non-monetary control measures (restriction, exclusion, or summary permit suspension/closure) as examples of enforcement, not Utah penalties. Because the central request — the Utah adopting rule and its penalty amounts — is absent, no answer can be given from these sources.",
+  "error": null,
+  "citations": [
+    {
+      "chunk_id": "utah-risk-factor-study:p2:c0",
+      "source_id": "utah-risk-factor-study",
+      "title": "Utah Risk Factor Study, 2016-2017",
+      "page": 2
+    },
+    {
+      "chunk_id": "food-code-2026:p672:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 672
+    },
+    {
+      "chunk_id": "food-code-2026:p675:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 675
+    },
+    {
+      "chunk_id": "food-code-2026:p262:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 262
+    },
+    {
+      "chunk_id": "food-code-2026:p194:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 194
+    }
+  ],
+  "warnings": [],
+  "retrieved_chunk_ids": [
+    "food-code-2026:p210:c0",
+    "food-code-2026:p666:c2",
+    "food-code-2026:p194:c0",
+    "food-code-2026:p366:c3",
+    "food-code-2026:p232:c1",
+    "utah-risk-factor-study:p2:c0",
+    "utah-risk-factor-study:p2:c2",
+    "utah-risk-factor-study:p5:c3",
+    "utah-risk-factor-study:p14:c1",
+    "utah-risk-factor-study:p10:c0",
+    "food-code-2026:p675:c1",
+    "food-code-2026:p673:c1",
+    "food-code-2026:p262:c1",
+    "food-code-2026:p675:c0",
+    "food-code-2026:p673:c2",
+    "food-code-2026:p672:c1",
+    "food-code-2026:p24:c3",
+    "food-code-2026:p715:c0",
+    "food-code-2026:p713:c1",
+    "food-code-2026:p26:c3"
+  ],
+  "model": "Qwen3.8-Flash-Next",
+  "config": {
+    "embedding_model": "Qwen3-Embedding-8B",
+    "llm_model": "Qwen3.8-Flash-Next",
+    "collection": "food_safety_corpus",
+    "chunk_size_chars": 1200,
+    "chunk_overlap_chars": 200,
+    "retrieval_top_k": 5,
+    "max_steps": 10,
+    "temperature": 0.0,
+    "tool_choice": "auto",
+    "query_instruction": "Given a question about food safety, retrieve passages from food-safety documents that answer it",
+    "index_chunk_count": 3030,
+    "index_built_at": "2026-10-27T00:42:25+00:00"
+  },
+  "started_at": "2026-10-27T00:55:50+00:00",
+  "duration_s": 57.51,
+  "trace": [
+    {
+      "step": 1,
+      "model": {
+        "content": null,
+        "reasoning": "The user asks about Utah regulation adopting FDA Food Code 2026 and penalties. The documents include Utah Risk Factor Study (historical inspection observations 2016-2017), which is not a statement of current legal requirements. Likely insufficient evidence. But let's search to confirm.",
+        "tool_calls": [
+          {
+            "id": "call_f06c95ce",
+            "name": "search_documents",
+            "arguments": {
+              "query": "Utah regulation adopts FDA Food Code penalties restaurant employee illness"
+            }
+          },
+          {
+            "id": "call_0f6ec2c4",
+            "name": "search_documents",
+            "arguments": {
+              "sources": [
+                "utah-risk-factor-study"
+              ],
+              "query": "Utah state law adoption of Food Code legal requirements penalties"
+            }
+          }
+        ]
+      },
+      "extra_tool_calls_rejected": 1,
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Utah regulation adopts FDA Food Code penalties restaurant employee illness"
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 5,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p210:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 210,
+            "distance": 0.3077,
+            "text": "FDA Food Code 2026 Index\nIndex-16\ndefinition, 6, See also Food employee\ndefinition\ndressing areas, 140, 466\neating, drinking, and tobacco use,\ndesignated areas, 42\nfood contaminated by, disposition, 83\nhair restraint requirements, 43\nhygiene, 24, 42, 243\nillness reporting exclusions and\nrestrictions, 26, 31, 243, 284, 288,\n581, 584, 585\npractices, supervision of, 26\nprevention of food contamination, 52,\n54, 357\nresponsibility to report illness, 26,\n243, 254, 284, 288, 581, 584, 585\nserving high-risk populations,\nexclusions and restrictions, 303,\nSee Highly susceptible population,\nexclusion and restriction of ill\nemployees\nEmployee Illness Policy, 43\nEmu. See Ratite definition\nEnclosures for refuse, recyclables and\nreturnables, operation and\nmaintenance, 129, 130, 131\nEnforcement. See Compliance and\nEnforcement\nEnforcement proceedings\nauthorities, methods, fines, and\nsentences, 182\ninstitution, 182\njudicial, 181\nEPA, U.S. Environmental Protection\nAgency, definition, 6\nEquipment\nacceptability, 98\nair drying requirement, 114\nassessment for Code enforcement,\n151\ncan opener parts, removable and\nreplaceable, 91, 102\ncase lot handling, 60, 97\ncertification and classification, 98"
+          },
+          {
+            "chunk_id": "food-code-2026:p666:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 666,
+            "distance": 0.3105,
+            "text": "or other\nSTEC infection, or hepatitis A.\nI have read (or had explained to me) and understand the requirements concerning my responsibilities\nunder the Food Code and this agreement to comply with:\n1. Reporting requirements specified above involving symptoms, diagnoses, and exposure\nspecified;\n2. Work restrictions or exclusions that are imposed upon me; and\n3. Good hygienic practices.\nI understand that failure to comply with the terms of this agreement could lead to action by the food\nestablishment or the food regulatory authority that may jeopardize my employment and may involve legal\naction against me.\nConditional Employee Name (please print) _______________________________________________\nSignature of Conditional Employee _______________________________________Date __________\nFood Employee Name (please print) _____________________________________________________\nSignature of Food Employee ____________________________________________Date __________\nSignature of Permit Holder or Representative ______________________________Date __________"
+          },
+          {
+            "chunk_id": "food-code-2026:p194:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 194,
+            "distance": 0.3117,
+            "text": "FDA Food Code 2026 Chapter 8. Compliance and Enforcement\n166\n(A) Securing a confidential medical history of the *FOOD EMPLOYEE or\n*CONDITIONAL EMPLOYEE suspected of transmitting disease or making other\ninvestigations as deemed appropriate; and\n(B) Requiring appropriate medical examinations, including collection of\nspecimens for laboratory analysis, of a suspected *FOOD EMPLOYEE or\n*CONDITIONAL EMPLOYEE.\n8-501.20 Restriction or Exclusion of Food Employee, or Summary\nSuspension of Permit.\nBased on the findings of an investigation related to a *FOOD EMPLOYEE or\n*CONDITIONAL EMPLOYEE who is suspected of being infected or diseased, the\n*REGULATORY AUTHORITY may issue an order to the suspected *FOOD EMPLOYEE,\n*CONDITIONAL EMPLOYEE or *PERMIT HOLDER instituting one or more of the following\ncontrol measures:\n(A) *RESTRICTING the *FOOD EMPLOYEE or *CONDITIONAL EMPLOYEE;\n(B) *EXCLUDING the *FOOD EMPLOYEE or *CONDITIONAL EMPLOYEE; or\n(C) Closing the *FOOD ESTABLISHMENT by summarily suspending a *PERMIT to\noperate in accordance with *LAW.\n8-501.30 Restriction or Exclusion Order: Warning or Hearing Not Required,\nInformation Required in Order."
+          },
+          {
+            "chunk_id": "food-code-2026:p366:c3",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 366,
+            "distance": 0.3124,
+            "text": "D.C., 2022, and the U.S. Food and Drug Administration,\nBad Bug Book, Foodborne Pathogenic Microorganisms and Natural Toxins. Second\nEdition, 2012. available at Bad Bug Book (Second Edition) | FDA.\nThe information provided in Subpart 2-201 is designed to assist food establishment\nmanagers and regulatory officials in removing infected food employees when they are at\ngreatest risk of transmitting foodborne pathogens to food. Practical applications of the\ninformation in Subpart 2-201 by a food establishment manager may involve using\nSubpart 2-201 as a basis for obtaining information on the health status of food\nemployees and can also be used as a basis in developing and implementing an\neffective Employee Illness Policy. The FDA Food Code now requires each food"
+          },
+          {
+            "chunk_id": "food-code-2026:p232:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 232,
+            "distance": 0.3186,
+            "text": "employee reporting illness, 28,\n30, 288, 581, 584, 585\npermit holder for ceasing operations,\n159\npermit holder for permit retention, 159\nperson in charge duties and\nauthorities, 28, 30, 581\nperson in charge reporting ill\nemployee, 30, 159, 581, 584, 585\nregulatory authority for permit\nissuance, 158\nResponsibilties\nperson in charge reporting ill\nemployee, 288\nRestaurant. See Food establishment\ndefinition\nRestrict, definition, 16\nRestricted egg, definition, 17\nRestricted use pesticide, definition, 17\nRestriction\nemployee, release, 33, 166, 324\nfood employee, 31, 33, 166, 303, 307\norder for infected or diseased\nemployee, 166\nservice of notice, 170\nResumption of operations, 164\nRetail food store. See Food\nestablishment definition\nRetention tank, 128\nRetirement home, 143\nReturnables. See Refuse, recyclables,\nand returnables"
+          }
+        ],
+        "steps_remaining": 9
+      }
+    },
+    {
+      "step": 2,
+      "model": {
+        "content": null,
+        "reasoning": "The question asks about Utah regulation currently adopting FDA Food Code 2026 and penalties. The documents likely don't contain Utah legal adoption/penalties. Let me search the Utah study for any mention of adoption/penalties.",
+        "tool_calls": [
+          {
+            "id": "call_43327af4",
+            "name": "search_documents",
+            "arguments": {
+              "query": "Utah state law rule adoption of the Food Code, fines and penalties for violations",
+              "sources": [
+                "utah-risk-factor-study"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Utah state law rule adoption of the Food Code, fines and penalties for violations",
+          "sources": [
+            "utah-risk-factor-study"
+          ]
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 5,
+        "results": [
+          {
+            "chunk_id": "utah-risk-factor-study:p2:c0",
+            "source_id": "utah-risk-factor-study",
+            "source_title": "Utah Risk Factor Study, 2016-2017",
+            "source_role": "Historical Utah inspection observations (2016-2017); not a statement of current legal requirements.",
+            "page": 2,
+            "distance": 0.3324,
+            "text": "Foodborne illnesses continue to be a public health concern in Utah. Utah’s local health\ndepartments are responsible to inspect food service businesses in Utah and to respond to foodborne\nillness complaints or outbreaks. The Utah Department of Health (UDOH) provides training and support\nto the local health departments. In addition, UDOH oversees and administers rules and policies that\nprovide regulatory standards of operation for food safety and authority for local health departments to\nenforce those standards. The UDOH conducted an analysis of data from retail food inspections\nconducted in 2016 by local inspectors. This analysis was done through a cooperative agreement with\nthe Association of Food and Drug Officials (AFDO) administering a grant from the U.S. Food and Drug\nAdministration (FDA).\n\nPurpose:\nThe purpose of this analysis is to evaluate trends, patterns, and correlations of food code\nviolations with the intent of finding ways of improving the efficacy and efficiency of food establishment\ninspections by local departments, and to identify priorities for focused training and policy development\nby UDOH."
+          },
+          {
+            "chunk_id": "utah-risk-factor-study:p2:c2",
+            "source_id": "utah-risk-factor-study",
+            "source_title": "Utah Risk Factor Study, 2016-2017",
+            "source_role": "Historical Utah inspection observations (2016-2017); not a statement of current legal requirements.",
+            "page": 2,
+            "distance": 0.4259,
+            "text": "distributions were measured. Second, line item violation rates were compared between\nsummer and non-summer months. Third, the correlations between line item occurrences were\nmeasured.\n\nFrequency of Observed Violations\nThis analysis measured the frequency distribution of line items selected as violations on local\ninspection forms. Line items were then matched to equivalent line items on the FDA's standard form.\nEmphasis was given to the frequency of items associated with the five risk factors most associated with\nfoodborne illnesses as identified by the U.S. Centers for Disease Control and Prevention (CDC) and the\nfive main interventions for these risks as identified by the FDA.\n\nFoodborne Illness Risk Factors and Food Code Interventions\nCDC's 5 Risk Factors FDA's Interventions\nImproper Holding Temperatures\nInadequate Cooking\nContaminated Equipment\nUnsafe Sources\nPoor Personal Hygiene\nDemonstration of Knowledge\nEmployee Health Controls\nControlling Hands as a Vehicle of Contamination\nTime/Temp. Control of Pathogens\nConsumer Advisory"
+          },
+          {
+            "chunk_id": "utah-risk-factor-study:p5:c3",
+            "source_id": "utah-risk-factor-study",
+            "source_title": "Utah Risk Factor Study, 2016-2017",
+            "source_role": "Historical Utah inspection observations (2016-2017); not a statement of current legal requirements.",
+            "page": 5,
+            "distance": 0.4414,
+            "text": "Factors and Food Code Interventions\", but no further information is available on how these items\ncorrespond to either a risk or intervention. Below is listed how UDOH delineated which line numbers\ncorresponded to which risks or interventions, with some items being chosen as both a risk and\nintervention. In addition, some of the line items in the Good Retail Practices section were noted to be\npart of the risk or intervention categories. All line item numbers over 29 are found in the Good Retail\nPractices.\n\nUDOH's Classification of Line Items and Associated Risk Factors or Interventions\nCDC's 5 Risk Factors\n(CDC Surveillance Report 1993-1997) Associated FDA Line Numbers\nImproper Holding Temperatures 21, 22\nInadequate Cooking 18, 19\nContaminated Equipment 15, 16, 17, 28, 43, 44, 45\nUnsafe Sources 11, 12, 13, 14, 31, 32, 26, 27\nPoor Personal Hygiene 6, 7, 8, 9, 10, 40,"
+          },
+          {
+            "chunk_id": "utah-risk-factor-study:p14:c1",
+            "source_id": "utah-risk-factor-study",
+            "source_title": "Utah Risk Factor Study, 2016-2017",
+            "source_role": "Historical Utah inspection observations (2016-2017); not a statement of current legal requirements.",
+            "page": 14,
+            "distance": 0.4454,
+            "text": "Food-\nContact\nSurfaces:\nClean/Sanitized\n49: Non-Food\nSurfaces Clean\n22: Proper Cold\nHolding\n10: Adequate\nHandsinks;\nAccessible\n39:\nContamination\nPrevented,\nPrep., Storage,\nDisplay\n6: Proper\nEating, Tasting,\nDrinking,\nTobacco\n44: Utensils,\nEquip., Linens:\nStored, Dried,\nHandled\n37: Food\nProperly\nLabeled;\nOriginal\nContainer\nCategory 3: Overall Top 10"
+          },
+          {
+            "chunk_id": "utah-risk-factor-study:p10:c0",
+            "source_id": "utah-risk-factor-study",
+            "source_title": "Utah Risk Factor Study, 2016-2017",
+            "source_role": "Historical Utah inspection observations (2016-2017); not a statement of current legal requirements.",
+            "page": 10,
+            "distance": 0.4463,
+            "text": "Appendix A: Charts\nTop violations from Category 1 establishments. Category 1 establishments represent the lowest risk establishments, as determined by either square footage,\nlimited menus involving limited or no cooking, or those places that only serve non-TCS foods.\n307\n263 247\n220\n179 158 155 153\n126 111\n0\n50\n100\n150\n200\n250\n300\n350\n55: Physical\nFacilities\nInstalled,\nMaintained,\nClean\n16: Food-\nContact\nSurfaces:\nClean/Sanitized\n47: Food/Non-\nFood Surfaces\nCleanable,\nDesign,\nConstructed,\nUsed\n10: Adequate\nHandsinks;\nAccessible\n49: Non-Food\nSurfaces Clean\n8: Hands\nClean/Washed\n51: Plumbing\nInstalled;\nBackflow\n53: Toilet\nFacilities;\nConstructed,\nSupplied, Clean\n1: PIC 6: Proper\nEating, Tasting,\nDrinking,\nTobacco\nCategory 1: Overall Top 10\n263\n220\n158\n111 106 96 89 83 75 68\n0\n50\n100\n150\n200\n250\n300\n350\n16: Food-\nContact\nSurfaces:\nClean/Sanitized\n10: Adequate\nHandsinks;\nAccessible\n8: Hands\nClean/Washed\n6: Proper\nEating, Tasting,\nDrinking,\nTobacco\n28: Toxic\nSubstances\n43: In-Use\nUtensils:\nProperly Stored\n22: Proper Cold\nHolding\n44: Utensils,\nEquip., Linens:\nStored, Dried,\nHandled\n14: Required\nRecords;\nShellstock Tags;\nParasite\nDestruction\n21: Proper Hot\nHolding"
+          }
+        ],
+        "steps_remaining": 8
+      }
+    },
+    {
+      "step": 3,
+      "model": {
+        "content": null,
+        "reasoning": "The Utah study does not contain information about which Utah regulation adopts the FDA Food Code 2026 or penalties. The question asks about current Utah law — which the documents do not contain. The Food Code itself notes it's binding only where adopted, and enforcement provisions (fines, sentences) are in Chapter 8 but those are model-code recommendations, not Utah law.\n\nLet me do one more search to check whether any document mentions Utah adopting the Food Code or penalty amounts (fines).",
+        "tool_calls": [
+          {
+            "id": "call_f655b040",
+            "name": "search_documents",
+            "arguments": {
+              "query": "fines sentences enforcement authorities methods judicial proceedings penalty amounts",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "fines sentences enforcement authorities methods judicial proceedings penalty amounts",
+          "sources": [
+            "food-code-2026"
+          ]
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 5,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p675:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 675,
+            "distance": 0.2834,
+            "text": "code violation convictions, up to $25,000 and three\nyears imprisonment; and\nB. Civil penalties of up to $5,000 for each violation and for each day the violation continues.\n3. Texas law provides:\nA. Criminal fines and sentence for certain violations of up to $10,000 and two years\nimprisonment; and\nB. Assessment of five \"severity\" levels of administrative or civil penalties with base amounts\nranging from $1,250 through $10,000. Base amounts can be decreased or increased by as\nmuch as 50% considering factors such as past performance, good faith, direct impact on\nhealth and safety, high-risk populations involved, etc.\n4. Though rarely used with retail food establishments, Federal law provides under the Criminal Fine\nEnforcement Act of 1984 for a fine up to $100,000 for a misdemeanor by a corporation or\nindividual not resulting in death and, for misdemeanors resulting in death, a fine of up to $250,000\nfor individuals and $500,000 for corporations."
+          },
+          {
+            "chunk_id": "food-code-2026:p673:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 673,
+            "distance": 0.2853,
+            "text": "more than one thousand dollars ($1000) for each offense, or by\nimprisonment in the county jail for a term not exceeding six months, or by both such fine and\nimprisonment.\n2. Maryland law provides:\nA. Criminal fines and sentence for certain misdemeanors of up to $10,000 and one year\nimprisonment, and in the case of repeat code violation convictions, up to $25,000 and three\nyears imprisonment; and\nB. Civil penalties of up to $5,000 for each violation and for each day the violation continues.\n3. Texas law provides:\nA. Criminal fines and sentence for certain violations of up to $10,000 and two years\nimprisonment; and\nB. Assessment of five \"severity\" levels of administrative or civil penalties with base amounts\nranging from $1,250 through $10,000. Base amounts can be decreased or increased by as\nmuch as 50% considering factors such as past performance, good faith, direct impact on\nhealth and safety, high-risk populations involved, etc.\n4. Though rarely used with retail food establishments, Federal law provides under the Criminal Fine\nEnforcement Act of 1984 for a fine up to $100,000 for a misdemeanor by a corporation or"
+          },
+          {
+            "chunk_id": "food-code-2026:p262:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 262,
+            "distance": 0.2909,
+            "text": "Proceedings\n8-910.10 Institution of Proceedings.\n(A) Proceedings to enforce this Code may be instituted by the *REGULATORY\nAUTHORITY according to *LAW by issuing a citation or summons, by filing a\nmisdemeanor complaint affidavit and request for a warrant of arrest with the\ncourt of competent jurisdiction, or by referring the complaint to a grand jury for\nindictment, as appropriate.\n(B) The *REGULATORY AUTHORITY may designate a representative to issue\nsummons or citations or sign warrants on behalf of the agency.\n8-911 Criminal Proceedings\n8-911.10 Authorities, Methods, Fines, and Sentences.\n(A) The *REGULATORY AUTHORITY may seek to enforce the provisions of this Code\nand its orders by instituting criminal proceedings as provided in *LAW against\nthe *PERMIT HOLDER or other *PERSONS who violate its provisions.\n(B) A *PERSON who violates a provision of this Code shall be guilty of a\nmisdemeanor, punishable by:\n(1) A fine of not more than (designate amount) dollars, or by imprisonment not\nexceeding one year, or both the fine and imprisonment; or\n(2) If the *PERSON has been convicted once of violating this Code or if there is"
+          },
+          {
+            "chunk_id": "food-code-2026:p675:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 675,
+            "distance": 0.2917,
+            "text": "FDA Food Code 2026 Annex 7. Model Forms, Guides, and Other Aids\n595\nPASSED AND APPROVED BY (name of adopting authority) on this (day) of (month, year) .\n\nBY:\n\nExamples of how some jurisdictions have set fines, sentences, and penalties:\n1. California law provides:\nA. For Wholesale Food Violations:\nCriminal fines and sentence for violations of up to $1,000 and up to one year imprisonment if\nthere is shown an intent to defraud or mislead, and civil penalties of up to $1,000 per day for\ncertain violations.\nB. For Retail Food Violations:\nCriminal fines and sentence for violations of not less than twenty-five dollars ($25) or more\nthan one thousand dollars ($1000) for each offense, or by imprisonment in the county jail for\na term not exceeding six months, or by both such fine and imprisonment.\n2. Maryland law provides:\nA. Criminal fines and sentence for certain misdemeanors of up to $10,000 and one year\nimprisonment, and in the case of repeat code violation convictions, up to $25,000 and three\nyears imprisonment; and\nB. Civil penalties of up to $5,000 for each violation and for each day the violation continues.\n3. Texas law provides:"
+          },
+          {
+            "chunk_id": "food-code-2026:p673:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 673,
+            "distance": 0.2964,
+            "text": "etc.\n4. Though rarely used with retail food establishments, Federal law provides under the Criminal Fine\nEnforcement Act of 1984 for a fine up to $100,000 for a misdemeanor by a corporation or\nindividual not resulting in death and, for misdemeanors resulting in death, a fine of up to $250,000\nfor individuals and $500,000 for corporations."
+          }
+        ],
+        "steps_remaining": 7
+      }
+    },
+    {
+      "step": 4,
+      "model": {
+        "content": null,
+        "reasoning": "The question asks about a specific Utah regulation adopting the FDA Food Code 2026 and penalties. The documents do not contain Utah's adopting regulation or penalties. The Utah study is historical inspection observations, not legal requirements. Let me do one more search to confirm nothing about Utah administrative rules (e.g., Utah R317) exists.",
+        "tool_calls": [
+          {
+            "id": "call_7c3ef71b",
+            "name": "search_documents",
+            "arguments": {
+              "query": "Utah administrative rule R317 food service establishment code adoption 2026 edition"
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Utah administrative rule R317 food service establishment code adoption 2026 edition"
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 5,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p672:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 672,
+            "distance": 0.2664,
+            "text": "SAFE MATERIAL, SANITIZATION, AND OTHER TERMS; AND\nPROVIDING STANDARDS FOR EMPLOYEE FOOD SAFETY KNOWLEDGE, HEALTH, AND\nPRACTICES; FOOD SOURCES, PREPARATION, HOLDING TEMPERATURES, AND PROTECTION;\nEQUIPMENT DESIGN, CONSTRUCTION, INSTALLATION, CLEANING, AND SANITIZATION; WATER,\nAND LIQUID AND SOLID WASTES; FACILITIES CONSTRUCTION AND MAINTENANCE, AND\nSTORAGE AND USE OF POISONOUS AND TOXIC MATERIALS; REQUIRING A PERMIT TO\nOPERATE A FOOD ESTABLISHMENT; AND PROVIDING FOR THE RESTRICTION OR EXCLUSION\nOF EMPLOYEES, THE EXAMINATION AND CONDEMNATION OF FOOD, AND THE ENFORCEMENT\nOF THIS CODE INCLUDING THE SETTING OF PENALTIES.\nThe (governing body) of the (jurisdiction) does ordain as follows:\nSECTION 1. ADOPTION OF FOOD CODE\nThat a certain document, three copies of which are on file in the office of the (jurisdiction's keeper of\nrecords) of the (type of jurisdiction) of (name of jurisdiction) being marked and designated as the\nFood Code, 2009 Recommendations of the United States Public Health Service/Food and Drug\nAdministration as published by the U.S. Department of Health and Human Services, Public Health"
+          },
+          {
+            "chunk_id": "food-code-2026:p24:c3",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 24,
+            "distance": 0.2842,
+            "text": "Federal Regulations ..................................... 185\n2. Bibliography ...................................................................................................... 190\nPreface 190\nChapter 1. Purpose and Definitions .................................................................. 191\nChapter 2. Management and Personnel ........................................................... 194\nChapter 3. Food ................................................................................................ 205\nChapter 4. Equipment, Utensils, and Linens .................................................... 235\nChapter 5. Water, Plumbing, and Waste .......................................................... 237\nChapter 6 Physical Facilities............................................................................. 239\nChapter 7. Poisonous or Toxic Materials .......................................................... 240\n3. Supporting Documents ..................................................................................... 243\nSummary of Supporting Documents ................................................................. 244"
+          },
+          {
+            "chunk_id": "food-code-2026:p715:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 715,
+            "distance": 0.2997,
+            "text": "FDA Food Code 2026 Summary of Changes\nSummary-635\nSummary of Changes\nParts:\nGeneral\nPreface\nChapter 1. Purpose and Definitions\nChapter 2. Management and PersonnelChapter 2. Management and Personnel\nChapter 3. Food\nChapter 4. Equipment, Utensils, and Linens\nChapter 5. Water, Plumbing, and Waste\nChapter 6. Physical Facilities\nChapter 7. Poisonous or Toxic Materials\nChapter 8. Compliance and Enforcement\nAnnex 1. Compliance and Enforcement\nAnnex 2. References\nAnnex 3. Public Health Reasons/Administrative Guidelines\nAnnex 4. Management of Food Safety Practices – Achieving Active Managerial\nControl of Foodborne Illness Risk Factors\nAnnex 5. Conducting Risk-Based Inspection\nAnnex 6. Food Processing Criteria\nAnnex 7. Models Forms, Guides, and Other Aids\nThis Summary provides a synopsis of the textual changes from the 2022 FDA Food\nCode and the Supplement to the 2022 Food Code Chapters and Annexes. The primary\nintent of this record is to capture the nature of the changes rather than to identify every\nword or editing change.\nThis record should not be relied upon as an absolute comparison that identifies\neach and every change."
+          },
+          {
+            "chunk_id": "food-code-2026:p713:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 713,
+            "distance": 0.3007,
+            "text": "• 5- 104.12\n• 5- 203.11(A)\n• Part 5-3\n• 5- 401.11\n• 5-402.13-.15\n• 5-104.12\n• 5- 203.11(A)\n• Part 5-3\n• 5- 401.11\n• 5- 402.13 -.15\n• 5-104.12\n• 5- 203.11(A)\n• Part 5-3\n• 5- 401.11\n• 5- 402.13-.15\nPhysical Facility • 6- 101.11\n• 6- 201.11\n• 6- 102.11(A) & (B)\n• 6- 202.15\n• 6- 501.11\n• 6- 501.12\n• 6-501.111\n• 6-101.11\n• 6- 102.11(A) & (B)\n• 6- 202.15\n• 6- 501.111\n• 6-101.11\n• 6- 201.11\n• 6- 102.11(A) & (B)\n• 6- 202.15\n• 6- 501.11\n• 6- 501.12\n• 6- 501.111\nToxic Materials Applicable sections of\nChapter 7\nApplicable sections of\nChapter 7\nApplicable sections of\nChapter 7\nServicing • 6- 202.18\n• As necessary to\ncomply with the\nFood Code\n• 6-202.18\n• As necessary to\ncomply with the\nFood Code\n• 6-202.18\n• As necessary to\ncomply with the\nFood Code\nCompliance and\nEnforcement\nApplicable sections\nof:\n• Chapter 8\n• Annex 1\nApplicable sections\nof:\n• Chapter 8\n• Annex 1\nApplicable sections of:\n• Chapter 8\n• Annex 1"
+          },
+          {
+            "chunk_id": "food-code-2026:p26:c3",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 26,
+            "distance": 0.3031,
+            "text": "Personnel ............................................................... 637\nChapter 3. Food .................................................................................................... 638\nChapter 4. Equipment, Utensils, and Linens ........................................................ 639\nChapter 5. Water, Plumbing, and Waste .............................................................. 640\nChapter 6. Physical Facilities................................................................................ 640\nChapter 7. Poisonous or Toxic Materials .............................................................. 641"
+          }
+        ],
+        "steps_remaining": 6
+      }
+    },
+    {
+      "step": 5,
+      "model": {
+        "content": null,
+        "reasoning": "The documents do not contain any Utah regulation adopting the FDA Food Code 2026, nor Utah penalties. The Utah study is historical inspection observations, not legal requirements. So I should call insufficient_evidence, but I can note what the documents do support: the Food Code is a model code binding only where adopted; the model annex provides examples of fines for California, Maryland, Texas, and federal law — not Utah.\n\nI'll call insufficient_evidence with citations.",
+        "tool_calls": [
+          {
+            "id": "call_9049e176",
+            "name": "insufficient_evidence",
+            "arguments": {
+              "citations": [
+                "utah-risk-factor-study:p2:c0",
+                "food-code-2026:p672:c1",
+                "food-code-2026:p675:c0",
+                "food-code-2026:p262:c1",
+                "food-code-2026:p194:c0"
+              ],
+              "reason": "The question asks for (1) a specific current Utah regulation that adopts the FDA Food Code 2026 and (2) the penalties that Utah law imposes on a restaurant violating employee-illness rules. Nothing in the retrieved collection supports either part. The only Utah document available (Utah Risk Factor Study, 2016-2017) is a historical analysis of local retail food inspection line-item violations; it states only that the Utah Department of Health \"oversees and administers rules and policies that provide regulatory standards of operation for food safety and authority for local health departments to enforce those standards,\" without naming any rule, its adoption of any Food Code edition, or any penalty amounts. The FDA Food Code 2026 is a model code that becomes binding only where a jurisdiction separately adopts it; its Annex 7 model ordinance uses blank placeholders such as \"(name of adopting authority)\" and \"(name of jurisdiction)\" and its examples of fines/sentences cover only California, Maryland, Texas, and federal law (no Utah). Food Code 8-911.10 leaves the fine amount to be designated by the adopting jurisdiction (\"A fine of not more than (designate amount) dollars\"), and 8-501.20 provides only non-monetary control measures (restriction, exclusion, or summary permit suspension/closure) as examples of enforcement, not Utah penalties. Because the central request — the Utah adopting rule and its penalty amounts — is absent, no answer can be given from these sources."
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "insufficient_evidence",
+        "arguments": {
+          "reason": "The question asks for (1) a specific current Utah regulation that adopts the FDA Food Code 2026 and (2) the penalties that Utah law imposes on a restaurant violating employee-illness rules. Nothing in the retrieved collection supports either part. The only Utah document available (Utah Risk Factor Study, 2016-2017) is a historical analysis of local retail food inspection line-item violations; it states only that the Utah Department of Health \"oversees and administers rules and policies that provide regulatory standards of operation for food safety and authority for local health departments to enforce those standards,\" without naming any rule, its adoption of any Food Code edition, or any penalty amounts. The FDA Food Code 2026 is a model code that becomes binding only where a jurisdiction separately adopts it; its Annex 7 model ordinance uses blank placeholders such as \"(name of adopting authority)\" and \"(name of jurisdiction)\" and its examples of fines/sentences cover only California, Maryland, Texas, and federal law (no Utah). Food Code 8-911.10 leaves the fine amount to be designated by the adopting jurisdiction (\"A fine of not more than (designate amount) dollars\"), and 8-501.20 provides only non-monetary control measures (restriction, exclusion, or summary permit suspension/closure) as examples of enforcement, not Utah penalties. Because the central request — the Utah adopting rule and its penalty amounts — is absent, no answer can be given from these sources.",
+          "citations": [
+            "utah-risk-factor-study:p2:c0",
+            "food-code-2026:p672:c1",
+            "food-code-2026:p675:c0",
+            "food-code-2026:p262:c1",
+            "food-code-2026:p194:c0"
+          ]
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "accepted",
+        "terminal_reason": "insufficient_evidence"
+      }
+    }
+  ]
+}

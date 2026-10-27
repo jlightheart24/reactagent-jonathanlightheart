@@ -1,0 +1,166 @@
+{
+  "query_id": "Q9",
+  "title": "Off-Topic Evidence Boundary",
+  "expected": "insufficient_evidence",
+  "question": "Who is the strongest Avenger, and what evidence establishes that ranking?",
+  "terminal_reason": "insufficient_evidence",
+  "steps_used": 2,
+  "max_steps": 10,
+  "final_result": "Insufficient evidence: The question asks about fictional Marvel characters (\"the strongest Avenger\") and evidence for that ranking. The available sources are FDA food-safety documents (FDA Food Code 2026 model code, Employee Health and Personal Hygiene Handbook, Bad Bug Book 2nd ed., Appendix 3 draft guidance, and the Utah Risk Factor Study 2016-2017). A semantic search for \"strongest Avenger ranking superhero evidence\" returned only unrelated food-safety passages (acknowledgments, TCS food product assessment, HACCP/food defense provisions), and none of the documents contain any information about Avengers characters, superpowers, or comparative strength rankings. No claim about this question can be supported.",
+  "claims": [],
+  "insufficient_reason": "The question asks about fictional Marvel characters (\"the strongest Avenger\") and evidence for that ranking. The available sources are FDA food-safety documents (FDA Food Code 2026 model code, Employee Health and Personal Hygiene Handbook, Bad Bug Book 2nd ed., Appendix 3 draft guidance, and the Utah Risk Factor Study 2016-2017). A semantic search for \"strongest Avenger ranking superhero evidence\" returned only unrelated food-safety passages (acknowledgments, TCS food product assessment, HACCP/food defense provisions), and none of the documents contain any information about Avengers characters, superpowers, or comparative strength rankings. No claim about this question can be supported.",
+  "error": null,
+  "citations": [
+    {
+      "chunk_id": "food-code-2026:p17:c2",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 17
+    },
+    {
+      "chunk_id": "bad-bug-book:p5:c1",
+      "source_id": "bad-bug-book",
+      "title": "Bad Bug Book, Second Edition",
+      "page": 5
+    }
+  ],
+  "warnings": [],
+  "retrieved_chunk_ids": [
+    "food-code-2026:p17:c2",
+    "food-code-2026:p351:c2",
+    "bad-bug-book:p5:c1",
+    "food-code-2026:p335:c0",
+    "food-code-2026:p53:c1"
+  ],
+  "model": "Qwen3.8-Flash-Next",
+  "config": {
+    "embedding_model": "Qwen3-Embedding-8B",
+    "llm_model": "Qwen3.8-Flash-Next",
+    "collection": "food_safety_corpus",
+    "chunk_size_chars": 1200,
+    "chunk_overlap_chars": 200,
+    "retrieval_top_k": 5,
+    "max_steps": 10,
+    "temperature": 0.0,
+    "tool_choice": "auto",
+    "query_instruction": "Given a question about food safety, retrieve passages from food-safety documents that answer it",
+    "index_chunk_count": 3030,
+    "index_built_at": "2026-10-27T00:42:25+00:00"
+  },
+  "started_at": "2026-10-27T00:56:48+00:00",
+  "duration_s": 15.51,
+  "trace": [
+    {
+      "step": 1,
+      "model": {
+        "content": null,
+        "reasoning": "The question is off-topic — about Marvel characters, not food safety. The documents are food-safety sources. I should search briefly to confirm, then call insufficient_evidence. Let me do one search to be diligent.",
+        "tool_calls": [
+          {
+            "id": "call_3b716cef",
+            "name": "search_documents",
+            "arguments": {
+              "query": "strongest Avenger ranking superhero evidence",
+              "k": 5
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "strongest Avenger ranking superhero evidence",
+          "k": 5
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 5,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p17:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 17,
+            "distance": 0.6153,
+            "text": "these organizations.\n10. Acknowledgments\nMany individuals devoted considerable time and effort in addressing concerns and\ndeveloping recommendations that are now reflected in the Food Code. These\nindividuals represent a wide diversity of regulators, educators, industry leaders, and\nconsumer representatives acting through their agencies, companies, professional\ngroups, or trade organizations. It is only through the dedicated efforts and contributions\nof experienced professionals that a scientifically sound, well focused, and up-to-date\nmodel code is possible. FDA acknowledges with gratitude the substantial assistance of\nthose who contributed to public health and food safety in the development of the Food\nCode."
+          },
+          {
+            "chunk_id": "food-code-2026:p351:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 351,
+            "distance": 0.6227,
+            "text": "rationale exist indicating a safe\nhistory of use?\n• Is the food processed and packaged so that it no longer requires TCS such as\nultra-high temperature (UHT) creamers or shelf-stable canned goods?\n• What is the pH and aw of the food in question using an independent laboratory\nand Association of Official Analytical Chemists (AOAC) methods of analysis?\nA food designated as product assessment (PA) required, in either table should be\nconsidered TCS Food until further study proves otherwise. The PA means that based\non the food’s pH and aw and whether it was raw or heat-treated or packaged, it has to\nbe considered TCS until inoculation studies or some other acceptable evidence shows\nthat the food is a TCS food or not. The Food Code requires a variance request to the\nregulatory authority with the evidence that the food does not require time/temperature\ncontrol for safety."
+          },
+          {
+            "chunk_id": "bad-bug-book:p5:c1",
+            "source_id": "bad-bug-book",
+            "source_title": "Bad Bug Book, Second Edition",
+            "source_role": "FDA pathogen and natural-toxin reference information (2012); not a regulation.",
+            "page": 5,
+            "distance": 0.63,
+            "text": "the many FDA scientists who donated their time and expertise to update the chapters. The\nresult of their efforts is a handbook that can serve as a valuable tool for food-safety professionals\nand others with an interest in food safety. Our gratitude is extended to Drs. Mickey Parish and\nFred S. Fry Jr., for the insight they offered in their expert reviews of the book. The first edition\nof the Bad Bug Book was the concept of Dr. Mark Walderhaug, who executed it with the help of\nthe many scientists working with him at the time, and the field is indebted to him and to them for\ntheir vision.\nKeith A. Lampel, Ph.D., Editor\nSufian Al-Khaldi, Ph.D., Co-editor\nSusan Mary Cahill, B.S., Co-editor"
+          },
+          {
+            "chunk_id": "food-code-2026:p335:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 335,
+            "distance": 0.6307,
+            "text": "FDA Food Code 2026 Annex 2. References\n255\nvirulence or severity of the hazard in the absence of control by this Code provision was\nalso examined. Contributing factors (contamination factors, proliferating/ amplification\nfactors, survival factors and method of preparation) identified for foodborne disease\noutbreaks reported to the Centers for Disease Control and Prevention were also\nconsidered. The risk designation was then re-evaluated in terms of meeting the\ndefinition, characteristics of the potential hazards, size and/or number of outbreaks\ncaused by the hazard in conjunction with non-application of this Code provision and the\ncontributing factors. The final determination was based on the term which most closely\ndefined that provision, taking into account any weighting due to severity and infectivity\nof the hazard. Additional comments and references to explain or support this\ndetermination were included on the spreadsheet."
+          },
+          {
+            "chunk_id": "food-code-2026:p53:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 53,
+            "distance": 0.6331,
+            "text": "in accordance with the requirements of this\nCode; Pf\n(15) Explaining the details of how the *PERSON IN CHARGE and *FOOD\nEMPLOYEES comply with the *HACCP PLAN if a plan is required by the *LAW,\nthis Code, or an agreement between the *REGULATORY AUTHORITY and the\n*FOOD ESTABLISHMENT; Pf\n(16) Explaining the responsibilities, rights, and authorities assigned by this\nCode to the:\n(a) *FOOD EMPLOYEE, Pf\n(b) *CONDITIONAL EMPLOYEE, Pf\n(c) *PERSON IN CHARGE, Pf\n(d) *REGULATORY AUTHORITY; Pf and\n(17) Explaining how the *PERSON IN CHARGE, *FOOD EMPLOYEES, and\n*CONDITIONAL EMPLOYEES comply with reporting responsibilities and\n*EXCLUSION or *RESTRICTION of *FOOD EMPLOYEES. Pf\n(18) Explaining steps that are taken to prevent intentional *ADULTERATION by\n*CONSUMERS, *EMPLOYEES, or other *PERSONS including monitoring\noperations, ingredients, supplies, and finished products for unusual or\nsuspicious activities, or other *FOOD DEFENSE activities. Pf\n2-102.12 Certified Food Protection Manager\n(A) The *PERSON IN CHARGE shall be a certified *FOOD protection manager who\nhas shown proficiency of required information through passing a test that is\npart of an *ACCREDITED PROGRAM."
+          }
+        ],
+        "steps_remaining": 9
+      }
+    },
+    {
+      "step": 2,
+      "model": {
+        "content": null,
+        "reasoning": "The question is off-topic: it asks about Marvel Avengers, not food safety. The documents don't support it. I should call insufficient_evidence.",
+        "tool_calls": [
+          {
+            "id": "call_e6dd5c45",
+            "name": "insufficient_evidence",
+            "arguments": {
+              "citations": [
+                "food-code-2026:p17:c2",
+                "bad-bug-book:p5:c1"
+              ],
+              "reason": "The question asks about fictional Marvel characters (\"the strongest Avenger\") and evidence for that ranking. The available sources are FDA food-safety documents (FDA Food Code 2026 model code, Employee Health and Personal Hygiene Handbook, Bad Bug Book 2nd ed., Appendix 3 draft guidance, and the Utah Risk Factor Study 2016-2017). A semantic search for \"strongest Avenger ranking superhero evidence\" returned only unrelated food-safety passages (acknowledgments, TCS food product assessment, HACCP/food defense provisions), and none of the documents contain any information about Avengers characters, superpowers, or comparative strength rankings. No claim about this question can be supported."
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "insufficient_evidence",
+        "arguments": {
+          "reason": "The question asks about fictional Marvel characters (\"the strongest Avenger\") and evidence for that ranking. The available sources are FDA food-safety documents (FDA Food Code 2026 model code, Employee Health and Personal Hygiene Handbook, Bad Bug Book 2nd ed., Appendix 3 draft guidance, and the Utah Risk Factor Study 2016-2017). A semantic search for \"strongest Avenger ranking superhero evidence\" returned only unrelated food-safety passages (acknowledgments, TCS food product assessment, HACCP/food defense provisions), and none of the documents contain any information about Avengers characters, superpowers, or comparative strength rankings. No claim about this question can be supported.",
+          "citations": [
+            "food-code-2026:p17:c2",
+            "bad-bug-book:p5:c1"
+          ]
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "accepted",
+        "terminal_reason": "insufficient_evidence"
+      }
+    }
+  ]
+}

@@ -1,0 +1,999 @@
+{
+  "query_id": "Q7",
+  "title": "Source Authority And Version",
+  "expected": "answer",
+  "question": "The *Employee Health and Personal Hygiene Handbook* refers to the 2017 Food Code, while the corpus also includes the 2026 Food Code. Which source should control an answer about the current FDA model-code rule for a vomiting employee, and how may the handbook still be used?",
+  "terminal_reason": "answer",
+  "steps_used": 8,
+  "max_steps": 10,
+  "final_result": "- For a question about the current FDA model-code rule, the FDA Food Code 2026 controls: it is FDA's current model code, described as \"FDA's best advice for a uniform system of provisions\" for retail/foodservice, offered for adoption by local, state, and federal jurisdictions. [food-code-2026:p3:c0; food-code-2026:p8:c2]\n- Even the 2026 Food Code is a model, not self-executing law: \"The model Food Code is neither federal law nor federal regulation and is not preemptive,\" and it becomes enforceable only where a jurisdiction enacts it into statute, promulgates it as a regulation, or adopts it as an ordinance. [food-code-2026:p8:c2; food-code-2026:p13:c1; food-code-2026:p9:c0]\n- The Employee Health and Personal Hygiene Handbook is FDA operational guidance that expressly states its information was updated to reflect the 2017 FDA Food Code and that it was \"Adapted from the 2017 FDA Food Code\"; it is therefore not the current model-code text and cannot override the 2026 edition. [employee-health-handbook:p3:c0; employee-health-handbook:p4:c2]\n- Under the controlling 2026 text, vomiting is a reportable symptom (¶ 2-201.11(A)(1)(a)) that the food employee or conditional employee must report to the person in charge, and the person in charge must exclude a food employee who is symptomatic with vomiting (¶ 2-201.12(A)(1)) except when the symptom is from a noninfectious condition. [food-code-2026:p56:c1; food-code-2026:p58:c1; food-code-2026:p59:c0]\n- Reinstatement under the 2026 Code: the person in charge may reinstate an employee excluded under ¶ 2-201.12(A)(1) if the employee is asymptomatic for at least 24 hours or provides written medical documentation from a health practitioner stating the symptom is from a noninfectious condition (¶ 2-201.13(A)(1)); Table 1a of Annex 3 confirms \"Vomiting – EXCLUDE 2-201.12(A)(1)\" in both HSP and non-HSP facilities, with no regulatory authority approval needed if the employee is not diagnosed. [food-code-2026:p61:c0; food-code-2026:p388:c0]\n- The handbook can still be used as a practical training and implementation aid: it presents employee health requirements in question-and-answer format with forms, tables, and decision trees for management and employees, and its Table 1a for vomiting matches the 2026 Code (exclude under 2-201.12(A)(1); return when asymptomatic for at least 24 hours or with medical documentation; no RA approval if not diagnosed). [employee-health-handbook:p3:c0; employee-health-handbook:p31:c0; food-code-2026:p388:c0]\n- Its operational direction is likewise usable where consistent with the 2026 Code, e.g. the manager's response to a reported vomiting or diarrhea symptom: ask the employee to stop work immediately and leave the food establishment, with return to work no sooner than 24 hours after vomiting and diarrhea have ended. [employee-health-handbook:p7:c2; food-code-2026:p61:c0]\n- Because the handbook's section citations trace to the 2017 edition, section numbers and any details should be verified against the 2026 Food Code, which controls on divergence; for example, the 2026 Code requires a food establishment to have written procedures for responding to vomiting or diarrheal events under ¶ 2-502.11 (and the employee health policy/exclusion-reinstatement provisions at §§ 2-201.11, 2-201.12, 2-201.13). [employee-health-handbook:p3:c0; food-code-2026:p72:c0; food-code-2026:p684:c2]",
+  "claims": [
+    {
+      "text": "For a question about the current FDA model-code rule, the FDA Food Code 2026 controls: it is FDA's current model code, described as \"FDA's best advice for a uniform system of provisions\" for retail/foodservice, offered for adoption by local, state, and federal jurisdictions.",
+      "citations": [
+        "food-code-2026:p3:c0",
+        "food-code-2026:p8:c2"
+      ]
+    },
+    {
+      "text": "Even the 2026 Food Code is a model, not self-executing law: \"The model Food Code is neither federal law nor federal regulation and is not preemptive,\" and it becomes enforceable only where a jurisdiction enacts it into statute, promulgates it as a regulation, or adopts it as an ordinance.",
+      "citations": [
+        "food-code-2026:p8:c2",
+        "food-code-2026:p13:c1",
+        "food-code-2026:p9:c0"
+      ]
+    },
+    {
+      "text": "The Employee Health and Personal Hygiene Handbook is FDA operational guidance that expressly states its information was updated to reflect the 2017 FDA Food Code and that it was \"Adapted from the 2017 FDA Food Code\"; it is therefore not the current model-code text and cannot override the 2026 edition.",
+      "citations": [
+        "employee-health-handbook:p3:c0",
+        "employee-health-handbook:p4:c2"
+      ]
+    },
+    {
+      "text": "Under the controlling 2026 text, vomiting is a reportable symptom (¶ 2-201.11(A)(1)(a)) that the food employee or conditional employee must report to the person in charge, and the person in charge must exclude a food employee who is symptomatic with vomiting (¶ 2-201.12(A)(1)) except when the symptom is from a noninfectious condition.",
+      "citations": [
+        "food-code-2026:p56:c1",
+        "food-code-2026:p58:c1",
+        "food-code-2026:p59:c0"
+      ]
+    },
+    {
+      "text": "Reinstatement under the 2026 Code: the person in charge may reinstate an employee excluded under ¶ 2-201.12(A)(1) if the employee is asymptomatic for at least 24 hours or provides written medical documentation from a health practitioner stating the symptom is from a noninfectious condition (¶ 2-201.13(A)(1)); Table 1a of Annex 3 confirms \"Vomiting – EXCLUDE 2-201.12(A)(1)\" in both HSP and non-HSP facilities, with no regulatory authority approval needed if the employee is not diagnosed.",
+      "citations": [
+        "food-code-2026:p61:c0",
+        "food-code-2026:p388:c0"
+      ]
+    },
+    {
+      "text": "The handbook can still be used as a practical training and implementation aid: it presents employee health requirements in question-and-answer format with forms, tables, and decision trees for management and employees, and its Table 1a for vomiting matches the 2026 Code (exclude under 2-201.12(A)(1); return when asymptomatic for at least 24 hours or with medical documentation; no RA approval if not diagnosed).",
+      "citations": [
+        "employee-health-handbook:p3:c0",
+        "employee-health-handbook:p31:c0",
+        "food-code-2026:p388:c0"
+      ]
+    },
+    {
+      "text": "Its operational direction is likewise usable where consistent with the 2026 Code, e.g. the manager's response to a reported vomiting or diarrhea symptom: ask the employee to stop work immediately and leave the food establishment, with return to work no sooner than 24 hours after vomiting and diarrhea have ended.",
+      "citations": [
+        "employee-health-handbook:p7:c2",
+        "food-code-2026:p61:c0"
+      ]
+    },
+    {
+      "text": "Because the handbook's section citations trace to the 2017 edition, section numbers and any details should be verified against the 2026 Food Code, which controls on divergence; for example, the 2026 Code requires a food establishment to have written procedures for responding to vomiting or diarrheal events under ¶ 2-502.11 (and the employee health policy/exclusion-reinstatement provisions at §§ 2-201.11, 2-201.12, 2-201.13).",
+      "citations": [
+        "employee-health-handbook:p3:c0",
+        "food-code-2026:p72:c0",
+        "food-code-2026:p684:c2"
+      ]
+    }
+  ],
+  "insufficient_reason": null,
+  "error": null,
+  "citations": [
+    {
+      "chunk_id": "food-code-2026:p3:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 3
+    },
+    {
+      "chunk_id": "food-code-2026:p8:c2",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 8
+    },
+    {
+      "chunk_id": "food-code-2026:p13:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 13
+    },
+    {
+      "chunk_id": "food-code-2026:p9:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 9
+    },
+    {
+      "chunk_id": "employee-health-handbook:p3:c0",
+      "source_id": "employee-health-handbook",
+      "title": "Employee Health and Personal Hygiene Handbook",
+      "page": 3
+    },
+    {
+      "chunk_id": "employee-health-handbook:p4:c2",
+      "source_id": "employee-health-handbook",
+      "title": "Employee Health and Personal Hygiene Handbook",
+      "page": 4
+    },
+    {
+      "chunk_id": "food-code-2026:p56:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 56
+    },
+    {
+      "chunk_id": "food-code-2026:p58:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 58
+    },
+    {
+      "chunk_id": "food-code-2026:p59:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 59
+    },
+    {
+      "chunk_id": "food-code-2026:p61:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 61
+    },
+    {
+      "chunk_id": "food-code-2026:p388:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 388
+    },
+    {
+      "chunk_id": "employee-health-handbook:p31:c0",
+      "source_id": "employee-health-handbook",
+      "title": "Employee Health and Personal Hygiene Handbook",
+      "page": 31
+    },
+    {
+      "chunk_id": "employee-health-handbook:p7:c2",
+      "source_id": "employee-health-handbook",
+      "title": "Employee Health and Personal Hygiene Handbook",
+      "page": 7
+    },
+    {
+      "chunk_id": "food-code-2026:p72:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 72
+    },
+    {
+      "chunk_id": "food-code-2026:p684:c2",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 684
+    }
+  ],
+  "warnings": [
+    "claim 'The Employee Health and Personal Hygiene Handbook is FDA ope' has numbers not found in its cited passages: 2026",
+    "claim 'Under the controlling 2026 text, vomiting is a reportable sy' has numbers not found in its cited passages: 201.11"
+  ],
+  "retrieved_chunk_ids": [
+    "food-code-2026:p58:c1",
+    "food-code-2026:p416:c1",
+    "food-code-2026:p225:c0",
+    "food-code-2026:p684:c2",
+    "food-code-2026:p421:c1",
+    "food-code-2026:p72:c0",
+    "food-code-2026:p235:c1",
+    "food-code-2026:p58:c2",
+    "employee-health-handbook:p31:c0",
+    "employee-health-handbook:p32:c1",
+    "employee-health-handbook:p7:c2",
+    "employee-health-handbook:p33:c1",
+    "employee-health-handbook:p34:c1",
+    "employee-health-handbook:p32:c2",
+    "employee-health-handbook:p35:c0",
+    "employee-health-handbook:p33:c0",
+    "food-code-2026:p61:c0",
+    "food-code-2026:p63:c1",
+    "food-code-2026:p64:c2",
+    "food-code-2026:p63:c2",
+    "food-code-2026:p63:c0",
+    "food-code-2026:p368:c3",
+    "employee-health-handbook:p4:c2",
+    "employee-health-handbook:p3:c0",
+    "employee-health-handbook:p7:c0",
+    "employee-health-handbook:p25:c2",
+    "employee-health-handbook:p18:c0",
+    "employee-health-handbook:p4:c1",
+    "food-code-2026:p59:c0",
+    "food-code-2026:p385:c0",
+    "food-code-2026:p388:c0",
+    "food-code-2026:p56:c1",
+    "food-code-2026:p389:c0",
+    "food-code-2026:p13:c1",
+    "food-code-2026:p9:c0",
+    "food-code-2026:p672:c0",
+    "food-code-2026:p8:c2",
+    "food-code-2026:p3:c0"
+  ],
+  "model": "Qwen3.8-Flash-Next",
+  "config": {
+    "embedding_model": "Qwen3-Embedding-8B",
+    "llm_model": "Qwen3.8-Flash-Next",
+    "collection": "food_safety_corpus",
+    "chunk_size_chars": 1200,
+    "chunk_overlap_chars": 200,
+    "retrieval_top_k": 5,
+    "max_steps": 10,
+    "temperature": 0.0,
+    "tool_choice": "auto",
+    "query_instruction": "Given a question about food safety, retrieve passages from food-safety documents that answer it",
+    "index_chunk_count": 3030,
+    "index_built_at": "2026-10-27T00:42:25+00:00"
+  },
+  "started_at": "2026-10-27T00:53:31+00:00",
+  "duration_s": 139.67,
+  "trace": [
+    {
+      "step": 1,
+      "model": {
+        "content": null,
+        "reasoning": "The user is asking a meta-question about source hierarchy: which source controls for current FDA model-code rule for a vomiting employee, and how the handbook may still be used.\n\nI need to search both documents for the relevant provisions — e.g., Food Code 2-201.11 / 2-201.12 (condiments... no, exclusion of employees reporting vomiting), and the handbook's guidance.\n\nLet me do focused searches.",
+        "tool_calls": [
+          {
+            "id": "call_fc3e3278",
+            "name": "search_documents",
+            "arguments": {
+              "query": "vomiting employee exclusion report to person in charge Food Code requirement",
+              "sources": [
+                "food-code-2026"
+              ],
+              "k": 8
+            }
+          },
+          {
+            "id": "call_4bde53df",
+            "name": "search_documents",
+            "arguments": {
+              "query": "Employee Health and Personal Hygiene Handbook vomiting exclude employee report symptoms based on 2017 Food Code",
+              "sources": [
+                "employee-health-handbook"
+              ],
+              "k": 8
+            }
+          }
+        ]
+      },
+      "extra_tool_calls_rejected": 1,
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "vomiting employee exclusion report to person in charge Food Code requirement",
+          "sources": [
+            "food-code-2026"
+          ],
+          "k": 8
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 8,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p58:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 58,
+            "distance": 0.1839,
+            "text": "history of exposure as\nspecified under Subparagraphs (A)(4) – (5), is prohibited from becoming a\n*FOOD EMPLOYEE until the *CONDITIONAL EMPLOYEE meets the criteria as\nspecified under ¶ 2-201.13(J). P\nResponsibility of the person in charge to exclude or restrict\n(D) The *PERSON IN CHARGE shall ensure that a *FOOD EMPLOYEE who exhibits or\nreports a symptom, or who reports a diagnosed illness or a history of\nexposure as specified under Subparagraphs (A)(1) - (5) of this section is:\n(1) *EXCLUDED as specified under ¶¶ 2-201.12 (A)-(C), and Subparagraphs\n(D)(1), (E)(1), (F)(1), or (H)(1) and in compliance with the provisions\nspecified under ¶¶ 2-201.13(A) - (H); P or\n(2) *RESTRICTED as specified under Subparagraphs 2-201.12 (D)(2), (E)(2),\n(F)(2), (G), (H)(2), or ¶¶ 2-201.12(I) or (J) and in compliance with the\nprovisions specified under ¶¶ 2-201.13(D) - (J). P\nResponsibility of food employees and conditional employees to report\n(E) A *FOOD EMPLOYEE or *CONDITIONAL EMPLOYEE shall report to the *PERSON IN\nCHARGE the information as specified under ¶ (A) of this section. Pf\nResponsibility of food employees to comply\n(F) A *FOOD EMPLOYEE shall:"
+          },
+          {
+            "chunk_id": "food-code-2026:p416:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 416,
+            "distance": 0.1933,
+            "text": "and should include the following requirements:\n• Employee Reporting Requirements (See Annex 2, 2-501.11 and Annex 7,\nForms 1-A & 1-B). The policy explains what employees must report to their\nmanager (Person in Charge), including:\no Any symptoms of diarrhea, vomiting, jaundice, sore throat with fever, or\ninfected skin lesions on hands/wrists/exposed body parts; and may have\nadditional requirements based on local jurisdiction health requirements.\no Any diagnosis by a health care provider of norovirus, hepatitis A virus, typhoid\nfever, Shigella spp., Shiga toxin-producing E. coli (STEC), or non-typhoidal\nSalmonella; and may have additional requirements based on local jurisdiction\nhealth requirements.\no Exposure to a listed illness (for example, someone in their household being\nsick with a listed illness).\no Exposure to a confirmed foodborne illness outbreak through work or outside\nof work, or through a household contact.\n• Employee Compliance: Employees must comply with all reporting and\nexclusion or restriction requirements imposed by the PIC or health authority\n2. Exclusion and Restriction Procedures (Forms 2, 3, 4 & 5) (See Annex 3, 2-"
+          },
+          {
+            "chunk_id": "food-code-2026:p225:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 225,
+            "distance": 0.1969,
+            "text": "FDA Food Code 2026 Index\nIndex-31\ncause of disease outbreak and\nemployee illness, person in charge\nknowledge and duties, 24, 27\nemployee illness, 29, 31, 159, 243,\n288, 303, 305, 585\nexclusions and restrictions, conditions\nfor symptomatic, 31\nexclusions, removal of, 35\nreinstatement, 33, 36, 288, 303, 585\nreporting of health and activities, 29\nreporting responsibility of employee,\n30, 163\nreporting responsibility of person in\ncharge, notify regulatory authority,\n30\nresponsibility of employee,\ncompliance with restriction or\nexclusion, 32\nresponsibility of person in charge,\nexclude or restrict, 30\nresponsibility of person in charge,\nprohibit conditional employee, 30\nrestriction, removal of, 37\nNorovirus\ncause of disease outbreak and\nemployee illness, person in charge\nknowledge and duties, 24, 27\nemployee illness, 29, 31, 159, 579\nexclusions and restrictions, conditions\nfor, 31\nexclusions, removal of, 35\nreinstatement, 35, 288, 303, 585\nreporting of health and activities, 29\nreporting responsibility of employee,\n29, 30, 163\nreporting responsibility of person in\ncharge, notify regulatory authority,\n30, 163\nresponsibility of employee,\ncompliance with restriction or\nexclusion, 30"
+          },
+          {
+            "chunk_id": "food-code-2026:p684:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 684,
+            "distance": 0.2024,
+            "text": "2- 201.11(D) and (F) Responsibility of Permit Holder, Person in Charge, and Conditional\nEmployees Responsibility of the PIC to Exclude or Restrict (P)\n• 2- 201.12 Exclusions & Restrictions (P)\n• 2- 201.13 Removal, Adjustment, or Retention of Exclusions & Restrictions (P)\n\n5. Illness Documentation.\nIN/OUT This item should be marked IN or OUT of compliance. This item is marked IN compliance\nwhen it is demonstrated that the food establishment has available for employees a written\nemployee health policy addressing symptoms and illness reporting, exclusion/restriction,\nreinstatement, and regulatory reporting requirements in accordance with §§ 2- 201.11, 2-\n201.12, and 2-201.13; and written procedures for responding to vomiting or diarrheal\nevents that involve the discharge of vomitus or fecal matter onto surfaces in the food\nestablishment in accordance with § 2-502.11."
+          },
+          {
+            "chunk_id": "food-code-2026:p421:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 421,
+            "distance": 0.2102,
+            "text": "the disposal and/or cleaning and disinfection of tools and\nequipment used to clean up vomitus or fecal matter; and\n• The procedures for minimizing risk of disease transmission through the exclusion\nand restriction of ill employees as specified in § 2-201.12 of the Food Code.\nWhen a food employee has been diagnosed, has recent history or exposure to, or is the\nsuspect source of a confirmed disease outbreak of norovirus, it must be reported to the\nperson in charge per the FDA Food Code in Subparagraphs 2-201.11 (A)(2)(a), 2-\n201.11(A)(4)(a), 2-201.11(A)(5)(a), and ¶ 2-201.11(B). If a food employee has been\ndiagnosed with norovirus it must also be reported to the regulatory authority. Refer to\npublic health reasons for § 2-201.11 Responsibility of the Person in Charge, Food\nEmployees, and Conditional Employees for more information about appropriate\nemployee health policies.\nChapter 3. Food\nCondition\n3-101.11 Safe, Unadulterated, and Honestly Presented.\nSources\n3-201.11 Compliance with Food Law.\nRefer to the public health reason for § 3-401.11.\nSource\nA primary line of defense in ensuring that food meets the requirements of § 3-101.11 is"
+          },
+          {
+            "chunk_id": "food-code-2026:p72:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 72,
+            "distance": 0.2179,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n44\n*CONDITIONAL EMPLOYEES, the *PERSON-IN-CHARGE, and required reporting to\nthe *REGULATORY AUTHORITY:\n(1) Illness symptoms of diarrhea, vomiting, sore throat with fever, jaundice or\ninfected wounds or cuts; Pf\n(2) Illness disease diagnosis due to norovirus, hepatitis A virus, Shigella spp.,\nTyphoid fever, non-typhoidal Salmonella, or *SHIGA TOXIN-PRODUCING\nESCHERICHIA COLI; Pf and\n(3) Illness *EXCLUSION and/or *RESTRICTION and reinstatement after illness\nsymptom or disease resolution. Pf\n2-502 Contamination Event Response Procedures\n2-502.11 Clean-up of Vomiting and Diarrheal Events\nA *FOOD ESTABLISHMENT shall have written procedures for *EMPLOYEES to follow\nwhen responding to vomiting or diarrheal events that involve the discharge of\nvomitus or fecal matter onto surfaces in the *FOOD ESTABLISHMENT. The\nprocedures shall address the specific actions *EMPLOYEES must take to minimize\nthe spread of contamination and the exposure of *EMPLOYEES, *CONSUMERS,\n*FOOD and surfaces to vomitus or fecal matter. Pf"
+          },
+          {
+            "chunk_id": "food-code-2026:p235:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 235,
+            "distance": 0.2222,
+            "text": "conditions\nfor asymptomatic, 32, 303\nexclusions and restrictions, conditions\nfor symptomatic, 31, 303\nexclusions and restrictions, removal\nof, 36\nreporting of health and activities, 29,\n288\nreporting responsibility of employee,\n30, 163\nreporting responsibility of person in\ncharge, notify regulatory, 30\nresponsibility of employee,\ncompliance with restriction or\nexclusion, 30\nresponsibility of person in charge,\nexclude or restrict, 30\nresponsibility of person in charge,\nprohibit conditional employee, 30\nShigella spp\ncause of employee illness and\ndisease outbreak, person in charge\nknowledge and duties, 24, 27\nexclusions and restriction, adjustment\nof, 33\nexclusions and restrictions, conditions\nfor asymptomatic, 32\nexclusions and restrictions, conditions\nfor symptomatic, 31\nexclusions and restrictions, removal\nof, 35\nreporting of health and activities, 29\nreporting responsibility of employee,\n30, 163\nreporting responsibility of person in\ncharge, notify regulatory, 30"
+          },
+          {
+            "chunk_id": "food-code-2026:p58:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 58,
+            "distance": 0.2259,
+            "text": "or *CONDITIONAL EMPLOYEE shall report to the *PERSON IN\nCHARGE the information as specified under ¶ (A) of this section. Pf\nResponsibility of food employees to comply\n(F) A *FOOD EMPLOYEE shall:\n(1) Comply with an *EXCLUSION as specified under ¶¶ 2-201.12(A)-(C) and\nSubparagraphs 2-201.12(D)(1), (E)(1), (F)(1), (G), or (H)(1) and with the\nprovisions specified under ¶¶ 2-201.13(A)-(H); P or"
+          }
+        ],
+        "steps_remaining": 9
+      }
+    },
+    {
+      "step": 2,
+      "model": {
+        "content": null,
+        "reasoning": "Now search the handbook for vomiting guidance and its stated basis on 2017 Food Code.",
+        "tool_calls": [
+          {
+            "id": "call_edd3d530",
+            "name": "search_documents",
+            "arguments": {
+              "k": 8,
+              "query": "handbook vomiting symptom exclude employee report manager 24 hours after symptoms resolve",
+              "sources": [
+                "employee-health-handbook"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "handbook vomiting symptom exclude employee report manager 24 hours after symptoms resolve",
+          "sources": [
+            "employee-health-handbook"
+          ],
+          "k": 8
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 8,
+        "results": [
+          {
+            "chunk_id": "employee-health-handbook:p31:c0",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 31,
+            "distance": 0.1694,
+            "text": "29\n2-201.12 Table 1a Summary of Requirements for Symptomatic\nFood Employees\nFood employees and conditional employees shall report symptoms immediately to the person\nin charge\nThe person in charge shall prohibit a conditional employee who reports a listed symptom from\nbecoming a food employee until meeting the criteria listed in section 2-201.13 of the Food Code,\nfor reinstatement of a symptomatic food employee.\nSymptom Exclusion or\nRestriction\n(Facilities\nServing an HSP)\nExclusion or\nRestriction\n(Facilities Not\nServing an HSP)\nRemoving Symptomatic Food Employees\nfrom Exclusion or Restriction\nRA Approval\nRequired to\nReturn to\nWork?\nVomiting Exclude\n2-201.12(A)(1)\nExclude\n2-201.12(A)(1)\nWhen the excluded food employee has been\nasymptomatic for at least 24 hours or provides\nmedical documentation 2-201.13(A)(1).\nExceptions: If diagnosed with Norovirus,\nShigella spp., STEC, HAV, or typhoid fever\n(S. Typhi) (see Tables 1b and 2).\nNo, if not\ndiagnosed\nDiarrhea Exclude\n2-201.12(A)(1)\nExclude\n2-201.12(A)(1)\nWhen the excluded food employee has been\nasymptomatic for at least 24 hours or provides\nmedical documentation 2-201.13(A).\nExceptions: If Diagnosed with Norovirus,"
+          },
+          {
+            "chunk_id": "employee-health-handbook:p32:c1",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 32,
+            "distance": 0.1934,
+            "text": "or\n• The anicteric food employee has had symptoms for\nmore than 14 days 2-201.13(B)(2), or\n• The food employee provides medical documentation\n2-201.13(B)(3) (also see Table 2).\nYes\nTyphoid Fever\n(S. Typhi)\nExclude\n2-201.12(C)\nWhen approval is obtained from the RA 2-201.13(C)(1), and:\n• Food employee provides medical documentation, that\nstates the food employee is free of a S. Typhi infection\n2-201.13(C)(2) (also see Table 2).\nYes\nNontyphoidal\nSalmonella\nExclude\nBased on\nvomiting\nor diarrhea\nsymptoms,\nunder\n2-201.12(A)(2)\nWhen approval is obtained from the RA 2-201.13(G), and:\n• Food employee provides medical documentation,\nthat states the food employee is free of a nontyphoidal\nSalmonella infection 2-201.13)(G)(1) or\n• Food employee symptoms of vomiting or diarrhea\nresolved and >30 days have passed since the food\nemployee became asymptomatic (2-201.13(G)(2)).\nYes\nSTEC Exclude\nBased on\nvomiting\nor diarrhea\nsymptoms,\nunder\n2-201.12(A)(2)\n1. Serving a non-HSP facility: 2-201.13(A)(4)(a): Shall only\nwork on a restricted basis 24 hours after symptoms\nresolve and remains restricted until meeting the\nrequirements listed in No. 3.\n2. Serving an HSP facility: 2-201.13(A)(4)(b): Remains"
+          },
+          {
+            "chunk_id": "employee-health-handbook:p7:c2",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 7,
+            "distance": 0.2016,
+            "text": "hepatitis A virus, nontyphoidal Salmonella or Shiga toxin-producing\nEscherichia coli;\n• Past illnesses with typhoid-like fever within the past 3 months, unless treated with antibiotics; and\n• Exposure to typhoid-like fever, shigellosis, Norovirus, hepatitis A virus, or Shiga toxin-producing\nEscherichia coli, by eating or serving food that was implicated in a foodborne illness outbreak or if\nresiding with a diagnosed individual.\nWhat should a manager do when a food employee reports symptoms of vomiting\nor diarrhea? (See Decision Tree 1 and Table 1a (and Table 1b if diagnosed))\nAsk the food employee to stop work immediately and leave the food establishment. Permit a return to\nwork no sooner than 24 hours after vomiting and diarrhea have ended.\nEmployee Health Management Responsibilities"
+          },
+          {
+            "chunk_id": "employee-health-handbook:p33:c1",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 33,
+            "distance": 0.2153,
+            "text": "to work\non a restricted\nbasis in a non-\nHSP facility\nNorovirus Exclude\nBased on\nvomiting\nor diarrhea\nsymptoms,\nunder\n2-201.12(A)(2)\n1. Serving a non-HSP facility: 2-201.13(A)(2)(a): Shall only\nwork on a restricted basis 24 hours after symptoms\nresolve and remains restricted until meeting the\nrequirements listed in No. 3.\n2. Serving an HSP facility: 2-201.13(A)(2)(b): Remains\nexcluded until meeting the requirements listed in No. 3.\n3. Restriction or Exclusion remains until:\n• Approval is obtained from RA 2-201.13(D), and\n• Medically cleared 2-201.13(D)(1), or\n• More than 48 hours have passed since the food\nemployee became asymptomatic 2-201.13(D)(2)\n(also see Table 2).\nYes to return\nto an HSP\nor to return\nunrestricted; not\nrequired to work\non a restricted\nbasis in a non-\nHSP facility\nShigella spp. Exclude\nBased on\nvomiting\nor diarrhea\nsymptoms,\nunder\n2-201.12(A)(2)\n1. Serving a non-HSP facility: 2-201.13(A)(3)(a): Shall only\nwork on a restricted basis 24 hours after symptoms\nresolve and remains restricted until meeting the\nrequirements listed in No. 3.\n2. Serving an HSP facility: 2-201.13(A)(3)(b): Remains\nexcluded until meeting the requirements listed in No. 3."
+          },
+          {
+            "chunk_id": "employee-health-handbook:p34:c1",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 34,
+            "distance": 0.2192,
+            "text": "medical\ndocumentation that states the food\nemployee is free of an S. Typhi infection\n2-201.13)(C)(2) (also see Table 1b).\nYes\nNontyphoidal\nSalmonella\nRestrict\n2-201.12(G)\nRestrict\n2-201.12(G)\nWhen approval is obtained from the RA\n2-201.13(G), and:\n• Food employee provides medical\ndocumentation, that states the food\nemployee is free of a nontyphoidal\nSalmonella infection 2-201.13)(G)(1) or\n• Food employee symptoms of vomiting\nor diarrhea resolved and >30 days have\npassed since the food employee became\nasymptomatic (2-201.13(G)(2)).\nYes\nShigella spp. Exclude\n2-201.12(E)(1)\nRestrict\n2-201.12(E)(2)\n1. Serving a non-HSP facility: 2-201.13(A)\n(3)(a): Shall only work on a restricted\nbasis 24 hours after symptoms resolve\nand remains restricted until meeting the\nrequirements listed in No. 3.\n2. Serving an HSP facility: 2-201.13(A)(3)(b):\nRemains excluded until meeting the\nrequirements listed in No. 3.\n3. Restriction or Exclusion remains until:\n• Approval is obtained from RA\n2-201.13(E), and\n• Medically cleared 2-201.13(E)(1), or\n• More than 7 calendar days have\npassed since the food employee\nbecame asymptomatic 2-201.13(E)(3)\n(also see Table 1b).\nYes to return\nto an HSP\nor to return"
+          },
+          {
+            "chunk_id": "employee-health-handbook:p32:c2",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 32,
+            "distance": 0.222,
+            "text": "Shall only\nwork on a restricted basis 24 hours after symptoms\nresolve and remains restricted until meeting the\nrequirements listed in No. 3.\n2. Serving an HSP facility: 2-201.13(A)(4)(b): Remains\nexcluded until meeting the requirements listed in No. 3.\n3. Restriction or Exclusion remains until:\n• Approval is obtained from RA 2-201.13(F), and\n• Medically cleared 2-201.13(F)(1), or\n• More than 7 calendar days have passed since\nthe food employee became asymptomatic\n2-201.13(F)(2) (also see Table 2).\nYes to return\nto an HSP\nor to return\nunrestricted; not\nrequired to work\non a restricted\nbasis in a non-\nHSP facility"
+          },
+          {
+            "chunk_id": "employee-health-handbook:p35:c0",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 35,
+            "distance": 0.2284,
+            "text": "33\nPathogen\nDiagnosis\nExclusion or\nRestriction\n(Facilities\nServing an HSP)\nExclusion or\nRestriction\n(Facilities Not\nServing an HSP)\nRemoving Diagnosed Food Employees\nwith Resolved Symptoms from Exclusion\nor Restriction\nRA Approval\nRequired to\nReturn to\nWork?\nNorovirus Exclude\n2-201.12(D)(1)\nRestrict\n2-201.12(D)(2)\n1. Serving a non-HSP facility: 2-201.13(A)\n(2)(a): Shall only work on a restricted\nbasis 24 hours after symptoms resolve\nand remains restricted until meeting the\nrequirements listed in No. 3.\n2. Serving an HSP facility: 2-201.13(A)(2)(b):\nRemains excluded until meeting the\nrequirements listed in No. 3.\n3. Restriction or Exclusion remains until:\n• Approval is obtained from RA\n2-201.13(D), and\n• Medically cleared 2-201.13(D)(1), or\n• More than 48 hours have passed\nsince the food employee became\nasymptomatic 2-201.13(D)(2)\n(also see Table 1b).\nYes to return\nto an HSP\nor to return\nunrestricted;\nnot required\nto work on\na restricted\nbasis in a\nnon-HSP\nfacility\nSTEC Exclude\n2-201.12(F)(1)\nRestrict\n2-201.12(F)(2)\n1. Serving a non-HSP facility: 2-201.13(A)\n(4)(a): Shall only work on a restricted\nbasis 24 hours after symptoms resolve\nand remains restricted until meeting the"
+          },
+          {
+            "chunk_id": "employee-health-handbook:p33:c0",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 33,
+            "distance": 0.2374,
+            "text": "31\nKey: Table 1b\nRA = Regulatory Authority\nSTEC = Shiga toxin-producing Escherichia coli\nHAV = Hepatitis A virus\nNTS = Nontyphoidal Salmonella\nDiagnosis Exclusion\n(Facilities Serving\nan HSP or Not\nServing an HSP)\nRemoving Diagnosed, Symptomatic Food Employees\nfrom Exclusion\nRA Approval\nRequired to\nReturn to Work?\nSTEC Exclude\nBased on\nvomiting\nor diarrhea\nsymptoms,\nunder\n2-201.12(A)(2)\n1. Serving a non-HSP facility: 2-201.13(A)(4)(a): Shall only\nwork on a restricted basis 24 hours after symptoms\nresolve and remains restricted until meeting the\nrequirements listed in No. 3.\n2. Serving an HSP facility: 2-201.13(A)(4)(b): Remains\nexcluded until meeting the requirements listed in No. 3.\n3. Restriction or Exclusion remains until:\n• Approval is obtained from RA 2-201.13(F), and\n• Medically cleared 2-201.13(F)(1), or\n• More than 7 calendar days have passed since\nthe food employee became asymptomatic\n2-201.13(F)(2) (also see Table 2).\nYes to return\nto an HSP\nor to return\nunrestricted; not\nrequired to work\non a restricted\nbasis in a non-\nHSP facility\nNorovirus Exclude\nBased on\nvomiting\nor diarrhea\nsymptoms,\nunder\n2-201.12(A)(2)\n1. Serving a non-HSP facility: 2-201.13(A)(2)(a): Shall only"
+          }
+        ],
+        "steps_remaining": 8
+      }
+    },
+    {
+      "step": 3,
+      "model": {
+        "content": null,
+        "reasoning": "Now I need the 2026 Food Code's actual rule for vomiting employees — 2-201.12(A)(1) exclusion and 2-201.13(A)(1) reinstatement (asymptomatic for at least 24 hours). Let me search for the exact text in the 2026 Food Code with contains=\"2-201.12\" or search for exclusion criteria.\n\nAlso I should look for statements about the handbook's role/editions — e.g., the handbook's preface stating it's based on the 2017 Food Code, and the Food Code's status as a model code (adoption by jurisdiction). Let me search.",
+        "tool_calls": [
+          {
+            "id": "call_38f639e7",
+            "name": "search_documents",
+            "arguments": {
+              "k": 6,
+              "sources": [
+                "food-code-2026"
+              ],
+              "contains": "2-201.13(A)(1)"
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "2-201.13(A)(1)",
+          "sources": [
+            "food-code-2026"
+          ],
+          "contains": "2-201.13(A)(1)",
+          "k": 6
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 0,
+        "results": [],
+        "steps_remaining": 7,
+        "note": "no passages matched; try a different query or remove filters"
+      }
+    },
+    {
+      "step": 4,
+      "model": {
+        "content": null,
+        "reasoning": "Let me search for the 2026 code's exclusion criteria for vomiting symptomatic employees — 2-201.12(A)(1) and 2-201.13(A)(1).",
+        "tool_calls": [
+          {
+            "id": "call_ff981c9f",
+            "name": "search_documents",
+            "arguments": {
+              "k": 6,
+              "query": "2-201.13 exclusion removal symptomatic food employee asymptomatic for at least 24 hours medical documentation reinstatement",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "2-201.13 exclusion removal symptomatic food employee asymptomatic for at least 24 hours medical documentation reinstatement",
+          "sources": [
+            "food-code-2026"
+          ],
+          "k": 6
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 6,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p61:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 61,
+            "distance": 0.1539,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n33\nManaging exclusions and restrictions\n2-201.13 Removal, Adjustment, or Retention of Exclusions and Restrictions\nThe *PERSON IN CHARGE shall adhere to the following conditions when removing,\nadjusting, or retaining the *EXCLUSION or *RESTRICTION of a *FOOD EMPLOYEE:\n(A) Except when a *FOOD EMPLOYEE is diagnosed with typhoid fever or an\ninfection from hepatitis A virus:\nRemoving exclusion for food employee who was symptomatic and not diagnosed\n(1) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraph 2-201.12(A)(1) if the *FOOD EMPLOYEE:\n(a) Is *ASYMPTOMATIC for at least 24 hours; P or\n(b) Provides to the *PERSON IN CHARGE written medical documentation from\na *HEALTH PRACTITIONER that states the symptom is from a\nnoninfectious condition. P\nNorovirus diagnosis\n(2) If a *FOOD EMPLOYEE was diagnosed with an infection from norovirus and\n*EXCLUDED as specified under Subparagraph 2-201.12(A)(2):\nAdjusting exclusion for food employee who was symptomatic and is now\nasymptomatic\n(a) **RESTRICT the *FOOD EMPLOYEE, who is *ASYMPTOMATIC for at least 24\nhours and *WORKS in a *FOOD ESTABLISHMENT not serving a *HIGHLY"
+          },
+          {
+            "chunk_id": "food-code-2026:p63:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 63,
+            "distance": 0.1551,
+            "text": "the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER that states the *FOOD\nEMPLOYEE is free from typhoid fever. P\nNorovirus diagnosis - removing exclusion or restriction\n(D) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraphs 2-201.12(A)(2) or (D)(1) who was *RESTRICTED under\nSubparagraph 2-201.12(D)(2) if the *PERSON IN CHARGE obtains *APPROVAL\nfrom the *REGULATORY AUTHORITY and one of the following conditions is met:\n(1) The *EXCLUDED or *RESTRICTED *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER\nstating that the *FOOD EMPLOYEE is free of a norovirus infection; P\n(2) The *FOOD EMPLOYEE was *EXCLUDED or *RESTRICTED after symptoms of\nvomiting or diarrhea resolved, and more than 48 hours have passed since\nthe *FOOD EMPLOYEE became *ASYMPTOMATIC; P or\n(3) The *FOOD EMPLOYEE was *EXCLUDED or *RESTRICTED and did not develop\nsymptoms and more than 48 hours have passed since the *FOOD\nEMPLOYEE was diagnosed. P\nShigella spp. Diagnosis - Removing Exclusion or Restriction\n(E) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under"
+          },
+          {
+            "chunk_id": "food-code-2026:p64:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 64,
+            "distance": 0.1677,
+            "text": "was *EXCLUDED or *RESTRICTED and did not develop\nsymptoms and more than seven days have passed since the *FOOD\nEMPLOYEE was diagnosed. P\nNon-typhoidal Salmonella - removing exclusion or restriction\n(G) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraph 2-201.12(A)(2) or who was *RESTRICTED as specified under ¶\n2-201.12(G) if the *PERSON IN CHARGE obtains *APPROVAL from the\n*REGULATORY AUTHORITY P and one of the following conditions is met:\n(1) The *EXCLUDED or *RESTRICTED *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER\nstating that the *FOOD EMPLOYEE is free of a Salmonella (non-typhoidal)"
+          },
+          {
+            "chunk_id": "food-code-2026:p63:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 63,
+            "distance": 0.1707,
+            "text": "than 48 hours have passed since the *FOOD\nEMPLOYEE was diagnosed. P\nShigella spp. Diagnosis - Removing Exclusion or Restriction\n(E) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraphs 2-201.12(A)(2) or (E)(1) or who was *RESTRICTED under\nSubparagraph 2-201.12(E)(2) if the *PERSON IN CHARGE obtains *APPROVAL\nfrom the *REGULATORY AUTHORITY and one of the following conditions is met:\n(1) The *EXCLUDED or *RESTRICTED *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER"
+          },
+          {
+            "chunk_id": "food-code-2026:p63:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 63,
+            "distance": 0.1828,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n35\nHepatitis A virus or jaundice diagnosis - removing exclusions\n(B) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under ¶ 2-\n201.12(B) if the *PERSON IN CHARGE obtains *APPROVAL from the *REGULATORY\nAUTHORITY and one of the following conditions is met;\n(1) The *FOOD EMPLOYEE has been jaundiced for more than seven calendar\ndays; P\n(2) The anicteric *FOOD EMPLOYEE has been symptomatic with symptoms other\nthan jaundice for more than 14 calendar days; P or\n(3) The *FOOD EMPLOYEE provides to the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER stating that the *FOOD\nEMPLOYEE is free of a hepatitis A virus infection. P\nTyphoid fever diagnosis - removing exclusions\n(C) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under ¶ 2-\n201.12(C) if:\n(1) The *PERSON IN CHARGE obtains *APPROVAL from the *REGULATORY\nAUTHORITY; P and\n(2) The *FOOD EMPLOYEE provides to the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER that states the *FOOD\nEMPLOYEE is free from typhoid fever. P\nNorovirus diagnosis - removing exclusion or restriction"
+          },
+          {
+            "chunk_id": "food-code-2026:p368:c3",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 368,
+            "distance": 0.1843,
+            "text": "of an exclusion are met\n(as specified under § 2-201.13 of the Food Code). When a symptomatic or diagnosed\nconditional employee has met the same criteria for reinstatement that apply to an\nexcluded symptomatic or diagnosed food employee (as specified under § 2-201.13 of\nthe Food Code), the conditional employee may then begin working as a food employee."
+          }
+        ],
+        "steps_remaining": 6
+      }
+    },
+    {
+      "step": 5,
+      "model": {
+        "content": null,
+        "reasoning": "Now I need to check the handbook's stated basis (2017 Food Code) and its role as guidance. Let me search the handbook for a statement about it being based on the Food Code / not a regulation.\n\nAlso, the question is about source hierarchy: which source controls (2026 Food Code as current model code, binding only where adopted) and how the handbook may still be used (as operational guidance — e.g., manager decision trees, tables, employee hygiene practices, training). Let me search the handbook for its preface/statement about the Food Code edition and its purpose.",
+        "tool_calls": [
+          {
+            "id": "call_8dcc9e7c",
+            "name": "search_documents",
+            "arguments": {
+              "k": 6,
+              "query": "handbook purpose based on FDA Food Code recommendations not a regulation local jurisdiction adopts guidance for managers",
+              "sources": [
+                "employee-health-handbook"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "handbook purpose based on FDA Food Code recommendations not a regulation local jurisdiction adopts guidance for managers",
+          "sources": [
+            "employee-health-handbook"
+          ],
+          "k": 6
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 6,
+        "results": [
+          {
+            "chunk_id": "employee-health-handbook:p4:c2",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 4,
+            "distance": 0.3321,
+            "text": "web page at: http:/ /www.fda.gov/RetailFoodProtection.\nSource:\nAdapted from the 2017 FDA Food Code, U.S. Department of Health and Human Services, Public\nHealth Service, Food and Drug Administration\nhttps://www.fda.gov/downloads/Food/GuidanceRegulation/RetailFoodProtection/FoodCode/\nUCM595140.pdf (FDA 2017 Food Code)\nAcknowledgements:\n• FDA National Retail Food Team\n• FDA CFSAN Retail Food Protection Staff"
+          },
+          {
+            "chunk_id": "employee-health-handbook:p3:c0",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 3,
+            "distance": 0.4245,
+            "text": "1\nThe Food and Drug Administration (FDA) has developed this Employee Health and Personal\nHygiene Handbook to encourage practices and behaviors that can help prevent food employees from\nspreading viruses and bacteria to food. It provides information in a question-and-answer format that\nfood establishment management and food employees can use to prevent the spread of disease. This\nhandbook also provides easy reference to forms and tables that retail food establishments and the\npublic health community may ﬁnd useful when training staff and addressing employee health and\nhygiene matters. The information in this handbook has been updated to reflect the most current full\nedition of the 2017 FDA Food Code and includes the following new additions:\n1. the six highly infective pathogens that can easily be transmitted by food workers (“Big 6)\n2. new section addressing response to contamination events (clean -up of vomiting and\ndiarrheal events)\n3. new question addressing disposition of ready-to-eat food that may have been\ncontaminated by an employee who has been restricted or excluded.\nThe Centers for Disease Control and Prevention (CDC) and FDA cite six highly infective pathogens"
+          },
+          {
+            "chunk_id": "employee-health-handbook:p7:c0",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 7,
+            "distance": 0.4386,
+            "text": "5\nWhere can food employees learn more about preventing foodborne illness and\nfollowing effective food safety practices?\nFoodborne illness information resources:\n• FDA/CFSAN Foodborne Illness\nhttps:/ /www.fda.gov/food/recalls-outbreaks-emergencies/outbreaks-foodborne-illness\n• The “Bad Bug Book” (Foodborne Pathogenic Microorganisms and Natural Toxins Handbook)\nhttps://www.fda.gov/downloads/Food/FoodborneIllnessContaminants/UCM297627.pdf\n• CDC National Center for Infectious Diseases\nhttp:/ /www.cdc.gov/ncidod/diseases/food/index.htm\n• Gateway to Government Food Safety Information\nhttp:/ /www.foodsafety.gov\nYou can also get information from a state or local health department, the U.S. Department of\nAgriculture, a tribal authority, or a public research university or extension program.\nWhat is a food establishment manager’s responsibility for ensuring that food employees\nare trained on the reporting of symptoms and the diagnosis of foodborne illness?\nThe manager or PIC is to make certain that food employees are trained on the subject of the:\n• Causes of foodborne illness;\n• Relationship between the food employee’s job task, personal hygiene, and foodborne illness;"
+          },
+          {
+            "chunk_id": "employee-health-handbook:p25:c2",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 25,
+            "distance": 0.4666,
+            "text": "to me) and understand the requirements concerning my responsibilities\nunder the Food Code and this agreement to comply with:\n1. Reporting requirements speciﬁed above involving symptoms, diagnoses,\nand exposure speciﬁed;\n2. Work restrictions or exclusions that are imposed upon me; and\n3. Good hygienic practices."
+          },
+          {
+            "chunk_id": "employee-health-handbook:p18:c0",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 18,
+            "distance": 0.4687,
+            "text": "16\nManagers are responsible for:\n• Ensuring that food employees wash their hands, as required;\n• Providing accessible, properly maintained, designated handwashing sinks;\n• Making sure that handwashing sinks have clean, running warm water, soap and paper towels, or\nother approved means for drying;\n• Posting signage that notiﬁes food employees of the handwashing requirement; and\n• Monitoring food employees to ensure proper handwashing and good hand hygiene protocol during\nthe work shift.\nTips for promoting effective handwashing practices in food establishments:\n• Make food employees aware of media coverage on local and national foodborne outbreaks. This\nawareness reinforces the reporting of symptoms, illness, and good handwashing procedures.\n• Create opportunities to remind food employees each week about the importance of hand hygiene.\n• Emphasize handwashing at the beginning of a shift, after using the toilet, after handling raw meat,\nand between changes of gloves. This emphasis will help keep good hand hygiene at the forefront.\n• Use a “buddy” system so that fellow food employees can support each other."
+          },
+          {
+            "chunk_id": "employee-health-handbook:p4:c1",
+            "source_id": "employee-health-handbook",
+            "source_title": "Employee Health and Personal Hygiene Handbook",
+            "source_role": "FDA operational guidance (2020 publication) based on the earlier 2017 Food Code edition; not the current model-code text.",
+            "page": 4,
+            "distance": 0.4738,
+            "text": "Bare Hand Contact” is the practice of preventing direct contact with bare hands while handling\nRTE foods. This practice provides a secondary protection against the contamination of foods that do\nnot require further cooking with microbial pathogens from the hands of ill food employees.\nThe 2017 FDA Food Code recognizes the increased risks of foodborne illness in highly susceptible\npopulations (HSPs) such as the very young, older adults, and those with compromised immune\nsystems. Food establishments in health care; assisted living, child or adult day care, hospitals, nursing\nhomes, nursery schools, and senior citizen centers are required to take additional precautions to\nprevent the transmission of foodborne illness.\nFor additional information about food safety, employee health and hygiene, and prevention of\nfoodborne illness, go to the FDA/Center for Food Safety and Applied Nutrition’s (CFSAN’s) Retail Food\nProtection web page at: http:/ /www.fda.gov/RetailFoodProtection.\nSource:\nAdapted from the 2017 FDA Food Code, U.S. Department of Health and Human Services, Public\nHealth Service, Food and Drug Administration"
+          }
+        ],
+        "steps_remaining": 5
+      }
+    },
+    {
+      "step": 6,
+      "model": {
+        "content": null,
+        "reasoning": "Now let me also check the 2026 Food Code's 2-201.12(A)(1) exclusion for vomiting, to confirm the current model-code rule. Let me search for that.",
+        "tool_calls": [
+          {
+            "id": "call_22bb8110",
+            "name": "search_documents",
+            "arguments": {
+              "k": 5,
+              "query": "2-201.12 exclusion food employee exhibiting symptom vomiting diarrhea jaundice sore throat fever lesion",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "2-201.12 exclusion food employee exhibiting symptom vomiting diarrhea jaundice sore throat fever lesion",
+          "sources": [
+            "food-code-2026"
+          ],
+          "k": 5
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 5,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p59:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 59,
+            "distance": 0.1584,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n31\n(2) Comply with a *RESTRICTION as specified under Subparagraphs 2-\n201.12(D)(2), (E)(2), (F)(2), (G), (H)(2), or ¶¶ 2-201.12 (H), (I), or (J) and\ncomply with the provisions specified under ¶¶ 2-201.13(D)-(J). P\nConditions of exclusion and restriction\n2-201.12 Exclusions and Restrictions.\nThe *PERSON IN CHARGE shall *EXCLUDE or *RESTRICT a *FOOD EMPLOYEE from a\n*FOOD ESTABLISHMENT in accordance with the following:\nSymptomatic with vomiting or diarrhea\n(A) Except when the symptom is from a noninfectious condition, *EXCLUDE a\n*FOOD EMPLOYEE if the *FOOD EMPLOYEE is:\n(1) Symptomatic with vomiting or diarrhea; P or\n(2) Symptomatic with vomiting or diarrhea and diagnosed with an infection\nfrom norovirus, Shigella spp., Salmonella (non-typhoidal) , or *SHIGA TOXIN-\nPRODUCING *ESCHERICHIA COLI. P\nJaundiced or diagnosed with hepatitis A infection\n(B) *EXCLUDE a *FOOD EMPLOYEE who is:\n(1) Jaundiced and the onset of jaundice occurred within the last seven\ncalendar days, unless the *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER"
+          },
+          {
+            "chunk_id": "food-code-2026:p385:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 385,
+            "distance": 0.1695,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n305\n2-201.11/2-201.12 Decision Tree #1. When to Exclude or Restrict a Food\nEmployee Who Reports a Symptom and When to Exclude a Food\nEmployee Who Reports a Diagnosis with Symptoms Under the\nFood Code.\nIs the FOOD EMPLOYEE reported listed Symptoms?\nYes\nSymptoms of Sore\nThroat and Fever\nSymptoms of:\n• Vomiting\n• Diarrhea; or\n• Jaundice\nSymptoms of Infected\nwound or cut\nEXCLUDE per\nTable 1a.\nHSP Gen. Pop.(Non-HSP)\nRESTRICT per\nTable 1a.\nIf the FOOD EMPLOYEE is reporting:\n• Diagnosis with Shigellosis,Norovirus,or STEC; and\n• Symptoms of vomiting or diarrhea\nEXCL UDE per\nTable 1b.\nIs the FOOD EMPLOYEE is reporting a diagnosis with Hepattis A virus, NTS, or typhoid fever:\nEXCL UDE per\nTable 1b.\n\nKey: HSP = highly susceptible population, NTS = non-typhoidal Salmonella, STEC = Shiga toxin-\nproducing Escherichia coli."
+          },
+          {
+            "chunk_id": "food-code-2026:p388:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 388,
+            "distance": 0.1754,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative Guidelines\n308\nTable 1a. Summary of Requirements for Symptomatic Food Employees\nSymptom\nExclusion or\nRestriction\n(Facilities\nServing an HSP)\nExclusion or\nRestriction\n(Facilities Not\nServing an HSP)\nRemoving Symptomatic Food Employees from Exclusion\nor Restriction\nRA Approval\nNeeded to\nReturn to\nWork?\nVomiting EXCLUDE\n2-201.12(A)(1)\nEXCLUDE\n2-201.12(A)(1)\nWhen the excluded food employee has been asymptomatic for\nat least 24 hours or provides medical documentation 2-\n201.13(A)(1).\nExceptions: If diagnosed with norovirus, Shigella spp., STEC,\nHAV, or typhoid fever (S. Typhi) (see Tables 1b & 2).\nNo if not\ndiagnosed\nDiarrhea EXCLUDE\n2-201.12(A)(1)\nEXCLUDE\n2-201.12(A)(1)\nWhen the excluded food employee has been asymptomatic for\nat least 24 hours or provides medical documentation 2-\n201.13(A).\nExceptions: If Diagnosed with norovirus, STEC, HAV, or S.\nTyphi (see Tables 1b & 2).\nNo if not\ndiagnosed\nJaundice EXCLUDE\n2-201.12(B)(1) if\nthe onset occurred\nwithin the last 7\ndays\nEXCLUDE\n2-201.12(B)(1) if\nthe onset occurred\nwithin the last 7\ndays\nWhen approval is obtained from the RA 2-201.13 (B), and:"
+          },
+          {
+            "chunk_id": "food-code-2026:p56:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 56,
+            "distance": 0.1861,
+            "text": "diseases that are transmissible through *FOOD.\nA *FOOD EMPLOYEE or *CONDITIONAL EMPLOYEE shall report the information in a\nmanner that allows the *PERSON IN CHARGE to reduce the *RISK of *FOODBORNE\nDISEASE transmission, including providing necessary additional information,\nsuch as the date of onset of symptoms and an illness, or of a diagnosis\nwithout symptoms, if the *FOOD EMPLOYEE or *CONDITIONAL EMPLOYEE:\nReportable symptoms\n(1) Has any of the following symptoms:\n(a) Vomiting, P\n(b) Diarrhea, P\n(c) Jaundice, P\n(d) Sore throat with fever, P or\n(e) A lesion containing pus such as a boil or infected wound that is open or\ndraining and is:\n(i) On the hands or wrists, unless an impermeable cover such as a\nfinger cot or stall protects the lesion and a *SINGLE-USE glove is\nworn over the impermeable cover, P\n(ii) On exposed portions of the arms, unless the lesion is protected by\nan impermeable cover, P or\n(iii) On other parts of the body, unless the lesion is covered by a dry,\ndurable, tight-fitting bandage; P"
+          },
+          {
+            "chunk_id": "food-code-2026:p389:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 389,
+            "distance": 0.2021,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n309\n2-201.12 Table 1b: Summary of Requirements for Diagnosed, Symptomatic\nFood Employees.\nFood employees and conditional employees shall report a listed Diagnosis with\nsymptoms immediately to the person in charge.\nThe person in charge shall notify the RA when a food employee is jaundiced or reports\na listed diagnosis\nThe person in charge shall prohibit a conditional employee who reports a listed\ndiagnosis with symptoms from becoming a food employee until meeting the criteria\nlisted in Section 2-201.13 of the Food Code, for reinstatement of a diagnosed,\nsymptomatic food employee."
+          }
+        ],
+        "steps_remaining": 4
+      }
+    },
+    {
+      "step": 7,
+      "model": {
+        "content": null,
+        "reasoning": "I have enough. Now compose the answer: which source controls (2026 Food Code, as current model code, binding only where adopted), and how the handbook may still be used (operational guidance/training, question-and-answer format, forms/tables, decision trees; its substantive content aligns with the 2026 Code on vomiting exclusion — report symptom, exclude, reinstate after 24 hours asymptomatic or medical documentation — but its section citations derive from the 2017 edition and it is not the current model-code text).\n\nLet me build claims with citations.\n\nClaims:\n1. For a current FDA model-code rule, the 2026 Food Code controls; it is the current model-code edition and is legally binding only where a jurisdiction adopts it. Citations: role is from metadata... Hmm, need a passage supporting \"binding only where adopted.\" Do I have a passage? Not directly retrieved. I should be careful. I could cite the handbook passages showing it's adapted from the 2017 Food Code (employee-health-handbook:p4:c2, p3:c0) and the 2026 Code passages showing current text. For the \"model code binding only where adopted\" claim, maybe search quickly? I have 3 steps left. Let me do one search for \"Food Code adopted by jurisdiction\" in food-code-2026.\n\nActually, the source role metadata is provided in the system prompt, but rule 3 says every claim must be directly supported by cited passages. Better to search for the adoption language.",
+        "tool_calls": [
+          {
+            "id": "call_7496a30a",
+            "name": "search_documents",
+            "arguments": {
+              "k": 5,
+              "query": "Food Code adopted by jurisdiction becomes legally enforceable recommendation model code authority",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Food Code adopted by jurisdiction becomes legally enforceable recommendation model code authority",
+          "sources": [
+            "food-code-2026"
+          ],
+          "k": 5
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 5,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p13:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 13,
+            "distance": 0.2345,
+            "text": "times and temperatures for\nprocessing various products. Federal performance standards may be used to determine\nthe safety of a product or process under the Food Code if authorized under a variance\ngranted in accord with the Code’s variance provisions, and demonstrated by adherence\nto a validated HACCP plan, consistent with the Code’s HACCP provisions.\n7. Code Adoption/Certified Copies\nThe model Food Code is provided for use by food regulatory jurisdictions at all levels of\ngovernment. At the state and local levels, the model may be:\n(A) Enacted into statute as an act of the state legislative body;\n(B) Promulgated as a regulation, if the state legislative body has delegated rule-making\nauthority to a governmental administrative agency; or\n(C) Adopted as an ordinance, if the local legislative body has been delegated rule-\nmaking authority or regulatory powers.\nTypically, code adoption bodies publish a notice of their intent to adopt a code, make\ncopies available for public inspection, and provide an opportunity for public input prior to\nadoption. This is usually done in one of two ways.\nThe recommended method is the \"short form\" or \"adoption by reference\" approach"
+          },
+          {
+            "chunk_id": "food-code-2026:p9:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 9,
+            "distance": 0.2389,
+            "text": "FDA Food Code 2026 Preface\nvii\nto ensure that food at retail is safe and properly protected and presented. Although not\nfederal requirements (until adopted by federal bodies for use within federal\njurisdictions), the model Food Code provisions are designed to be consistent with\nfederal food laws and regulations and are written for ease of legal adoption at all levels\nof government. A list of jurisdictions that have reported to FDA their status in adopting\nthe Food Code is available on the FDA HFP web page. The list is self-reported, and\nFDA has not yet evaluated whether all the adopted codes are equivalent to the model\nFood Code.\nProviding model food codes and model code interpretations and opinions is the\nmechanism through which FDA, as a lead federal food control agency, promotes\nuniform implementation of national food regulatory policy among the several thousand\nfederal, state, territory and local agencies and tribes that have primary responsibility for\nthe regulation or oversight of retail level food operations.\n(B) Authority\nPHS authority for assisting state and local governments is derived from the Public\nHealth Service Act [42 USC 243]. Section 311(a) states in part:"
+          },
+          {
+            "chunk_id": "food-code-2026:p672:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 672,
+            "distance": 0.2706,
+            "text": "FDA Food Code 2026 Annex 7. Model Forms, Guides, and Other Aids\n592\nFORM 2-A Adoption by Reference\nThis \"short form\" may be used by governmental bodies adopting the Food Code where authorized\nby law. Use of the adoption by reference form may substantially reduce the cost of publishing and\nprinting.\nThe description of the Food Code, below, includes Chapter 8 and the Chapter 8 annex (Annex 1).\nModifications to the description may be necessary, based on what provisions are being adopted\nand whether they are being adopted as law or regulation.\nSection 2 lists provisions that may require modifications to be consistent with existing law or that\nrequire insertion of dollar amounts.\n(JURISDICTION) FOOD CODE\n(statute/regulation/ordinance) Number\nADOPTING THE 2009 EDITION OF THE \"FOOD CODE\" REGULATING THE RETAIL SALE,\nCOMMERCIAL AND INSTITUTIONAL SERVICE, AND VENDING OF FOOD; DEFINING PERMIT\nHOLDER, PERSON IN CHARGE, EMPLOYEE, FOOD, TIME/TEMPERATURE CONTROL FOR SAFETY\nFOOD, FOOD ESTABLISHMENT, SAFE MATERIAL, SANITIZATION, AND OTHER TERMS; AND\nPROVIDING STANDARDS FOR EMPLOYEE FOOD SAFETY KNOWLEDGE, HEALTH, AND\nPRACTICES; FOOD SOURCES, PREPARATION, HOLDING TEMPERATURES, AND PROTECTION;"
+          },
+          {
+            "chunk_id": "food-code-2026:p8:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 8,
+            "distance": 0.2798,
+            "text": "Subsequently, the PHS published\nrecommended model food codes that address the various components of the retail\nsegment of the food industry. These code editions are listed chronologically on pp. iii\nand iv. Through the years all states, hundreds of local jurisdictions, and many federal\nagencies have adopted some edition of model food codes recommended by the PHS.\nToday, FDA's purpose in maintaining an updated model food code is to assist food\ncontrol jurisdictions at all levels of government by providing them with a scientifically\nsound technical and legal basis for regulating the retail segment of the food industry.\nThe retail segment includes those establishments or locations in the food distribution\nchain where the consumer takes possession of the food.\nThe model Food Code is neither federal law nor federal regulation and is not\npreemptive. Rather, it represents FDA's best advice for a uniform system of regulation"
+          },
+          {
+            "chunk_id": "food-code-2026:p3:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 3,
+            "distance": 0.2811,
+            "text": "i\nFood Code\n2026 Health Recommendations of the\nUnited States Public Health Service\nFood and Drug Administration\n\nThe Food Code is a model for safeguarding public health and ensuring food is\nunadulterated and honestly presented when offered to the consumer. It represents\nFDA's best advice for a uniform system of provisions that address the safety and\nprotection of food offered at retail and in food service.\nThis model is offered for adoption by local, state, and federal governmental jurisdictions\nfor administration by the various departments, agencies, bureaus, divisions, and other\nunits within each jurisdiction that have been delegated compliance responsibilities for\nfood service, retail food stores, or food vending operations. Alternatives that offer an\nequivalent level of public health protection to ensure that food at retail and foodservice\nis safe are recognized in this model."
+          }
+        ],
+        "steps_remaining": 3
+      }
+    },
+    {
+      "step": 8,
+      "model": {
+        "content": null,
+        "reasoning": "I have enough. Now compose the answer: which source controls (2026 Food Code as current model-code text; binding only where adopted), and how the handbook may still be used (operational guidance, training, Q&A format, forms/tables, decision trees; its substantive content aligns with the 2026 code on vomiting exclusion but its citations are to the 2017 edition, so verify section numbers against 2026).\n\nLet me build claims with citations.\n\nClaims:\n1. For a current FDA model-code rule, the 2026 Food Code controls: it is FDA's current model code, representing FDA's best advice, offered for adoption; the model Food Code is neither federal law nor regulation and is not preemptive — binding only where adopted by a jurisdiction (statute, regulation, or ordinance). Cite food-code-2026:p3:c0, p8:c2, p9:c0, p13:c1.\n2. The handbook is FDA operational guidance adapted from the 2017 FDA Food Code — not the current model-code text; it states the information was updated to reflect the 2017 Food Code. Cite employee-health-handbook:p3:c0, p4:c2.\n3. Substantive rule for a vomiting employee under 2026: reportable symptom (2-201.11(A)(1)(a)); PIC must exclude under 2-201.12(A)(1) unless symptom from noninfectious condition; employee must report to PIC (2-201.11(E)); reinstatement when asymptomatic for at least 24 hours or written medical documentation from a health practitioner that the symptom is from a noninfectious condition (2-201.13(A)(1)); no RA approval needed if not diagnosed. Cite food-code-2026:p56:c1, p58:c1, p59:c0, p61:c0, p388:c0.\n4. Handbook may still be used as operational/training aid: Q&A format for management and employees, easy reference to forms and tables, decision trees; its Table 1a mirrors the 2026 code's Table 1a for vomiting (exclude, 24 hours asymptomatic or medical documentation, no RA approval if not diagnosed) — so it can be used for staff training and practical steps, e.g., ask employee to stop work and leave, return no sooner than 24 hours after vomiting/diarrhea ended. Cite employee-health-handbook:p3:c0, p31:c0, p7:c2 and food-code-2026:p388:c0.\n5. Caveat: handbook section numbers/citations trace to the 2017 edition, so when citing a section number or checking current requirements, verify against the 2026 text; where the two differ, the 2026 edition controls. Also note the 2026 code additionally requires written procedures for cleaning up vomiting/diarrheal events (2-502.11) — handbook's contamination-event section is based on 2017. Cite food-code-2026:p72:c0, employee-health-handbook:p3:c0.\n\nKeep to ~6 claims.",
+        "tool_calls": [
+          {
+            "id": "call_8f4dd260",
+            "name": "final_answer",
+            "arguments": {
+              "claims": [
+                {
+                  "text": "For a question about the current FDA model-code rule, the FDA Food Code 2026 controls: it is FDA's current model code, described as \"FDA's best advice for a uniform system of provisions\" for retail/foodservice, offered for adoption by local, state, and federal jurisdictions.",
+                  "citations": [
+                    "food-code-2026:p3:c0",
+                    "food-code-2026:p8:c2"
+                  ]
+                },
+                {
+                  "text": "Even the 2026 Food Code is a model, not self-executing law: \"The model Food Code is neither federal law nor federal regulation and is not preemptive,\" and it becomes enforceable only where a jurisdiction enacts it into statute, promulgates it as a regulation, or adopts it as an ordinance.",
+                  "citations": [
+                    "food-code-2026:p8:c2",
+                    "food-code-2026:p13:c1",
+                    "food-code-2026:p9:c0"
+                  ]
+                },
+                {
+                  "text": "The Employee Health and Personal Hygiene Handbook is FDA operational guidance that expressly states its information was updated to reflect the 2017 FDA Food Code and that it was \"Adapted from the 2017 FDA Food Code\"; it is therefore not the current model-code text and cannot override the 2026 edition.",
+                  "citations": [
+                    "employee-health-handbook:p3:c0",
+                    "employee-health-handbook:p4:c2"
+                  ]
+                },
+                {
+                  "text": "Under the controlling 2026 text, vomiting is a reportable symptom (¶ 2-201.11(A)(1)(a)) that the food employee or conditional employee must report to the person in charge, and the person in charge must exclude a food employee who is symptomatic with vomiting (¶ 2-201.12(A)(1)) except when the symptom is from a noninfectious condition.",
+                  "citations": [
+                    "food-code-2026:p56:c1",
+                    "food-code-2026:p58:c1",
+                    "food-code-2026:p59:c0"
+                  ]
+                },
+                {
+                  "text": "Reinstatement under the 2026 Code: the person in charge may reinstate an employee excluded under ¶ 2-201.12(A)(1) if the employee is asymptomatic for at least 24 hours or provides written medical documentation from a health practitioner stating the symptom is from a noninfectious condition (¶ 2-201.13(A)(1)); Table 1a of Annex 3 confirms \"Vomiting – EXCLUDE 2-201.12(A)(1)\" in both HSP and non-HSP facilities, with no regulatory authority approval needed if the employee is not diagnosed.",
+                  "citations": [
+                    "food-code-2026:p61:c0",
+                    "food-code-2026:p388:c0"
+                  ]
+                },
+                {
+                  "text": "The handbook can still be used as a practical training and implementation aid: it presents employee health requirements in question-and-answer format with forms, tables, and decision trees for management and employees, and its Table 1a for vomiting matches the 2026 Code (exclude under 2-201.12(A)(1); return when asymptomatic for at least 24 hours or with medical documentation; no RA approval if not diagnosed).",
+                  "citations": [
+                    "employee-health-handbook:p3:c0",
+                    "employee-health-handbook:p31:c0",
+                    "food-code-2026:p388:c0"
+                  ]
+                },
+                {
+                  "text": "Its operational direction is likewise usable where consistent with the 2026 Code, e.g. the manager's response to a reported vomiting or diarrhea symptom: ask the employee to stop work immediately and leave the food establishment, with return to work no sooner than 24 hours after vomiting and diarrhea have ended.",
+                  "citations": [
+                    "employee-health-handbook:p7:c2",
+                    "food-code-2026:p61:c0"
+                  ]
+                },
+                {
+                  "text": "Because the handbook's section citations trace to the 2017 edition, section numbers and any details should be verified against the 2026 Food Code, which controls on divergence; for example, the 2026 Code requires a food establishment to have written procedures for responding to vomiting or diarrheal events under ¶ 2-502.11 (and the employee health policy/exclusion-reinstatement provisions at §§ 2-201.11, 2-201.12, 2-201.13).",
+                  "citations": [
+                    "employee-health-handbook:p3:c0",
+                    "food-code-2026:p72:c0",
+                    "food-code-2026:p684:c2"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "final_answer",
+        "arguments": {
+          "claims": [
+            {
+              "text": "For a question about the current FDA model-code rule, the FDA Food Code 2026 controls: it is FDA's current model code, described as \"FDA's best advice for a uniform system of provisions\" for retail/foodservice, offered for adoption by local, state, and federal jurisdictions.",
+              "citations": [
+                "food-code-2026:p3:c0",
+                "food-code-2026:p8:c2"
+              ]
+            },
+            {
+              "text": "Even the 2026 Food Code is a model, not self-executing law: \"The model Food Code is neither federal law nor federal regulation and is not preemptive,\" and it becomes enforceable only where a jurisdiction enacts it into statute, promulgates it as a regulation, or adopts it as an ordinance.",
+              "citations": [
+                "food-code-2026:p8:c2",
+                "food-code-2026:p13:c1",
+                "food-code-2026:p9:c0"
+              ]
+            },
+            {
+              "text": "The Employee Health and Personal Hygiene Handbook is FDA operational guidance that expressly states its information was updated to reflect the 2017 FDA Food Code and that it was \"Adapted from the 2017 FDA Food Code\"; it is therefore not the current model-code text and cannot override the 2026 edition.",
+              "citations": [
+                "employee-health-handbook:p3:c0",
+                "employee-health-handbook:p4:c2"
+              ]
+            },
+            {
+              "text": "Under the controlling 2026 text, vomiting is a reportable symptom (¶ 2-201.11(A)(1)(a)) that the food employee or conditional employee must report to the person in charge, and the person in charge must exclude a food employee who is symptomatic with vomiting (¶ 2-201.12(A)(1)) except when the symptom is from a noninfectious condition.",
+              "citations": [
+                "food-code-2026:p56:c1",
+                "food-code-2026:p58:c1",
+                "food-code-2026:p59:c0"
+              ]
+            },
+            {
+              "text": "Reinstatement under the 2026 Code: the person in charge may reinstate an employee excluded under ¶ 2-201.12(A)(1) if the employee is asymptomatic for at least 24 hours or provides written medical documentation from a health practitioner stating the symptom is from a noninfectious condition (¶ 2-201.13(A)(1)); Table 1a of Annex 3 confirms \"Vomiting – EXCLUDE 2-201.12(A)(1)\" in both HSP and non-HSP facilities, with no regulatory authority approval needed if the employee is not diagnosed.",
+              "citations": [
+                "food-code-2026:p61:c0",
+                "food-code-2026:p388:c0"
+              ]
+            },
+            {
+              "text": "The handbook can still be used as a practical training and implementation aid: it presents employee health requirements in question-and-answer format with forms, tables, and decision trees for management and employees, and its Table 1a for vomiting matches the 2026 Code (exclude under 2-201.12(A)(1); return when asymptomatic for at least 24 hours or with medical documentation; no RA approval if not diagnosed).",
+              "citations": [
+                "employee-health-handbook:p3:c0",
+                "employee-health-handbook:p31:c0",
+                "food-code-2026:p388:c0"
+              ]
+            },
+            {
+              "text": "Its operational direction is likewise usable where consistent with the 2026 Code, e.g. the manager's response to a reported vomiting or diarrhea symptom: ask the employee to stop work immediately and leave the food establishment, with return to work no sooner than 24 hours after vomiting and diarrhea have ended.",
+              "citations": [
+                "employee-health-handbook:p7:c2",
+                "food-code-2026:p61:c0"
+              ]
+            },
+            {
+              "text": "Because the handbook's section citations trace to the 2017 edition, section numbers and any details should be verified against the 2026 Food Code, which controls on divergence; for example, the 2026 Code requires a food establishment to have written procedures for responding to vomiting or diarrheal events under ¶ 2-502.11 (and the employee health policy/exclusion-reinstatement provisions at §§ 2-201.11, 2-201.12, 2-201.13).",
+              "citations": [
+                "employee-health-handbook:p3:c0",
+                "food-code-2026:p72:c0",
+                "food-code-2026:p684:c2"
+              ]
+            }
+          ]
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "accepted",
+        "terminal_reason": "answer"
+      }
+    }
+  ]
+}

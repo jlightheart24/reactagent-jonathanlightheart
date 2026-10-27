@@ -1,0 +1,656 @@
+{
+  "query_id": "Q1",
+  "title": "Food Code Section Lookup",
+  "expected": "answer",
+  "question": "According to FDA Food Code 2026 sections 2-201.12(A)(1) and 2-201.13(A)(1), what must the person in charge do when a food employee has vomiting or diarrhea from no known noninfectious condition, and when may that employee be reinstated?",
+  "terminal_reason": "answer",
+  "steps_used": 6,
+  "max_steps": 10,
+  "final_result": "- Under FDA Food Code 2026 § 2-201.12, the PERSON IN CHARGE shall EXCLUDE or RESTRICT a FOOD EMPLOYEE from a FOOD ESTABLISHMENT, and under ¶ 2-201.12(A)(1), except when the symptom is from a noninfectious condition, the person in charge must EXCLUDE a food employee who is symptomatic with vomiting or diarrhea. [food-code-2026:p59:c0]\n- Under § 2-201.13 (Removal, Adjustment, or Retention of Exclusions and Restrictions), ¶ 2-201.13(A)(1) provides that a food employee EXCLUDED as specified under Subparagraph 2-201.12(A)(1) may be reinstated if the employee (a) is ASYMPTOMATIC for at least 24 hours, or (b) provides to the PERSON IN CHARGE written medical documentation from a HEALTH PRACTITIONER stating that the symptom is from a noninfectious condition; this applies except when the employee is diagnosed with typhoid fever or an infection from hepatitis A virus. [food-code-2026:p61:c0]\n- Annex 3 Table 1a summarizes that for vomiting or diarrhea the employee is EXCLUDED under 2-201.12(A)(1) in both HSP-serving and non-HSP facilities, and is removed from exclusion when asymptomatic for at least 24 hours or upon providing medical documentation under 2-201.13(A)(1), with no regulatory authority approval needed if the employee is not diagnosed with a listed pathogen. [food-code-2026:p388:c0]\n- An excluded individual may not work as a food employee on the premises of any food establishment, and the person in charge may allow undiagnosed food employees who were initially symptomatic and whose symptoms have resolved to return to work in a full capacity 24 hours after symptoms resolve (Annex 3 public health reason guidance for 2-201.13). [food-code-2026:p404:c0]\n- If the vomiting/diarrhea employee is instead diagnosed with a listed pathogen (e.g., norovirus under 2-201.12(A)(2)), the simpler 24-hour reinstatement no longer suffices: reinstatement under ¶ 2-201.13(D) requires APPROVAL from the REGULATORY AUTHORITY plus either written medical documentation from a HEALTH PRACTITIONER that the employee is free of norovirus infection, or more than 48 hours having passed since the employee became ASYMPTOMATIC after symptoms of vomiting or diarrhea resolved. [food-code-2026:p391:c1; food-code-2026:p63:c1]\n- These provisions are from the FDA Food Code 2026, a model code that is legally binding only where adopted by a jurisdiction; the section text is marked \"P\" (provision addressed by a core or noncore item identified in the Food Code). [food-code-2026:p59:c0]",
+  "claims": [
+    {
+      "text": "Under FDA Food Code 2026 § 2-201.12, the PERSON IN CHARGE shall EXCLUDE or RESTRICT a FOOD EMPLOYEE from a FOOD ESTABLISHMENT, and under ¶ 2-201.12(A)(1), except when the symptom is from a noninfectious condition, the person in charge must EXCLUDE a food employee who is symptomatic with vomiting or diarrhea.",
+      "citations": [
+        "food-code-2026:p59:c0"
+      ]
+    },
+    {
+      "text": "Under § 2-201.13 (Removal, Adjustment, or Retention of Exclusions and Restrictions), ¶ 2-201.13(A)(1) provides that a food employee EXCLUDED as specified under Subparagraph 2-201.12(A)(1) may be reinstated if the employee (a) is ASYMPTOMATIC for at least 24 hours, or (b) provides to the PERSON IN CHARGE written medical documentation from a HEALTH PRACTITIONER stating that the symptom is from a noninfectious condition; this applies except when the employee is diagnosed with typhoid fever or an infection from hepatitis A virus.",
+      "citations": [
+        "food-code-2026:p61:c0"
+      ]
+    },
+    {
+      "text": "Annex 3 Table 1a summarizes that for vomiting or diarrhea the employee is EXCLUDED under 2-201.12(A)(1) in both HSP-serving and non-HSP facilities, and is removed from exclusion when asymptomatic for at least 24 hours or upon providing medical documentation under 2-201.13(A)(1), with no regulatory authority approval needed if the employee is not diagnosed with a listed pathogen.",
+      "citations": [
+        "food-code-2026:p388:c0"
+      ]
+    },
+    {
+      "text": "An excluded individual may not work as a food employee on the premises of any food establishment, and the person in charge may allow undiagnosed food employees who were initially symptomatic and whose symptoms have resolved to return to work in a full capacity 24 hours after symptoms resolve (Annex 3 public health reason guidance for 2-201.13).",
+      "citations": [
+        "food-code-2026:p404:c0"
+      ]
+    },
+    {
+      "text": "If the vomiting/diarrhea employee is instead diagnosed with a listed pathogen (e.g., norovirus under 2-201.12(A)(2)), the simpler 24-hour reinstatement no longer suffices: reinstatement under ¶ 2-201.13(D) requires APPROVAL from the REGULATORY AUTHORITY plus either written medical documentation from a HEALTH PRACTITIONER that the employee is free of norovirus infection, or more than 48 hours having passed since the employee became ASYMPTOMATIC after symptoms of vomiting or diarrhea resolved.",
+      "citations": [
+        "food-code-2026:p391:c1",
+        "food-code-2026:p63:c1"
+      ]
+    },
+    {
+      "text": "These provisions are from the FDA Food Code 2026, a model code that is legally binding only where adopted by a jurisdiction; the section text is marked \"P\" (provision addressed by a core or noncore item identified in the Food Code).",
+      "citations": [
+        "food-code-2026:p59:c0"
+      ]
+    }
+  ],
+  "insufficient_reason": null,
+  "error": null,
+  "citations": [
+    {
+      "chunk_id": "food-code-2026:p59:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 59
+    },
+    {
+      "chunk_id": "food-code-2026:p61:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 61
+    },
+    {
+      "chunk_id": "food-code-2026:p388:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 388
+    },
+    {
+      "chunk_id": "food-code-2026:p404:c0",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 404
+    },
+    {
+      "chunk_id": "food-code-2026:p391:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 391
+    },
+    {
+      "chunk_id": "food-code-2026:p63:c1",
+      "source_id": "food-code-2026",
+      "title": "FDA Food Code 2026",
+      "page": 63
+    }
+  ],
+  "warnings": [],
+  "retrieved_chunk_ids": [
+    "food-code-2026:p111:c0",
+    "food-code-2026:p722:c0",
+    "food-code-2026:p81:c2",
+    "food-code-2026:p400:c0",
+    "food-code-2026:p59:c0",
+    "food-code-2026:p717:c0",
+    "food-code-2026:p724:c1",
+    "food-code-2026:p401:c1",
+    "food-code-2026:p63:c1",
+    "food-code-2026:p368:c3",
+    "food-code-2026:p63:c0",
+    "food-code-2026:p391:c1",
+    "food-code-2026:p65:c0",
+    "food-code-2026:p61:c0",
+    "food-code-2026:p388:c0",
+    "food-code-2026:p390:c1",
+    "food-code-2026:p64:c2",
+    "food-code-2026:p62:c1",
+    "food-code-2026:p404:c0",
+    "food-code-2026:p391:c0"
+  ],
+  "model": "Qwen3.8-Flash-Next",
+  "config": {
+    "embedding_model": "Qwen3-Embedding-8B",
+    "llm_model": "Qwen3.8-Flash-Next",
+    "collection": "food_safety_corpus",
+    "chunk_size_chars": 1200,
+    "chunk_overlap_chars": 200,
+    "retrieval_top_k": 5,
+    "max_steps": 10,
+    "temperature": 0.0,
+    "tool_choice": "auto",
+    "query_instruction": "Given a question about food safety, retrieve passages from food-safety documents that answer it",
+    "index_chunk_count": 3030,
+    "index_built_at": "2026-10-27T00:42:25+00:00"
+  },
+  "started_at": "2026-10-27T00:45:52+00:00",
+  "duration_s": 34.86,
+  "trace": [
+    {
+      "step": 1,
+      "model": {
+        "content": null,
+        "reasoning": "We need to search the food-code-2026 for sections 2-201.12 and 2-201.13.",
+        "tool_calls": [
+          {
+            "id": "call_ff5b3858",
+            "name": "search_documents",
+            "arguments": {
+              "contains": "2-201.12",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          },
+          {
+            "id": "call_438fe091",
+            "name": "search_documents",
+            "arguments": {
+              "contains": "2-201.13",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "extra_tool_calls_rejected": 1,
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "2-201.12",
+          "sources": [
+            "food-code-2026"
+          ],
+          "contains": "2-201.12"
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 5,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p111:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 111,
+            "distance": 0.393,
+            "text": "FDA Food Code 2026 Chapter 3. Food\n83\n3-7 Contaminated Food\n3-701 Disposition\n3-701.11 Discarding or Reconditioning Unsafe, Adulterated, or\nContaminated Food.\n(A) A *FOOD that is unsafe, *ADULTERATED, or not honestly presented as specified\nunder § 3-101.11 shall be discarded or reconditioned according to an\n*APPROVED procedure. P\n(B) *FOOD that is not from an *APPROVED source as specified under §§ 3-201.11-\n17 shall be discarded. P\n(C) *READY-TO-EAT FOOD that may have been contaminated by an *EMPLOYEE who\nhas been *RESTRICTED or *EXCLUDED as specified under § 2-201.12 shall be\ndiscarded. P\n(D) *FOOD that is contaminated by *FOOD EMPLOYEES, *CONSUMERS, or other\n*PERSONS through contact with their hands, bodily discharges, such as nasal\nor oral discharges, or other means shall be discarded. P\n3-8 Special Requirements for Highly Susceptible Populations\n3-801 Additional Safeguards\n3-801.11 Pasteurized Foods, Prohibited Re-Service, and Prohibited Food.\nIn a *FOOD ESTABLISHMENT that serves a *HIGHLY SUSCEPTIBLE POPULATION:\n(A) The following criteria apply to *JUICE:\n(1) For the purposes of this paragraph only, children who are age 9 or less"
+          },
+          {
+            "chunk_id": "food-code-2026:p722:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 722,
+            "distance": 0.4066,
+            "text": "FDA Food Code 2026 Summary of Changes\nSummary-642\nAnnex 2. References\n2-201.11\n• Amended to combine headings for § 2-201.11 and § 2-201.12 to indicate the\nreferences apply to both.\n• Amended reference #23 to include a note regarding the document being\nrescinded by EEOC but still available to access.\n2-303.11\nAmended to include link to EEOC website for reasonable accommodations.\n3-204.10\nAmended to add a new reference, renumber the subsequent references, and update\nbroken weblinks.\n3-304.15\n• Amended to create two parts, Part 1: Glove Use and Part 2: Latex Gloves\n• Amended to add 14 new references under Part 1: Glove Use\n• Amended to add 13 new references under Part 2: Latex Gloves\n• Removed references #2 - #4 to replace with current scientific research\n3-304.17\nAmended to remove outdated reference 1. Food and Drug Administration, 1985. Food\nProtection – Refilling of take-home beverage containers (8/29/85). Retail Food\nProtection Program Information Manual.\n3-401\nAmended to add new Subpart 3-401 prior to § 3-401.11 with two references to\naddress the hazards of raw specialty mushrooms.\n3-501.10 \nAmended to add five new references for § 3-501.10 Instructions for Commercially"
+          },
+          {
+            "chunk_id": "food-code-2026:p81:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 81,
+            "distance": 0.4092,
+            "text": "transmittable through *FOOD as specified under ¶ 2-\n201.11(A);\n(b) Documentation that *FOOD EMPLOYEES and *CONDITIONAL EMPLOYEES\nacknowledge their responsibilities as specified under ¶¶ 2-201.11(E)\nand (F); and\n(c) Documentation that the *PERSON IN CHARGE acknowledges the\nresponsibilities as specified under ¶¶ 2-201.11(B), (C) and (D), and §§\n2-201.12 and 2-201.13."
+          },
+          {
+            "chunk_id": "food-code-2026:p400:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 400,
+            "distance": 0.421,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n320\n2-201.12 Table 4: History of Exposure, and Absent Symptoms or Diagnosis.\nFood employees and conditional employees shall report a listed exposure to the person\nin charge.\nThe person in charge shall prohibit a conditional employee who reports a listed\nexposure from becoming a food employee in a facility serving an HSP until meeting the\ncriteria listed in section 2-201.13 of the Food Code, for reinstatement of an exposed\nfood employee\nThe person in charge shall reinforce and ensure compliance with good hygienic\npractices, symptom reporting requirements, proper handwashing and no BHC with RTE\nfoods for all food employees that report a listed exposure."
+          },
+          {
+            "chunk_id": "food-code-2026:p59:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 59,
+            "distance": 0.4224,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n31\n(2) Comply with a *RESTRICTION as specified under Subparagraphs 2-\n201.12(D)(2), (E)(2), (F)(2), (G), (H)(2), or ¶¶ 2-201.12 (H), (I), or (J) and\ncomply with the provisions specified under ¶¶ 2-201.13(D)-(J). P\nConditions of exclusion and restriction\n2-201.12 Exclusions and Restrictions.\nThe *PERSON IN CHARGE shall *EXCLUDE or *RESTRICT a *FOOD EMPLOYEE from a\n*FOOD ESTABLISHMENT in accordance with the following:\nSymptomatic with vomiting or diarrhea\n(A) Except when the symptom is from a noninfectious condition, *EXCLUDE a\n*FOOD EMPLOYEE if the *FOOD EMPLOYEE is:\n(1) Symptomatic with vomiting or diarrhea; P or\n(2) Symptomatic with vomiting or diarrhea and diagnosed with an infection\nfrom norovirus, Shigella spp., Salmonella (non-typhoidal) , or *SHIGA TOXIN-\nPRODUCING *ESCHERICHIA COLI. P\nJaundiced or diagnosed with hepatitis A infection\n(B) *EXCLUDE a *FOOD EMPLOYEE who is:\n(1) Jaundiced and the onset of jaundice occurred within the last seven\ncalendar days, unless the *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER"
+          }
+        ],
+        "steps_remaining": 9
+      }
+    },
+    {
+      "step": 2,
+      "model": {
+        "content": null,
+        "reasoning": "I need the 2-201.13(A)(1) reinstatement criteria. Let me search.",
+        "tool_calls": [
+          {
+            "id": "call_2586f214",
+            "name": "search_documents",
+            "arguments": {
+              "contains": "2-201.13",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "2-201.13",
+          "sources": [
+            "food-code-2026"
+          ],
+          "contains": "2-201.13"
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 5,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p717:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 717,
+            "distance": 0.3888,
+            "text": "FDA Food Code 2026 Summary of Changes\nSummary-637\nChapter 2. Management and Personnel\n2-102.11\nAmended ¶ 2-102.11(C) to add sub¶ 2-102.11(C)(18) to include an additional area of\nknowledge of food defense as it relates to food establishments.\n2-103.11\n• Amended lead in sentence in § 2-103.11 to indicate that the person in charge\nhas a duty to maintain active managerial control by ensuring compliance with the\nrequirements outlined in § 2-103.11.\n• Amended § 2-103.11 to add a new ¶ 2-103.11(R) that addresses employee\ntraining on food defense.\n2-201.13\nAmended sub¶ 2-201.13 (E)(1), sub¶ 2-201.13 (F)(1) and sub¶ 2-201.13 (G)(1) to\nrevise the requirement for “2 consecutive negative stool culture tests” with the\nrequirement for 2 consecutive negative laboratory test results from a validated test,\nusing a laboratory accredited or certified to handle clinical specimens.\n2-303.11\n• Amended § 2-303.11 Prohibition, to revise ¶ 2-303.11(A) to clarify that food\nemployees may not wear jewelry on arms and hands while preparing food.\n• Added new ¶¶ 2-303.11(B) and (C) as exceptions to allow for a plain ring such as\na wedding band or medically necessary device for individuals with disabilities"
+          },
+          {
+            "chunk_id": "food-code-2026:p81:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 81,
+            "distance": 0.4053,
+            "text": "transmittable through *FOOD as specified under ¶ 2-\n201.11(A);\n(b) Documentation that *FOOD EMPLOYEES and *CONDITIONAL EMPLOYEES\nacknowledge their responsibilities as specified under ¶¶ 2-201.11(E)\nand (F); and\n(c) Documentation that the *PERSON IN CHARGE acknowledges the\nresponsibilities as specified under ¶¶ 2-201.11(B), (C) and (D), and §§\n2-201.12 and 2-201.13."
+          },
+          {
+            "chunk_id": "food-code-2026:p724:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 724,
+            "distance": 0.4082,
+            "text": "letter “s” to make the word “Standard” singular rather than plural in\nparagraphs 3-4, 6-10 (including footnote).\n2-103.11\n• Amended Public Health Reason for § 2-103.11 Person in Charge to add a new\nparagraph 1 and make existing paragraph 1 into new paragraph 2 to address the\naddition of active managerial control.\n• Amended Public Health Reason for § 2-103.11 Person in Charge to add new\nparagraph 13 that addresses new paragraph R on employee awareness of food\ndefense.\n2-201.13\nAmended Public Health Reasons for § 2-201.13 to add a new header titled: “Culture-\nIndependent Diagnostic Tests (CIDT) for Medical Clearance” after paragraph 3; add\nnew paragraphs 4 and 5 after existing paragraph 3 to provide rationale for adding the\noption of using CIDT tests in addition to stool culture tests for reinstatement of food\nemployees diagnosed with STEC, Shigella or Non-Typhoidal Salmonella; add a new\nheader titled: “Reinstatement of Asymptomatic Food Employees” above new designated\nparagraph 6 (previous paragraph 4) to provide information to the reader that\nsubsequent paragraphs after the new paragraph 6 return to previous information"
+          },
+          {
+            "chunk_id": "food-code-2026:p400:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 400,
+            "distance": 0.4101,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n320\n2-201.12 Table 4: History of Exposure, and Absent Symptoms or Diagnosis.\nFood employees and conditional employees shall report a listed exposure to the person\nin charge.\nThe person in charge shall prohibit a conditional employee who reports a listed\nexposure from becoming a food employee in a facility serving an HSP until meeting the\ncriteria listed in section 2-201.13 of the Food Code, for reinstatement of an exposed\nfood employee\nThe person in charge shall reinforce and ensure compliance with good hygienic\npractices, symptom reporting requirements, proper handwashing and no BHC with RTE\nfoods for all food employees that report a listed exposure."
+          },
+          {
+            "chunk_id": "food-code-2026:p401:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 401,
+            "distance": 0.4148,
+            "text": "RESTRICT\n2-201.12(I)\nEducate food employee on\nsymptoms to watch for and\nensure compliance with\nGHP, handwashing and no\nBHC with RTE foods.\n2-201.13(I)(1)\nWhen more than 48 hours have passed since\nthe last exposure, or more than 48 hours has\npassed since the food employee’s household\ncontact became asymptomatic.\nNo\nSTEC RESTRICT\n2-201.12(I)\nEducate food employee on\nsymptoms to watch for and\nensure compliance with\nGHP, handwashing and no\nBHC with RTE foods.\n2-201.13(I)(2)\nWhen more than 3 calendar days have passed\nsince the last exposure, or more than 3\ncalendar days has passed since the food\nemployee’s household contact became\nasymptomatic.\nNo"
+          }
+        ],
+        "steps_remaining": 8
+      }
+    },
+    {
+      "step": 3,
+      "model": {
+        "content": null,
+        "reasoning": "I need the actual text of 2-201.13(A)(1) — reinstatement criteria for an excluded employee with vomiting/diarrhea. Let me search for the code text near page 59-60.",
+        "tool_calls": [
+          {
+            "id": "call_771a1e8d",
+            "name": "search_documents",
+            "arguments": {
+              "query": "Reinstatement of an excluded food employee vomiting diarrhea 2-201.13(A)(1) 48 hours after symptoms resolve",
+              "sources": [
+                "food-code-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "Reinstatement of an excluded food employee vomiting diarrhea 2-201.13(A)(1) 48 hours after symptoms resolve",
+          "sources": [
+            "food-code-2026"
+          ]
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 5,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p63:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 63,
+            "distance": 0.17,
+            "text": "the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER that states the *FOOD\nEMPLOYEE is free from typhoid fever. P\nNorovirus diagnosis - removing exclusion or restriction\n(D) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraphs 2-201.12(A)(2) or (D)(1) who was *RESTRICTED under\nSubparagraph 2-201.12(D)(2) if the *PERSON IN CHARGE obtains *APPROVAL\nfrom the *REGULATORY AUTHORITY and one of the following conditions is met:\n(1) The *EXCLUDED or *RESTRICTED *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER\nstating that the *FOOD EMPLOYEE is free of a norovirus infection; P\n(2) The *FOOD EMPLOYEE was *EXCLUDED or *RESTRICTED after symptoms of\nvomiting or diarrhea resolved, and more than 48 hours have passed since\nthe *FOOD EMPLOYEE became *ASYMPTOMATIC; P or\n(3) The *FOOD EMPLOYEE was *EXCLUDED or *RESTRICTED and did not develop\nsymptoms and more than 48 hours have passed since the *FOOD\nEMPLOYEE was diagnosed. P\nShigella spp. Diagnosis - Removing Exclusion or Restriction\n(E) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under"
+          },
+          {
+            "chunk_id": "food-code-2026:p368:c3",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 368,
+            "distance": 0.1892,
+            "text": "of an exclusion are met\n(as specified under § 2-201.13 of the Food Code). When a symptomatic or diagnosed\nconditional employee has met the same criteria for reinstatement that apply to an\nexcluded symptomatic or diagnosed food employee (as specified under § 2-201.13 of\nthe Food Code), the conditional employee may then begin working as a food employee."
+          },
+          {
+            "chunk_id": "food-code-2026:p63:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 63,
+            "distance": 0.1904,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n35\nHepatitis A virus or jaundice diagnosis - removing exclusions\n(B) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under ¶ 2-\n201.12(B) if the *PERSON IN CHARGE obtains *APPROVAL from the *REGULATORY\nAUTHORITY and one of the following conditions is met;\n(1) The *FOOD EMPLOYEE has been jaundiced for more than seven calendar\ndays; P\n(2) The anicteric *FOOD EMPLOYEE has been symptomatic with symptoms other\nthan jaundice for more than 14 calendar days; P or\n(3) The *FOOD EMPLOYEE provides to the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER stating that the *FOOD\nEMPLOYEE is free of a hepatitis A virus infection. P\nTyphoid fever diagnosis - removing exclusions\n(C) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under ¶ 2-\n201.12(C) if:\n(1) The *PERSON IN CHARGE obtains *APPROVAL from the *REGULATORY\nAUTHORITY; P and\n(2) The *FOOD EMPLOYEE provides to the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER that states the *FOOD\nEMPLOYEE is free from typhoid fever. P\nNorovirus diagnosis - removing exclusion or restriction"
+          },
+          {
+            "chunk_id": "food-code-2026:p391:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 391,
+            "distance": 0.1927,
+            "text": "a restricted\nbasis in a non-\nHSP facility\nNorovirus EXCLUDE\nBased on vomiting or\ndiarrhea symptoms, under\n2-201.12(A)(2)\n1. Serving a non-HSP facility: 2-201.13 (A)(2)(a): Shall only work on a\nrestricted basis 24 hours after symptoms resolve and remains\nrestricted until meeting the requirements listed in No. 3.\n2. Serving an HSP facility: 2-201.13(A)(2)(b): Remains excluded until\nmeeting the requirements listed in No. 3.\n3. Restriction or Exclusion remains until:\n• Approval is obtained from the RA 2-201.13(D), and\n• Medically cleared 2-201.13(D)(1), or\n• More than 48 hours have passed since the food employee became\nasymptomatic 2-201.13(D)(2) (also see Table 2).\nYes, to return to\nan HSP or to\nreturn\nunrestricted; not\nrequired to work\non a restricted\nbasis in a non-\nHSP facility"
+          },
+          {
+            "chunk_id": "food-code-2026:p65:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 65,
+            "distance": 0.1931,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n37\ninfection based on test results showing 2 consecutive negative laboratory\ntest results from a validated test, using a laboratory accredited or certified\nto handle clinical specimens and obtained from stool specimens that are\ntaken:\n(a) Not earlier than 48 hours after discontinuance of antibiotics; P and\n(b) At least 24 hours apart; P\n(2) The *FOOD EMPLOYEE was *RESTRICTED after symptoms of vomiting or\ndiarrhea resolved, and more than 30 days have passed since the *FOOD\nEMPLOYEE became *ASYMPTOMATIC; P or\n(3) The *FOOD EMPLOYEE was *EXCLUDED or *RESTRICTED and did not develop\nsymptoms and more than 30 days have passed since the *FOOD EMPLOYEE\nwas diagnosed. P\nSore throat with fever - removing exclusion or restriction\n(H) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED or *RESTRICTED as specified\nunder Subparagraphs 2-201.12(H)(1) or (2) if the *FOOD EMPLOYEE provides to\nthe *PERSON IN CHARGE written medical documentation from a *HEALTH\nPRACTITIONER stating that the *FOOD EMPLOYEE meets one of the following\nconditions:\n(1) Has received antibiotic therapy for Streptococcus pyogenes infection for\nmore than 24 hours; P"
+          }
+        ],
+        "steps_remaining": 7
+      }
+    },
+    {
+      "step": 4,
+      "model": {
+        "content": null,
+        "reasoning": "I need the actual text of 2-201.13(A)(1). Let me search for it specifically. Page 62 likely contains 2-201.13 lead-in and (A). Let me search with contains=\"2-201.13(A)(1)\" or query.",
+        "tool_calls": [
+          {
+            "id": "call_d6251a3a",
+            "name": "search_documents",
+            "arguments": {
+              "contains": "Removing Exclusions",
+              "sources": [
+                "food-code-2026"
+              ],
+              "query": "2-201.13 Reinstatement conditions vomiting diarrhea excluded no known noninfectious condition more than 48 hours asymptomatic"
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "2-201.13 Reinstatement conditions vomiting diarrhea excluded no known noninfectious condition more than 48 hours asymptomatic",
+          "sources": [
+            "food-code-2026"
+          ],
+          "contains": "Removing Exclusions"
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 0,
+        "results": [],
+        "steps_remaining": 6,
+        "note": "no passages matched; try a different query or remove filters"
+      }
+    },
+    {
+      "step": 5,
+      "model": {
+        "content": null,
+        "reasoning": "I need the actual text of 2-201.13(A)(1). Let me search page 62 area.",
+        "tool_calls": [
+          {
+            "id": "call_326a1cb7",
+            "name": "search_documents",
+            "arguments": {
+              "query": "2-201.13 Reinstatement conditions for excluded food employee symptomatic vomiting diarrhea no known noninfectious condition",
+              "sources": [
+                "food-code-2026"
+              ],
+              "k": 10
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "search_documents",
+        "arguments": {
+          "query": "2-201.13 Reinstatement conditions for excluded food employee symptomatic vomiting diarrhea no known noninfectious condition",
+          "sources": [
+            "food-code-2026"
+          ],
+          "k": 10
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "ok",
+        "result_count": 10,
+        "results": [
+          {
+            "chunk_id": "food-code-2026:p368:c3",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 368,
+            "distance": 0.1655,
+            "text": "of an exclusion are met\n(as specified under § 2-201.13 of the Food Code). When a symptomatic or diagnosed\nconditional employee has met the same criteria for reinstatement that apply to an\nexcluded symptomatic or diagnosed food employee (as specified under § 2-201.13 of\nthe Food Code), the conditional employee may then begin working as a food employee."
+          },
+          {
+            "chunk_id": "food-code-2026:p63:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 63,
+            "distance": 0.1728,
+            "text": "the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER that states the *FOOD\nEMPLOYEE is free from typhoid fever. P\nNorovirus diagnosis - removing exclusion or restriction\n(D) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraphs 2-201.12(A)(2) or (D)(1) who was *RESTRICTED under\nSubparagraph 2-201.12(D)(2) if the *PERSON IN CHARGE obtains *APPROVAL\nfrom the *REGULATORY AUTHORITY and one of the following conditions is met:\n(1) The *EXCLUDED or *RESTRICTED *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER\nstating that the *FOOD EMPLOYEE is free of a norovirus infection; P\n(2) The *FOOD EMPLOYEE was *EXCLUDED or *RESTRICTED after symptoms of\nvomiting or diarrhea resolved, and more than 48 hours have passed since\nthe *FOOD EMPLOYEE became *ASYMPTOMATIC; P or\n(3) The *FOOD EMPLOYEE was *EXCLUDED or *RESTRICTED and did not develop\nsymptoms and more than 48 hours have passed since the *FOOD\nEMPLOYEE was diagnosed. P\nShigella spp. Diagnosis - Removing Exclusion or Restriction\n(E) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under"
+          },
+          {
+            "chunk_id": "food-code-2026:p61:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 61,
+            "distance": 0.18,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n33\nManaging exclusions and restrictions\n2-201.13 Removal, Adjustment, or Retention of Exclusions and Restrictions\nThe *PERSON IN CHARGE shall adhere to the following conditions when removing,\nadjusting, or retaining the *EXCLUSION or *RESTRICTION of a *FOOD EMPLOYEE:\n(A) Except when a *FOOD EMPLOYEE is diagnosed with typhoid fever or an\ninfection from hepatitis A virus:\nRemoving exclusion for food employee who was symptomatic and not diagnosed\n(1) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraph 2-201.12(A)(1) if the *FOOD EMPLOYEE:\n(a) Is *ASYMPTOMATIC for at least 24 hours; P or\n(b) Provides to the *PERSON IN CHARGE written medical documentation from\na *HEALTH PRACTITIONER that states the symptom is from a\nnoninfectious condition. P\nNorovirus diagnosis\n(2) If a *FOOD EMPLOYEE was diagnosed with an infection from norovirus and\n*EXCLUDED as specified under Subparagraph 2-201.12(A)(2):\nAdjusting exclusion for food employee who was symptomatic and is now\nasymptomatic\n(a) **RESTRICT the *FOOD EMPLOYEE, who is *ASYMPTOMATIC for at least 24\nhours and *WORKS in a *FOOD ESTABLISHMENT not serving a *HIGHLY"
+          },
+          {
+            "chunk_id": "food-code-2026:p388:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 388,
+            "distance": 0.1854,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative Guidelines\n308\nTable 1a. Summary of Requirements for Symptomatic Food Employees\nSymptom\nExclusion or\nRestriction\n(Facilities\nServing an HSP)\nExclusion or\nRestriction\n(Facilities Not\nServing an HSP)\nRemoving Symptomatic Food Employees from Exclusion\nor Restriction\nRA Approval\nNeeded to\nReturn to\nWork?\nVomiting EXCLUDE\n2-201.12(A)(1)\nEXCLUDE\n2-201.12(A)(1)\nWhen the excluded food employee has been asymptomatic for\nat least 24 hours or provides medical documentation 2-\n201.13(A)(1).\nExceptions: If diagnosed with norovirus, Shigella spp., STEC,\nHAV, or typhoid fever (S. Typhi) (see Tables 1b & 2).\nNo if not\ndiagnosed\nDiarrhea EXCLUDE\n2-201.12(A)(1)\nEXCLUDE\n2-201.12(A)(1)\nWhen the excluded food employee has been asymptomatic for\nat least 24 hours or provides medical documentation 2-\n201.13(A).\nExceptions: If Diagnosed with norovirus, STEC, HAV, or S.\nTyphi (see Tables 1b & 2).\nNo if not\ndiagnosed\nJaundice EXCLUDE\n2-201.12(B)(1) if\nthe onset occurred\nwithin the last 7\ndays\nEXCLUDE\n2-201.12(B)(1) if\nthe onset occurred\nwithin the last 7\ndays\nWhen approval is obtained from the RA 2-201.13 (B), and:"
+          },
+          {
+            "chunk_id": "food-code-2026:p390:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 390,
+            "distance": 0.1922,
+            "text": "infection 2-201.13(C)(2) (also\nsee Table 2).\nYes\nNon-typhoidal\nSalmonella\nEXCLUDE\nBased on vomiting or\ndiarrhea symptoms, under\n2-201.12(A)(2)\nWhen approval is obtained from the RA 2-201.13(G), and:\n• Food employee provides medical documentation, that states the\nfood employee is free of a non-typhoidal Salmonella infection 2-\n201.13)(G)(1) or\n• Food employee symptoms of vomiting or diarrhea resolved and\n>30 days have passed since the food employee became\nasymptomatic (2-201.13(G)(2)).\nYes"
+          },
+          {
+            "chunk_id": "food-code-2026:p64:c2",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 64,
+            "distance": 0.1931,
+            "text": "was *EXCLUDED or *RESTRICTED and did not develop\nsymptoms and more than seven days have passed since the *FOOD\nEMPLOYEE was diagnosed. P\nNon-typhoidal Salmonella - removing exclusion or restriction\n(G) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under\nSubparagraph 2-201.12(A)(2) or who was *RESTRICTED as specified under ¶\n2-201.12(G) if the *PERSON IN CHARGE obtains *APPROVAL from the\n*REGULATORY AUTHORITY P and one of the following conditions is met:\n(1) The *EXCLUDED or *RESTRICTED *FOOD EMPLOYEE provides to the *PERSON IN\nCHARGE written medical documentation from a *HEALTH PRACTITIONER\nstating that the *FOOD EMPLOYEE is free of a Salmonella (non-typhoidal)"
+          },
+          {
+            "chunk_id": "food-code-2026:p63:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 63,
+            "distance": 0.1943,
+            "text": "FDA Food Code 2026 Chapter 2. Management and Personnel\n35\nHepatitis A virus or jaundice diagnosis - removing exclusions\n(B) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under ¶ 2-\n201.12(B) if the *PERSON IN CHARGE obtains *APPROVAL from the *REGULATORY\nAUTHORITY and one of the following conditions is met;\n(1) The *FOOD EMPLOYEE has been jaundiced for more than seven calendar\ndays; P\n(2) The anicteric *FOOD EMPLOYEE has been symptomatic with symptoms other\nthan jaundice for more than 14 calendar days; P or\n(3) The *FOOD EMPLOYEE provides to the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER stating that the *FOOD\nEMPLOYEE is free of a hepatitis A virus infection. P\nTyphoid fever diagnosis - removing exclusions\n(C) Reinstate a *FOOD EMPLOYEE who was *EXCLUDED as specified under ¶ 2-\n201.12(C) if:\n(1) The *PERSON IN CHARGE obtains *APPROVAL from the *REGULATORY\nAUTHORITY; P and\n(2) The *FOOD EMPLOYEE provides to the *PERSON IN CHARGE written medical\ndocumentation from a *HEALTH PRACTITIONER that states the *FOOD\nEMPLOYEE is free from typhoid fever. P\nNorovirus diagnosis - removing exclusion or restriction"
+          },
+          {
+            "chunk_id": "food-code-2026:p62:c1",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 62,
+            "distance": 0.1996,
+            "text": "under Subparagraphs (F)(1) or (2) of this section are\nmet; P or\nRetaining exclusion for food employee who was symptomatic and is now\nasymptomatic and works in food establishment serving HSP\n(b) Retain the *EXCLUSION for the *FOOD EMPLOYEE, who is *ASYMPTOMATIC\nfor at least 24 hours and works in a *FOOD ESTABLISHMENT that serves a\n*HIGHLY SUSCEPTIBLE POPULATION, until the conditions for reinstatement\nas specified under Subparagraphs (F)(1) or (2) are met. P\nNon-typhoidal Salmonella Diagnosis\n(5) If a *FOOD EMPLOYEE was diagnosed with an infection from Salmonella\n(non-typhoidal) and *EXCLUDED as specified under Subparagraph 2-\n201.12(A)(2):\nAdjusting exclusion for food employee who was symptomatic and is now\nasymptomatic\n(a) **RESTRICT the *FOOD EMPLOYEE, who is *ASYMPTOMATIC for at least 30\ndays until conditions for reinstatement as specified under\nSubparagraphs (G)(1) or (2) of this section are met; P or\nRetaining exclusion for food employee that remains symptomatic\n(b) Retain the *EXCLUSION for the *FOOD EMPLOYEE who is *SYMPTOMATIC,\nuntil conditions for reinstatement as *SPECIFIED under ¶¶ (G)(1) or\n(G)(2) of this section are met. P"
+          },
+          {
+            "chunk_id": "food-code-2026:p404:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 404,
+            "distance": 0.2041,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative\nGuidelines\n324\nfood establishment, but could work unrestricted in another retail store that is not a food\nestablishment. A restricted food employee may enter a food establishment as a\nconsumer.\nAn excluded individual may not work as a food employee on the premises of any food\nestablishment.\n2-201.13 Removal of Exclusions and Restrictions.5\nFood employees diagnosed with norovirus, hepatitis A virus, Shigella spp., E. coli\nO157:H7 or other STEC, non-typhoidal Salmonella and symptomatic with diarrhea,\nvomiting, or jaundice, are excluded under Subparagraph 2-201.12 (A)(2) or 2-\n201.12(B)(2). However, these symptomatic, diagnosed food employees differ from\nsymptomatic, undiagnosed food employees in the requirements that must be met before\nreturning to work in a full capacity after symptoms resolve.\nThe person in charge may allow undiagnosed food employees who are initially\nsymptomatic and whose symptoms have resolved to return to work in a full capacity\n24 hours after symptoms resolve.\nHowever, diagnosis with a listed pathogen invokes additional requirements before the"
+          },
+          {
+            "chunk_id": "food-code-2026:p391:c0",
+            "source_id": "food-code-2026",
+            "source_title": "FDA Food Code 2026",
+            "source_role": "FDA model code, 2026 edition. A recommendation that is legally binding only where a jurisdiction adopts it; adoption requires a separate authority.",
+            "page": 391,
+            "distance": 0.2074,
+            "text": "FDA Food Code 2026 Annex 3. Public Health Reasons/Administrative Guidelines\n311\nDiagnosis\nEXCLUSION\n(Facilities Serving an\nHSP or Not Serving an\nHSP)\nRemoving Diagnosed, Symptomatic Food Employees from\nExclusion\nRA Approval\nNeeded to\nReturn to Work?\nSTEC EXCLUDE\nBased on vomiting or\ndiarrhea symptoms, under\n2-201.12(A)(2)\n1. Serving a non-HSP facility: 2-201.13(A)(4)(a): Shall only work on a\nrestricted basis 24 hours after symptoms resolve and remains\nrestricted until meeting the requirements listed in No. 3.\n2. Serving an HSP facility: 2-201.13(A)(4)(b): Remains excluded until\nmeeting the requirements listed in No. 3.\n3. Restriction or Exclusion remains until:\n• Approval is obtained from RA 2-201.13(F), and\n• Medically cleared 2-201.13(F)(1), or\n• More than 7 calendar days have passed since the food employee\nbecame asymptomatic 2-201.13(F)(2) (also see Table 2).\nYes, to return to\nan HSP or to\nreturn\nunrestricted; not\nrequired to work\non a restricted\nbasis in a non-\nHSP facility\nNorovirus EXCLUDE\nBased on vomiting or\ndiarrhea symptoms, under\n2-201.12(A)(2)\n1. Serving a non-HSP facility: 2-201.13 (A)(2)(a): Shall only work on a"
+          }
+        ],
+        "steps_remaining": 5
+      }
+    },
+    {
+      "step": 6,
+      "model": {
+        "content": null,
+        "reasoning": "I have the key text: 2-201.12(A)(1) — exclude food employee symptomatic with vomiting or diarrhea, except when the symptom is from a noninfectious condition. And 2-201.13(A)(1) — reinstate if asymptomatic for at least 24 hours OR provides written medical documentation from a health practitioner stating the symptom is from a noninfectious condition.\n\nAlso note the person in charge must exclude; and the exclusion requirement. Also note that the PIC must also report? Let me also check whether 2-201.12(A)(1) exclusion applies and whether the employee must be reported. Also note the Annex 3 guidance: RA approval not needed if not diagnosed.\n\nAlso, the question says \"from no known noninfectious condition\" — meaning the symptom is not known to be from a noninfectious condition. So exclude.\n\nI have enough. Let me also confirm the food employee's reporting responsibility maybe. Not needed. But maybe mention that food served by an employee excluded under 2-201.12 must be discarded (3-701.11(C))? That's tangential; question asks what PIC must do and when reinstated. Keep focused.\n\nLet me construct claims:\n1. Under 2-201.12(A)(1), except when the symptom is from a noninfectious condition, the person in charge must EXCLUDE a food employee symptomatic with vomiting or diarrhea (food-code-2026:p59:c0).\n2. Under 2-201.13(A)(1), the PIC may reinstate a food employee excluded under 2-201.12(A)(1) if the employee is asymptomatic for at least 24 hours, or provides written medical documentation from a health practitioner stating the symptom is from a noninfectious condition (p61:c0). Note 2-201.13(A) applies except when diagnosed with typhoid fever or hepatitis A.\n3. Regulatory authority approval is not needed to return if not diagnosed (Table 1a, p388:c0).\n4. If diagnosed with norovirus etc., additional requirements apply (p404:c0 or p391:c1). Maybe include as caveat.\n5. Note the model-code status.\n\nAlso note the exclusion means the employee may not work as a food employee on the premises of any food establishment (p404:c0).\n\nCite chunk ids exactly.",
+        "tool_calls": [
+          {
+            "id": "call_be13bd7c",
+            "name": "final_answer",
+            "arguments": {
+              "claims": [
+                {
+                  "citations": [
+                    "food-code-2026:p59:c0"
+                  ],
+                  "text": "Under FDA Food Code 2026 § 2-201.12, the PERSON IN CHARGE shall EXCLUDE or RESTRICT a FOOD EMPLOYEE from a FOOD ESTABLISHMENT, and under ¶ 2-201.12(A)(1), except when the symptom is from a noninfectious condition, the person in charge must EXCLUDE a food employee who is symptomatic with vomiting or diarrhea."
+                },
+                {
+                  "citations": [
+                    "food-code-2026:p61:c0"
+                  ],
+                  "text": "Under § 2-201.13 (Removal, Adjustment, or Retention of Exclusions and Restrictions), ¶ 2-201.13(A)(1) provides that a food employee EXCLUDED as specified under Subparagraph 2-201.12(A)(1) may be reinstated if the employee (a) is ASYMPTOMATIC for at least 24 hours, or (b) provides to the PERSON IN CHARGE written medical documentation from a HEALTH PRACTITIONER stating that the symptom is from a noninfectious condition; this applies except when the employee is diagnosed with typhoid fever or an infection from hepatitis A virus."
+                },
+                {
+                  "citations": [
+                    "food-code-2026:p388:c0"
+                  ],
+                  "text": "Annex 3 Table 1a summarizes that for vomiting or diarrhea the employee is EXCLUDED under 2-201.12(A)(1) in both HSP-serving and non-HSP facilities, and is removed from exclusion when asymptomatic for at least 24 hours or upon providing medical documentation under 2-201.13(A)(1), with no regulatory authority approval needed if the employee is not diagnosed with a listed pathogen."
+                },
+                {
+                  "citations": [
+                    "food-code-2026:p404:c0"
+                  ],
+                  "text": "An excluded individual may not work as a food employee on the premises of any food establishment, and the person in charge may allow undiagnosed food employees who were initially symptomatic and whose symptoms have resolved to return to work in a full capacity 24 hours after symptoms resolve (Annex 3 public health reason guidance for 2-201.13)."
+                },
+                {
+                  "citations": [
+                    "food-code-2026:p391:c1",
+                    "food-code-2026:p63:c1"
+                  ],
+                  "text": "If the vomiting/diarrhea employee is instead diagnosed with a listed pathogen (e.g., norovirus under 2-201.12(A)(2)), the simpler 24-hour reinstatement no longer suffices: reinstatement under ¶ 2-201.13(D) requires APPROVAL from the REGULATORY AUTHORITY plus either written medical documentation from a HEALTH PRACTITIONER that the employee is free of norovirus infection, or more than 48 hours having passed since the employee became ASYMPTOMATIC after symptoms of vomiting or diarrhea resolved."
+                },
+                {
+                  "citations": [
+                    "food-code-2026:p59:c0"
+                  ],
+                  "text": "These provisions are from the FDA Food Code 2026, a model code that is legally binding only where adopted by a jurisdiction; the section text is marked \"P\" (provision addressed by a core or noncore item identified in the Food Code)."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "action": {
+        "tool": "final_answer",
+        "arguments": {
+          "claims": [
+            {
+              "text": "Under FDA Food Code 2026 § 2-201.12, the PERSON IN CHARGE shall EXCLUDE or RESTRICT a FOOD EMPLOYEE from a FOOD ESTABLISHMENT, and under ¶ 2-201.12(A)(1), except when the symptom is from a noninfectious condition, the person in charge must EXCLUDE a food employee who is symptomatic with vomiting or diarrhea.",
+              "citations": [
+                "food-code-2026:p59:c0"
+              ]
+            },
+            {
+              "text": "Under § 2-201.13 (Removal, Adjustment, or Retention of Exclusions and Restrictions), ¶ 2-201.13(A)(1) provides that a food employee EXCLUDED as specified under Subparagraph 2-201.12(A)(1) may be reinstated if the employee (a) is ASYMPTOMATIC for at least 24 hours, or (b) provides to the PERSON IN CHARGE written medical documentation from a HEALTH PRACTITIONER stating that the symptom is from a noninfectious condition; this applies except when the employee is diagnosed with typhoid fever or an infection from hepatitis A virus.",
+              "citations": [
+                "food-code-2026:p61:c0"
+              ]
+            },
+            {
+              "text": "Annex 3 Table 1a summarizes that for vomiting or diarrhea the employee is EXCLUDED under 2-201.12(A)(1) in both HSP-serving and non-HSP facilities, and is removed from exclusion when asymptomatic for at least 24 hours or upon providing medical documentation under 2-201.13(A)(1), with no regulatory authority approval needed if the employee is not diagnosed with a listed pathogen.",
+              "citations": [
+                "food-code-2026:p388:c0"
+              ]
+            },
+            {
+              "text": "An excluded individual may not work as a food employee on the premises of any food establishment, and the person in charge may allow undiagnosed food employees who were initially symptomatic and whose symptoms have resolved to return to work in a full capacity 24 hours after symptoms resolve (Annex 3 public health reason guidance for 2-201.13).",
+              "citations": [
+                "food-code-2026:p404:c0"
+              ]
+            },
+            {
+              "text": "If the vomiting/diarrhea employee is instead diagnosed with a listed pathogen (e.g., norovirus under 2-201.12(A)(2)), the simpler 24-hour reinstatement no longer suffices: reinstatement under ¶ 2-201.13(D) requires APPROVAL from the REGULATORY AUTHORITY plus either written medical documentation from a HEALTH PRACTITIONER that the employee is free of norovirus infection, or more than 48 hours having passed since the employee became ASYMPTOMATIC after symptoms of vomiting or diarrhea resolved.",
+              "citations": [
+                "food-code-2026:p391:c1",
+                "food-code-2026:p63:c1"
+              ]
+            },
+            {
+              "text": "These provisions are from the FDA Food Code 2026, a model code that is legally binding only where adopted by a jurisdiction; the section text is marked \"P\" (provision addressed by a core or noncore item identified in the Food Code).",
+              "citations": [
+                "food-code-2026:p59:c0"
+              ]
+            }
+          ]
+        },
+        "status": "accepted"
+      },
+      "observation": {
+        "status": "accepted",
+        "terminal_reason": "answer"
+      }
+    }
+  ]
+}
